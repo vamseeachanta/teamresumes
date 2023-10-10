@@ -56,8 +56,8 @@ subject: 'resume_geetha'
 
 **Project summary:**
 
-| Project |   Skills |  Additional Notes |
-|---------|--------|-----|
+| Project |   Skills |
+|---------|--------|
 | Power Optimization | Electrical calculations <br> PLC programming |  N/A |
 | Drill Rig Motor/VFD refurbishment | High voltage Electrical calculations <br> Vendor technical evaluation | N/A |
 | Cathodic Protection | Protection of offshore structure code calculations <br> Safe guarding assets against corrosion | N/A |

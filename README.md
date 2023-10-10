@@ -8,7 +8,7 @@ The workflow is pretty simple.
 
 1. Edit the resume.md file.
 1. Push the changes
-1. Go to the Github Actions page for your new repository, and you’ll see an artifact (zip file) that you can download, it contains the file in .MD, .HTML, and .PDF formats.
+1. Go to the Github Actions page for your repository, and you’ll see an artifact (zip file) that you can download, it contains the file in .MD, .HTML, and .PDF formats.
 
 ## On Local computer
 
