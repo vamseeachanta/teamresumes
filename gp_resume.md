@@ -17,30 +17,7 @@ subject: 'resume_geetha'
 
 ### Analytical design and simulation engineer in the fields of subsea and electrical engineering with deep experience in engineering, package, project management.
 
-## Skills
-
-```engineering```
-```electrical```
-```electronics```
-```programming```
-```data science```
-```databases```
-```project management```
-
-**Programming**: Python, Matlab, VBA (Excel Macros), Verilog/VHDL, C, C++
-**Databases**: MySQL, Postgres, SQL Server
-**Linux**: Gentoo, Alpine, CentOS, Ubuntu, Debian
-**DevOps**: Ansible, Chef, Kubernetes, etc.
-
-**Engineering Software**:	Solidworks, Autocad Inventor, OpenFOAM, FreeCAD, Blender, ANSYS, Abaqus, OrcaFlex <br>
-**Programming**:  		Python, SQL, C, C++, Perl & Shell Scripting, VBA (Excel Macros)  <br>
-**Tech Tools**:  		Git, Visual Studio code, Microsoft Office (Excel, PowerPoint, Project, Visio), Outlook
-**IP**:  			DDR3, SATA/PCIe, HDMI, CSI, DSI, USB3/2, other high-speed Interfaces
-**CAD**:  	Cadence SiP and APD, AnSys Sentinel PSI Tool-set, LabVIEW, PakSi-E, Matlab, Nimbic (PhysWare) Tool set, Ansys SI Wave,  HSpice, AutoCAD, ModelSim, SolidWorks, Mentor Graphics Tools, Xilinx ISE and EDK Tools
-
-
-
-## Experience
+## Summary
 
 - Multidisciplinary electrical engineer with 20+ years of experience. Possess strong engineering fundamentals, design and project management experience. 
   - Design skills using Autocad and Solidworks with a passion to automate workflows
@@ -58,9 +35,27 @@ subject: 'resume_geetha'
   - Drove new product versions from concept, project plan development, design all the way through release and sign-off for multimedia processor applications. 
   - Conducted competitive cost analysis with trade-off considerations including quality, manufacturability to come up with low-cost interposer solutions. 
   - Worked with customers directly supporting the product lines. Conducted CAD training for Applications teams supporting the co-design activity on simulation methodology and design flow. 
-- Possess O&G subsea experience.
+- Possess Oil and Gas subsea experience.
 
-## Experience
+## Skills
+
+```engineering```
+```electrical```
+```electronics```
+```programming```
+```data science```
+```databases```
+```project management```
+
+**Programming**: Python, Matlab, VBA (Excel Macros), Verilog/VHDL, C, C++
+**Databases**: MySQL, Postgres, SQL Server
+**Linux**: Gentoo, Alpine, CentOS, Ubuntu, Debian
+**DevOps**: Ansible, Chef, Kubernetes, etc.
+**Engineering Software**:	Solidworks, Autocad Inventor, OpenFOAM, FreeCAD, Blender, ANSYS, Abaqus, OrcaFlex <br>
+**Programming**:  		Python, SQL, C, C++, Perl & Shell Scripting, VBA (Excel Macros)  <br>
+**Tech Tools**:  		Git, Visual Studio code, Microsoft Office (Excel, PowerPoint, Project, Visio), Outlook
+**IP**:  			DDR3, SATA/PCIe, HDMI, CSI, DSI, USB3/2, other high-speed Interfaces
+**CAD**:  	Cadence SiP and APD, AnSys Sentinel PSI Tool-set, LabVIEW, PakSi-E, Matlab, Nimbic (PhysWare) Tool set, Ansys SI Wave,  HSpice, AutoCAD, ModelSim, SolidWorks, Mentor Graphics Tools, Xilinx ISE and EDK Tools
 
 **Project summary:**
 
@@ -74,6 +69,8 @@ subject: 'resume_geetha'
 | Wellhead Fatigue | Data analysis with time series and FFT techniques <br> Python programming | N/A |
 | Umbilical Installation analysis | Umbilical general working <br> Subsea installation fundamentals | N/A |
 | Digital twin development <br> Offshore Energy Economics | Data <br> Programming | N/A |
+
+## Experience
 
 ### Senior Project Engineer, AceEngineer
 
@@ -150,8 +147,6 @@ Contract engineer for an Oil and Gas engineering consulting company in Houston. 
 - Application also includes customization for a typical store to account for damaged and lost goods
 - Helps invoice management from generation, tracking till payment (Included Intuit interface to obtain payment information
 - Help increase revenue by helping support marketing efforts of digital marketing (eg: text messages to key customers) 
-
-
 
 ### Staff Engineer, Advanced IC PackagingTech, Qualcomm Inc 
 
