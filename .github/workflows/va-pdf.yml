@@ -9,7 +9,7 @@ on:
 jobs:
   convert_via_pandoc:
     env:
-      author_resume: gp_resume
+      author_resume: va_resume
     runs-on: ubuntu-22.04
     steps:
       - name: Check out repository code
