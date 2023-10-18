@@ -3,19 +3,22 @@ margin-left: 2cm
 margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
-title: Vamsee Achanta, Subsea Engineer and Entrepreneurial Leader
+title: Vamsee Achanta P.E., Subsea Engineering Leader
 description-meta: 'career summary'
 keywords:
-  - 'electrical engineer'
-  - 'python'
+  - 'subsea engineer'
   - 'oil and gas experience'
+  - 'python'
+  - 'engineering leader'
+  - 'automation'
+  - 'leadership'
 author:
 - Vamsee Achanta
 subject: 'resume_achanta'
 ---
 #####  vamsee.achanta@aceengineer.com . 713-306-9029 . https://www.linkedin.com/in/vamseeachanta . Houston TX
 
-### Subsea Engineering leader (20+ years) with (hands-on) engineering experience
+### Subsea Engineering leader (20+ years) with (hands-on) engineering experience and passion to automate workflows
 
 ## Executive Summary
 
@@ -24,7 +27,7 @@ subject: 'resume_achanta'
 - O&G field life cycle (up, mid and downstream) experience for offshore and subsea projects. Design, operations/integrity management and decommission experience.
 - Served as Committee member on professional bodies for API-RP-16Q, API-RP-17G, API-RP-17G2 and ASCE COPRI MRE for riser and structural engineering expertise.
 - Over 10 years of data analytics experience in building digital twins coupled with a passion to automate. Build programming modules for streamline and automation to create upstream engineering microservices.
-- Possess IT experience to enable data analytics project success. Working experience in :
+- Possess data science experience to implement physics-based algorithms for engineering teams. Working experience in :
 	- Data (well data, WITSML drilling data, seismic segy data, for use as meta data and engineering/analysis data), 
 	- Implementation of web services for oil and gas industry
 	- Databases (SQL design, queries, stored procedures), 
@@ -34,7 +37,7 @@ subject: 'resume_achanta'
 - Real-time application development in production-ready manner and Production support. Python programming with relational database interface design (class functions, sql tables, stored procedures or functions)
 - Strong knowledge and know-how in the areas from seismic imaging (.segy files), drilling, completion (frac plugs, sand mitigation etc.), production data, risers, pipelines, interventions etc. 
 - Offshore asset design/upstream engineering and integrity management of assets. Structural engineering, fitness for service etc. Strong analytical skills of finance, probability, statistics etc. (part of data science)
-- Can handle client interaction with very clear communications, strong documentation (from software requirements to full-fledged application manuals)
+- Can handle client interaction with very clear communications, strong documentation (from requirements to full-fledged application manuals)
 
 ## Experience Summary
 
@@ -56,6 +59,14 @@ subject: 'resume_achanta'
 | BP Macondo Containment Riser detailed design | Detailed design lead, Global riser analysis; Suction pipe design; Upper and lower flexible jumper designs; Installation analysis of all key components |  N/A |
 | FDAS APS Feasibility Design | Top Tensioned Riser, vessel mooring design; Technical lead for mooring and riser connected analysis to capture non-linear behavior. <br> Economic analysis for Conversion of 6th Generation Drillship and new builds <br> Marketing activities support with operators | N/A |
 | Chevron Bangka Production Riser FEED | Lead analyst for Strength, fatigue and installation analysis; Rigid and flexible riser design. | N/A |
+| BP Thunderhorse SEMI in-field riser analysis | Strength analysis; Hurricane re-analysis post-2005 hurricanes
+| Chevron Jack St. Malo SCR analysis | Strength, fatigue and VIV analysis
+| BP-HMC Angola Block 31 Hybrid Riser detailed design | Detailed design package engineer
+| Murphy Azurite SBOP Drilling riser detailed design | Design package for drilling riser
+| Sewol Salvage Lifting Analysis | Lifting global and local hull analysis for a shallow water salvage operation (client: Govt. of Korea)
+| Generic: Manufacturing experience | Project manager to deliver subsea components from raw material (ingots) to finished products
+| Generic: Drilling, completion and intervention riser design and analysis | Multiple (100+) riser design verification projects
+| Generic: Data Analysis | Working knowledge and expertise in statistics, data analysis and automation of software processes and outputs
 
 - Specialty in deepwater riser design for production, drilling and interventions/workover operations for multiple O&G projects. 
   - Highly experienced in strength & fatigue design and connected & disconnect operations
@@ -275,19 +286,26 @@ Aug 2003 to Jun 2015, Houston, TX
 - Multiple accolades for customer service and customer satisfaction
 - 100% track record for on time and within budget project delivery
 
-## Notable Projects
-
-Co-author for digital models for multidisciplinary (subsea, structural and electrical) engineering
-- https://github.com/vamseeachanta/digitalmodel
-- data driven engineering
-
-Co-author for energy data  sources
-- https://github.com/vamseeachanta/energydata
-- Oil and gas facilities data from BSEE
-- Wind data
-
 ## Education
 
 ### Master of Science in Mechanical Engineering, Texas A&M University, College Station.
 
 ### B. Technology in Mechanical Engineering, Indian Institute of Technology, Madras.
+
+## Publications
+| Publication |   Date | Link |
+|---------|--------|--------|
+| World Oil, Rediscovering the Promise of America's Great Lower Tertiary Play, A GoM lower teritiary field development | 6/1/2021 | [link](https://www.nxtbook.com/nxtbooks/gulfpub/wo_202106/index.php#/p/64) |
+| World Oil, Assessing industry performance in America's great Lower Tertiary play, A GoM lower teritiary field assessment | 4/1/2021 | [link](https://www.nxtbook.com/nxtbooks/gulfpub/wo_202104/index.php#/p/16) |
+| World Oil, Innovative strategy increases profitability of ultra-deepwater fields, Utilize technology to improve production | 2/1/2020 | [link](https://www.nxtbook.com/nxtbooks/gulfpub/wo_202002/index.php#/p/62) |
+| Offshore, Multi-purpose drilling and production system aims to address challenges of Lower Tertiary | 2/1/2020 | [link](https://www.offshore-mag.com/drilling-completion/article/16762083/multipurpose-drilling-and-production-system-aims-to-address-challenges-of-lower-tertiary) |
+| Offshore Technology Conference (OTC), Heavy Lift Dynamics, Sewol Ferry Offshore Salvage | 5/23/2017 | [link](https://onepetro.org/OTCONF/proceedings-abstract/17OTC/4-17OTC/D041S049R004/91825) |
+| Deepwater Intervention Forum (DIF), Structural considerations for Deepwater Riserless Systems | 8/1/2015 | n/a |
+| Offshore Technology Conference (OTC), Mooring of MRE Structures - Comparison of Codes, Including IEC | 8/1/2015 | [link](https://onepetro.org/OTCONF/proceedings-abstract/15OTC/All-15OTC/OTC-26035-MS/77888) |
+| IADC, FLOATING DRILLING EQUIPMENT AND OPERATIONS | 5/1/2015 | [link](https://www.techstreet.com/products/preview/1897577) |
+| SNAME, Riser and Subsea Asset Life Extension | 2/15/2015 | [link](https://onepetro.org/SNAMETOS/proceedings-abstract/TOS15/1-TOS15/D013S009R004/3728) |
+| SPE Intelligent Technologies Workshop, Deepwater Subsea IM Case Studies | 10/1/2012 | n/a |
+| SPE Deepwater Technology, Riser Systems for Deepwater India | 9/1/2012 | n/a |
+| Petrotech, Subsea Integrity Management in Deepwater Developments | 11/1/2010 | n/a |
+| OMAE, Benchmarking of SHEAR7v4.5: Comparisons to Full-Scale Drilling Riser VIV Data and Legacy Analyses | 6/1/2009 | [link](https://asmedigitalcollection.asme.org/OMAE/proceedings-abstract/OMAE2009/43451/463/338947) |
+| Texas A&M University, An experimental study of endwall heat transfer enhancement for flow past staggered non-conducting pin fin arrays | 5/1/2003 | [link](https://oaktrust.library.tamu.edu/handle/1969.1/140) |

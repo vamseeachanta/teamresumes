@@ -15,8 +15,8 @@ jobs:
         run: |
           mkdir output
           cp resume-stylesheet.css output/resume-stylesheet.css
-          cp ${{ env.author_resume_1 }}.md output/${{ env.author_resume_1 }}.md
-          cp ${{ env.author_resume_2 }}.md output/${{ env.author_resume_2 }}.md
+          cp cv/${{ env.author_resume_1 }}.md output/${{ env.author_resume_1 }}.md
+          cp cv/${{ env.author_resume_2 }}.md output/${{ env.author_resume_2 }}.md
       # Downloading the binaries directly, because they are newer and work better, than the ones that come with Ubuntu latest.
       - name: "Install pandoc and wkhtmltopdf"
         run: |
@@ -27,8 +27,8 @@ jobs:
 
       - name: "Convert MD to HTML"
         run: |
-          pandoc ${{ env.author_resume_1 }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume_1 }}.html
-          pandoc ${{ env.author_resume_2 }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume_2 }}.html
+          pandoc cv/${{ env.author_resume_1 }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume_1 }}.html
+          pandoc cv/${{ env.author_resume_2 }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume_2 }}.html
 
       - name: "Convert HTML to PDF "
         run: |
