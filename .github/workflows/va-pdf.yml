@@ -27,8 +27,8 @@ jobs:
 
       - name: "Convert MD to HTML"
         run: |
-          pandoc ${{ env.author_resume_1 }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume_1 }}.html
-          pandoc ${{ env.author_resume_2 }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume_2 }}.html
+          pandoc cv/${{ env.author_resume_1 }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume_1 }}.html
+          pandoc cv/${{ env.author_resume_2 }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume_2 }}.html
 
       - name: "Convert HTML to PDF "
         run: |
