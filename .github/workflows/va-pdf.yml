@@ -33,7 +33,7 @@ jobs:
       - name: "Convert HTML to PDF "
         run: |
           "wkhtmltopdf --enable-local-file-access output/${{ env.author_resume_1 }}.html output/${{ env.author_resume_1 }}.pdf"
-          "wkhtmltopdf --enable-local-file-access output/${{ env.author_resume_2 }}.html output/${{ env.author_resume_2 }}.pdf"
+      # "wkhtmltopdf --enable-local-file-access output/${{ env.author_resume_2 }}.html output/${{ env.author_resume_2 }}.pdf"
       # run: |
       #     /usr/bin/pandoc -standalone --output=output/resume_geetha.pdf --css=resume-stylesheet.css --from=markdown --to=pdf --pdf-engine=/usr/bin/wkhtmltopdf resume_geetha.md
       - uses: actions/upload-artifact@master
