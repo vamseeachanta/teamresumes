@@ -13,10 +13,10 @@ jobs:
         uses: actions/checkout@v3 # this checks out the repo in the ubuntu container
       - name: "Create a folder called output"
         run: |
-          mkdir output
           cp resume-stylesheet.css output/resume-stylesheet.css
           cp cv/${{ env.author_resume_1 }}.md output/${{ github.actor }}-${{ env.author_resume_1 }}.md
           cp cv/${{ env.author_resume_2 }}.md output/${{ github.actor }}-${{ env.author_resume_2 }}.md
+      # mkdir output
       # Downloading the binaries directly, because they are newer and work better, than the ones that come with Ubuntu latest.
       - name: "Install pandoc and wkhtmltopdf"
         run: |
