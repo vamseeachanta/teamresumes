@@ -39,7 +39,7 @@ subject: 'resume_achanta'
 - Offshore asset design/upstream engineering and integrity management of assets. Structural engineering, fitness for service etc. Strong analytical skills of finance, probability, statistics etc. (part of data science)
 - Can handle client interaction with very clear communications, strong documentation (from requirements to full-fledged application manuals)
 
-## Experience Summary
+### Experience Summary
 
 | Area |  System/Components | Analysis/Software
 |---------|--------|--------|
@@ -52,7 +52,7 @@ subject: 'resume_achanta'
 | Data analysis and algorithm development | near real-time drilling algorithms <br> near real-time production algorithms <br> measured data analysis for subsea assets | git <br> github <br> python <br> plantuml <br> automations <br> visualizations |
 
 
-**Project summary:**
+### Project summary
 
 | Project |   Skills |
 |---------|--------|
