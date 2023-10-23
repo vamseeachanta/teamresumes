@@ -58,15 +58,17 @@ subject: 'resume_achanta'
 |---------|--------|
 | BP Macondo Containment Riser detailed design | Detailed design lead, Global riser analysis; Suction pipe design; Upper and lower flexible jumper designs; Installation analysis of all key components |  N/A |
 | FDAS APS Feasibility Design | Top Tensioned Riser, vessel mooring design; Technical lead for mooring and riser connected analysis to capture non-linear behavior. <br> Economic analysis for Conversion of 6th Generation Drillship and new builds <br> Marketing activities support with operators | N/A |
-| Chevron Bangka Production Riser FEED | Lead analyst for Strength, fatigue and installation analysis; Rigid and flexible riser design. | N/A |
 | BP Thunderhorse SEMI in-field riser analysis | Strength analysis; Hurricane re-analysis post-2005 hurricanes
 | Chevron Jack St. Malo SCR analysis | Strength, fatigue and VIV analysis
 | BP-HMC Angola Block 31 Hybrid Riser detailed design | Detailed design package engineer
 | Murphy Azurite SBOP Drilling riser detailed design | Design package for drilling riser
 | Sewol Salvage Lifting Analysis | Lifting global and local hull analysis for a shallow water salvage operation (client: Govt. of Korea)
-| Generic: Manufacturing experience | Project manager to deliver subsea components from raw material (ingots) to finished products
+| Generic: Fitness for Service | GoM topside piping assessment based on measured wall thickness <br> Driling riser in-service joints FFS and 5 yr qualification <br> Expert in API 579 and BS7910 codes 
+| Generic: Subsea Installation Analysis | For manifolds, umbilicals, structures, risers, moorings etc. 
+| Generic: Manufacturing experience | Project manager to deliver drilling riser subsea components (i.e riser joints, speciality jts, jewelry etc.) from raw material to finished products as packages
 | Generic: Drilling, completion and intervention riser design and analysis | Multiple (100+) riser design verification projects
 | Generic: Data Analysis | Working knowledge and expertise in statistics, data analysis and automation of software processes and outputs
+| Chevron Bangka Production Riser FEED | Lead analyst for Strength, fatigue and installation analysis; Rigid and flexible riser design. | N/A |
 
 - Specialty in deepwater riser design for production, drilling and interventions/workover operations for multiple O&G projects. 
   - Highly experienced in strength & fatigue design and connected & disconnect operations
