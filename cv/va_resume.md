@@ -64,7 +64,9 @@ subject: 'resume_achanta'
 | Murphy Azurite SBOP Drilling riser detailed design | Design package for drilling riser
 | Sewol Salvage Lifting Analysis | Lifting global and local hull analysis for a shallow water salvage operation (client: Govt. of Korea)
 | Generic: Fitness for Service | GoM topside piping assessment based on measured wall thickness <br> Driling riser in-service joints FFS and 5 yr qualification <br> Expert in API 579 and BS7910 codes 
-| Generic: Subsea Installation Analysis | For manifolds, umbilicals, structures, risers, moorings etc. 
+| Generic: Subsea Installation Analysis | Develop procedures and weather windows for manifolds, umbilicals, structures, risers, rigid jumpers, moorings etc. 
+| Generic: Rigid Pipeline installation | Shallow water pipeline installation analysis with weather windows <br> Global and local Buckling analysis 
+| Generic: Single point moorings (SPMs) & CALM/SALM Buoys | In-place analysis and operating weather windows
 | Generic: Manufacturing experience | Project manager to deliver drilling riser subsea components (i.e riser joints, speciality jts, jewelry etc.) from raw material to finished products as packages
 | Generic: Drilling, completion and intervention riser design and analysis | Multiple (100+) riser design verification projects
 | Generic: Data Analysis | Working knowledge and expertise in statistics, data analysis and automation of software processes and outputs
