@@ -56,7 +56,7 @@ subject: 'resume_achanta'
 
 | Project |   Skills |
 |---------|--------|
-| BP Macondo Containment Riser detailed design | Detailed design lead, Global riser analysis; Suction pipe design; Upper and lower flexible jumper designs; Installation analysis of all key components |  N/A |
+| BP Macondo Containment Riser detailed design | Detailed design and delivery lead <br>Global riser analysis; Suction pile design; <br>Upper and lower flexible jumper designs; <br>Installation analysis of all key components |  N/A |
 | FDAS APS Feasibility Design | Top Tensioned Riser, vessel mooring design; Technical lead for mooring and riser connected analysis to capture non-linear behavior. <br> Economic analysis for Conversion of 6th Generation Drillship and new builds <br> Marketing activities support with operators | N/A |
 | BP Thunderhorse SEMI in-field riser analysis | Strength analysis; Hurricane re-analysis post-2005 hurricanes
 | Chevron Jack St. Malo SCR analysis | Strength, fatigue and VIV analysis
