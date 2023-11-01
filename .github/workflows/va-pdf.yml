@@ -1,15 +1,12 @@
 name: Create PDF File
 
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+on: [push, pull_request]
 
 jobs:
   convert_via_pandoc:
     env:
-      author_resume: va_resume
+      author_resume_1: va_resume
+      author_resume_2: gp_resume
     runs-on: ubuntu-22.04
     steps:
       - name: Check out repository code
@@ -18,7 +15,8 @@ jobs:
         run: |
           mkdir output
           cp resume-stylesheet.css output/resume-stylesheet.css
-          cp cv/${{ env.author_resume }}.md output/${{ github.actor }}-${{ env.author_resume }}.md
+          cp cv/${{ env.author_resume_1 }}.md output/${{ env.author_resume_1 }}.md
+          cp cv/${{ env.author_resume_2 }}.md output/${{ env.author_resume_2 }}.md
       # Downloading the binaries directly, because they are newer and work better, than the ones that come with Ubuntu latest.
       - name: "Install pandoc and wkhtmltopdf"
         run: |
@@ -29,13 +27,16 @@ jobs:
 
       - name: "Convert MD to HTML"
         run: |
-          pandoc ${{ env.author_resume }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume }}.html
+          pandoc cv/${{ env.author_resume_1 }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume_1 }}.html
+          pandoc cv/${{ env.author_resume_2 }}.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{ env.author_resume_2 }}.html
 
       - name: "Convert HTML to PDF "
-        run: "wkhtmltopdf --enable-local-file-access output/${{ env.author_resume }}.html output/${{ env.author_resume }}.pdf"
+        run: |
+          wkhtmltopdf --enable-local-file-access output/${{ env.author_resume_1 }}.html output/${{ env.author_resume_1 }}.pdf
+          wkhtmltopdf --enable-local-file-access output/${{ env.author_resume_2 }}.html output/${{ env.author_resume_2 }}.pdf
       # run: |
       #     /usr/bin/pandoc -standalone --output=output/resume_geetha.pdf --css=resume-stylesheet.css --from=markdown --to=pdf --pdf-engine=/usr/bin/wkhtmltopdf resume_geetha.md
       - uses: actions/upload-artifact@master
         with: # basically this will put resume_geetha.md, resume_geetha.html, resume_geetha.pdf and resume-stylesheet.css in a zip file.
-          name: ${{ env.author_resume }}
+          name: pdf
           path: output
