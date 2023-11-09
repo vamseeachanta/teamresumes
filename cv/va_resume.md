@@ -59,7 +59,7 @@ subject: 'resume_achanta'
 | BP Macondo Containment Riser detailed design | Detailed design and delivery lead <br>Global riser analysis; Suction pile design; <br>Upper and lower flexible jumper designs; <br>Installation analysis of all key components |  N/A |
 | FDAS APS Feasibility Design | Top Tensioned Riser, vessel mooring design; Technical lead for mooring and riser connected analysis to capture non-linear behavior. <br> Economic analysis for Conversion of 6th Generation Drillship and new builds <br> Marketing activities support with operators | N/A |
 | BP Thunderhorse SEMI in-field riser analysis | Strength analysis; Hurricane re-analysis post-2005 hurricanes
-| Chevron Jack St. Malo SCR analysis | Strength, fatigue and VIV analysis
+| Chevron Jack St. Malo SCR FEED and detailed design analysis | Strength, fatigue and VIV analysis
 | BP-HMC Angola Block 31 Hybrid Riser detailed design | Detailed design package engineer
 | Murphy Azurite SBOP Drilling riser detailed design | Design package for drilling riser
 | Sewol Salvage Lifting Analysis | Lifting global and local hull analysis for a shallow water salvage operation (client: Govt. of Korea)
@@ -202,10 +202,10 @@ Sep 2017 to Dec 2020, Houston, TX and Remote
 
 Aug 2003 to Jun 2015, Houston, TX
 
-- Chevron - West Seno Bangka SCR and Flexible Riser Design
+- Chevron - West Seno Bangka Steel Catenary and Flexible Riser Design
   - Lead engineer responsible for front end engineering design of production rigid riser and flexible riser. An umbilical was also designed for controlling the Bangka wells.
   - Responsible for leading the installation analysis of rigid and flexible risers. Analysis is conducted to ensure acceptable installation response and determine the installation loads.
-- BP Macondo Riser Engineering Manager. 
+- BP Macondo Riser Engineering Manager Detailed design. 
   - Ability to perform in crisis. Lead engineering manager responsible for design of Macondo free standing riser system used for containment of 2010 oil spill in Gulf of Mexico. Design was accomplished in 8 weeks when compared to typical design duration of 3 years.
   - Involved repurposing of several existing assets (Toisa Pisces and HP-1) and components (Flexibles fluid conduits, riser pipe etc.) to achieve the design and installation in 3 months.
 - ENI Devil’s tower Spar TTR Integrity and life extension
@@ -214,9 +214,10 @@ Aug 2003 to Jun 2015, Houston, TX
   - Chevron Jack St.Malo SCR Analysis
   - Lead engineer for Chevron’s Jack / St. Malo’s pre-FEED SCR feasibility assessment study. 
   - The scope of work includes evaluation of the strength response of SCRs attached to a semi-submersible or a spar, development of riser compression mitigation options where required as well as evaluation of the SCR fatigue response due to first and second order vessel motions and vortex induced motions (VIM) of the host vessel.
-- BP Thunder Horse Riser/Flowline Installation Verification
+- BP Thunder Horse Riser/Flowline design Verification and installation support
   - Lead engineer responsible for the installation verification of the North Extension flowlines on the Thunder Horse field. The scope of the work includes independent third party verification of the flowline installation analysis as well as evaluation of the fatigue damage accumulated in the flowline during different stages of the installation operation. 
   - Strength and configuration checks were also conducted for different configurations of the flowline during installation to verify the analysis conducted by the designer. Recommended limiting waves and currents are also defined for the installation of the flowlines. 
+- BP GoM (Thunderhorse, Atlantis, Horn Mountain) field integrity management analysis and model readiness 
 - Engineering criticality assessment (ECA) with fracture mechanics approach is also performed to determine the flaw limits. 
 - Assist operators with decisions and assistance of well and platform decommissioning activities:
   - Assist with Riser and riserless abandonment and decomm decisions
@@ -252,11 +253,12 @@ Aug 2003 to Jun 2015, Houston, TX
   - Detailed Subsea drilling riser adapter FE analysis
   - Subsea BOP Flange pressure and thermal analysis
   - Land Rig DrawWorks Refurbishment Feasibility Study
-  - Papa Terra TTR Thermal Analysis Verification
-  - Chevron - West Seno Bangka Riser FEED
-  - Reliance – KG-D6 In-Water Integrity Management Review
+  - Exxon Yellowtail SCR Feasibility analysis
+  - Papa Terra TTR Thermal Analysis for design Verification
+  - Chevron - West Seno Bangka Steel Catenary and Flexile Riser FEED
+  - Reliance – KG-D6 In-Water Integrity Management 
   - Deepstar – Drilling Riser Structural Damping Test
-  - HMC – BP Angola Block 31 Stand-by Package Engineering
+  - HMC – BP Angola Block 31 Freestanding/Hybrid riser design and Stand-by Package Engineering
   - JSM SCR Feasibility Analysis
   - Thunder Horse Flowline Installation Verification
   - ATP Mirage TTR CVA Review
@@ -264,7 +266,7 @@ Aug 2003 to Jun 2015, Houston, TX
   - BP Thunder Horse Flowline Manifold Fatigue Analysis
   - Riser Analysis Training Handbook
   - Kizomba Satellite Riser Pre-Feed Analysis
-  - Murphy Surface BOP Drilling Riser Analysis
+  - Murphy Azurite Surface BOP Drilling Riser Detailed design
   - Unocal – Gendalo SCR Feasibility Analysis
   - BP Na kika – Completion Riser Analysis
   - BP Thunder Horse – Top Tensioned Riser Tubing Landing Analysis
