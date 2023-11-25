@@ -27,7 +27,7 @@ subject: 'resume_achanta'
 - O&G field life cycle (up, mid and downstream) experience for offshore and subsea projects. Design, operations/integrity management and decommission experience.
 - Served as Committee member on professional bodies for API-RP-16Q, API-RP-17G, API-RP-17G2 and ASCE COPRI MRE for riser and structural engineering expertise.
 - Over 10 years of data analytics experience in building digital twins coupled with a passion to automate. Build programming modules for streamline and automation to create upstream engineering microservices.
-- Possess data science experience to implement physics-based algorithms for engineering teams. Working experience in :
+- Possess data science experience to implement physics-based algorithms in production environment for engineering teams. Working experience in :
 	- Data (well data, WITSML drilling data, seismic segy data, for use as meta data and engineering/analysis data), 
 	- Implementation of web services for oil and gas industry
 	- Databases (SQL design, queries, stored procedures), 
@@ -183,20 +183,27 @@ Jun 2016 to Date, Houston, TX and Remote
 
 Sep 2017 to Dec 2020, Houston, TX and Remote
 
-- Implemented real-time drilling analytics in production environment for a major shale integrated operator. Implemented following algorithms
+- Implemented 50+ physics based algorithms in production environment:
+  - Implemented for multiple assets
+  - Logging to ensure data integrity for assets
+  - Clear insights into running status, asset status, failure reasons etc.
+  - Top class documentation and visualizations
+- Implemented real-time drilling analytics (20+ concurrent drilling campaigns) in production environment for a major shale integrated operator. Implemented following algorithms:
   - Bit position estimation
   - Torque and drag
   - Rig state identification
   - Dysfunction detections (stick and slip and buckling)
   - Time series data. 
   - Implementation in edge computing and also production servers
-- Implemented real-time production analytics in production environment to analyse the following
+  - IoT (edge device) implementation
+- Implemented real-time production analytics in production environment (20,000 wells) to analyse the following:
   - Sucker rod pump dynacard analysis
   - ESP exceptions
   - Well Test Validations
   - Time shed analysis for well using well economics
   - Time domain data. 
   - Implementation in edge computing and also production servers
+  - IoT (edge device) implementation
 
 ### Engineering Lead,  2H Offshore Inc
 
@@ -254,9 +261,9 @@ Aug 2003 to Jun 2015, Houston, TX
   - Subsea BOP Flange pressure and thermal analysis
   - Land Rig DrawWorks Refurbishment Feasibility Study
   - Exxon Yellowtail SCR Feasibility analysis
-  - Papa Terra TTR Thermal Analysis for design Verification
+  - Papa Terra TTR Thermal Analysis for design verification
   - Chevron - West Seno Bangka Steel Catenary and Flexile Riser FEED
-  - Reliance – KG-D6 In-Water Integrity Management 
+  - Reliance KG-D6 In-water (risers, platforms, umbilicals) integrity management.
   - Deepstar – Drilling Riser Structural Damping Test
   - HMC – BP Angola Block 31 Freestanding/Hybrid riser design and Stand-by Package Engineering
   - JSM SCR Feasibility Analysis
