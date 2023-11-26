@@ -4,26 +4,27 @@ margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
 title: Vamsee Achanta P.E., Subsea Engineering Leader
-description-meta: 'career summary'
+description-meta: career summary
 keywords:
-  - 'subsea engineer'
-  - 'oil and gas experience'
-  - 'python'
-  - 'engineering leader'
-  - 'automation'
-  - 'leadership'
+  - subsea
+  - oil and gas experience
+  - sustainable engineer
+  - python
+  - engineering leader
+  - automation
+  - leadership
 author:
 - Vamsee Achanta
 subject: 'resume_achanta'
 ---
 #####  vamsee.achanta@aceengineer.com . 713-306-9029 . https://www.linkedin.com/in/vamseeachanta . Houston TX
 
-### Subsea Engineering leader (20+ years) with (hands-on) engineering experience and passion to automate workflows
+### Subsea Engineering leader (20+ years) for sustainable and automated engineering solutions, workflows and project success
 
 ## Executive Summary
 
 - Served in roles of increasing responsibility spanning from VP of Engineering, Engineering manager, Technical Manager, technical Lead and project manager in structural design and integrity areas for various offshore upstream brownfield and greenfield projects in both start-up, engineering services and contractor roles. 
-- Strong in-place and installation analysis using FE Software, Orcaflex.
+- Strong in-place and installation analysis using leading FE Software, particularly Orcaflex.
 - O&G field life cycle (up, mid and downstream) experience for offshore and subsea projects. Design, operations/integrity management and decommission experience.
 - Served as Committee member on professional bodies for API-RP-16Q, API-RP-17G, API-RP-17G2 and ASCE COPRI MRE for riser and structural engineering expertise.
 - Over 10 years of data analytics experience in building digital twins coupled with a passion to automate. Build programming modules for streamline and automation to create upstream engineering microservices.
@@ -37,7 +38,7 @@ subject: 'resume_achanta'
 - Real-time application development in production-ready manner and Production support. Python programming with relational database interface design (class functions, sql tables, stored procedures or functions)
 - Strong knowledge and know-how in the areas from seismic imaging (.segy files), drilling, completion (frac plugs, sand mitigation etc.), production data, risers, pipelines, interventions etc. 
 - Offshore asset design/upstream engineering and integrity management of assets. Structural engineering, fitness for service etc. Strong analytical skills of finance, probability, statistics etc. (part of data science)
-- Can handle client interaction with very clear communications, strong documentation (from requirements to full-fledged application manuals)
+- Can handle client interaction with very clear communications, strong documentation (from requirements to full-fledged reports/manuals)
 
 ### Experience Summary
 
