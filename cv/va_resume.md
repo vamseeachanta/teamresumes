@@ -59,14 +59,14 @@ subject: 'resume_achanta'
 |---------|--------|
 | BP Macondo Containment Riser detailed design | Detailed design and delivery lead <br>Global riser analysis; Suction pile design; <br>Upper and lower flexible jumper designs; <br>Installation analysis of all key components |  N/A |
 | FDAS APS Feasibility Design | Top Tensioned Riser, vessel mooring design; Technical lead for mooring and riser connected analysis to capture non-linear behavior. <br> Economic analysis for Conversion of 6th Generation Drillship and new builds <br> Marketing activities support with operators | N/A |
+| Generic: Subsea Installation Analysis | Develop procedures and weather windows for manifolds, umbilicals, structures, risers, rigid jumpers, moorings etc. 
+| Generic: Rigid Pipeline installation | Shallow water pipeline installation analysis with weather windows <br> Global and local Buckling analysis 
 | BP Thunderhorse SEMI in-field riser analysis | Strength analysis; Hurricane re-analysis post-2005 hurricanes
 | Chevron Jack St. Malo SCR FEED and detailed design analysis | Strength, fatigue and VIV analysis
 | BP-HMC Angola Block 31 Hybrid Riser detailed design | Detailed design package engineer
 | Murphy Azurite SBOP Drilling riser detailed design | Design package for drilling riser
 | Sewol Salvage Lifting Analysis | Lifting global and local hull analysis for a shallow water salvage operation (client: Govt. of Korea)
 | Generic: Fitness for Service | GoM topside piping assessment based on measured wall thickness <br> Driling riser in-service joints FFS and 5 yr qualification <br> Expert in API 579 and BS7910 codes 
-| Generic: Subsea Installation Analysis | Develop procedures and weather windows for manifolds, umbilicals, structures, risers, rigid jumpers, moorings etc. 
-| Generic: Rigid Pipeline installation | Shallow water pipeline installation analysis with weather windows <br> Global and local Buckling analysis 
 | Generic: Single point moorings (SPMs) & CALM/SALM Buoys | In-place analysis and operating weather windows
 | Generic: Manufacturing experience | Project manager to deliver drilling riser subsea components (i.e riser joints, speciality jts, jewelry etc.) from raw material to finished products as packages
 | Generic: Drilling, completion and intervention riser design and analysis | Multiple (100+) riser design verification projects
@@ -112,9 +112,24 @@ subject: 'resume_achanta'
 
 ## Experience
 
+### Subsea Engineering and Analysis
+
+Jan 2023 to Nov 2023, Houston, TX
+
+- Installation analysis for subsea structures
+  - Structures such as Manifolds, PLETs etc.
+  - Flexible and umbilicals
+  - Rigid/flexible jumpers
+
+- Detailed subsea pipeline engineering analysis for installation of 42 inch thin walled (D/t of 67) pipe offshore Venezuela
+  - Detailed finite element analysis in ANSYS to determine the bending moment capacity of pipeline which is outside the DNV code regime (D/t > 45)
+  - Pipelay analysis in OrcaFlex to determine installation windows
+  - Python and API programming utilized to obtain results and plots in an automated manner
+
+
 ### VP of Engineering, FDAS
 
-Jun 2016 to Date, Houston, TX and Remote
+Jun 2016 to Dec 2022, Houston, TX
 
 - Economic Analysis of GoM Offshore Fields
   - Obtain data from government body (BSEE data center) website to obtain field level economics for GoM fields
@@ -165,11 +180,6 @@ Jun 2016 to Date, Houston, TX and Remote
   - Use machine learning algorithms to identify areas of large defects and perform detailed analysis on weakest pipe areas in an automated manner. 
   - Developed python program code for 2016 API 579-1 & ASME FFS-I for acceptability (using classification) and acceptable flaws (using classification) by facture mechanics methodology of BS 7910.
   - Concept work to extend fitness for service to other structures (vessel storage and piping systems) to support stacked drilling rigs returning to service.
-
-- Detailed subsea pipeline engineering analysis for installation of 42 inch thin walled (D/t of 67) pipe offshore Venezuela
-    - Detailed finite element analysis in ANSYS to determine the bending moment capacity of pipeline which is outside the DNV code regime (D/t > 45)
-    - Pipelay analysis in OrcaFlex to determine installation windows
-    - Python and API programming utilized to obtain results and plots in an automated manner
 
 - Corrosion simulation analysis of damaged subsea mooring line for production facility experience for Oil and Gas using COMSOL software and java programming:
   - A damaged mooring line is modelled to determine the corrosion progression over the life of field
