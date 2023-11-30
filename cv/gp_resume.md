@@ -3,7 +3,7 @@ margin-left: 2cm
 margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
-title: Geeta P., Electrical Engineer and Programmer
+title: Geeta P., FE Simulation Engineer and Programmer
 description-meta: 'Resume for job search'
 keywords:
   - 'electrical engineer'
@@ -15,11 +15,12 @@ subject: 'resume_geetha'
 ---
 #####  [pgeeta@gmail.com] . [ 210-663-7361 ]
 
-### Analytical design and simulation engineer in the fields of subsea and electrical engineering with deep experience in engineering, package, project management.
+### Analytical design and simulation engineer in the fields of subsea structural and electrical engineering with deep experience in engineering, package, project management.
 
 ## Summary
 
-- Multidisciplinary electrical engineer with 20+ years of experience. Possess strong engineering fundamentals, design and project management experience. 
+- Multidisciplinary simulation engineer with 20+ years of experience. Possess strong engineering fundamentals, design and project management experience. 
+  - Simulation skills in Ansys mechanical, structural and electrical packages
   - Design skills using Autocad and Solidworks with a passion to automate workflows
   - Design of systems experience for both high voltage (mud motors, VFDs, transformers etc) and low voltage equipment (chips, instrumentations, IoT devices etc.) 
   - Digital and analog design experience. Programming capabilities for embedded, PLCs, automation and instrumentation
@@ -39,42 +40,55 @@ subject: 'resume_geetha'
 
 ## Skills
 
+```subsea```
+```structural```
 ```engineering```
+```programming```
 ```electrical```
 ```electronics```
-```programming```
 ```data science```
 ```databases```
 ```project management```
 
-**Programming**: Python, Matlab, VBA (Excel Macros), Verilog/VHDL, C, C++
+**Engineering Software**:	ANSYS, Abaqus, OrcaFlex, Solidworks, Autocad Inventor, OpenFOAM, FreeCAD, Blender <br>
+
+**Programming**: Python, SQL, C, C++, Perl & Shell Scripting, VBA (Excel Macros), Matlab, Verilog/VHDL, C, C++
+
+**Tech Tools**: Git, Visual Studio code, Microsoft Office (Excel, PowerPoint, Project, Visio), Outlook
+
+**Programming**: 
+
 **Databases**: MySQL, Postgres, SQL Server
+
 **Linux**: Gentoo, Alpine, CentOS, Ubuntu, Debian
+
 **DevOps**: Ansible, Chef, Kubernetes, etc.
-**Engineering Software**:	Solidworks, Autocad Inventor, OpenFOAM, FreeCAD, Blender, ANSYS, Abaqus, OrcaFlex <br>
-**Programming**:  		Python, SQL, C, C++, Perl & Shell Scripting, VBA (Excel Macros)  <br>
-**Tech Tools**:  		Git, Visual Studio code, Microsoft Office (Excel, PowerPoint, Project, Visio), Outlook
-**IP**:  			DDR3, SATA/PCIe, HDMI, CSI, DSI, USB3/2, other high-speed Interfaces
-**CAD**:  	Cadence SiP and APD, AnSys Sentinel PSI Tool-set, LabVIEW, PakSi-E, Matlab, Nimbic (PhysWare) Tool set, Ansys SI Wave,  HSpice, AutoCAD, ModelSim, SolidWorks, Mentor Graphics Tools, Xilinx ISE and EDK Tools
+
+**IP**: DDR3, SATA/PCIe, HDMI, CSI, DSI, USB3/2, other high-speed Interfaces
+
+**CAD**: Cadence SiP and APD, AnSys Sentinel PSI Tool-set, LabVIEW, PakSi-E, Matlab, Nimbic (PhysWare) Tool set, Ansys SI Wave,  HSpice, AutoCAD, ModelSim, SolidWorks, Mentor Graphics Tools, Xilinx ISE and EDK Tools
 
 **Project summary:**
 
 | Project |   Skills |
 |---------|--------|
-| Power Optimization | Electrical calculations <br> PLC programming |  N/A |
-| Drill Rig Motor/VFD refurbishment | High voltage Electrical calculations <br> Vendor technical evaluation | N/A |
 | Cathodic Protection | Protection of offshore structure code calculations <br> Safe guarding assets against corrosion | N/A |
-| Drill Rig Instrumentation | Low voltage electrical design <br> Labview 2016 interface with instrumentation | N/A |
-| Wind Turbine | Data from public sources <br> Autocad/Solidworks softwares | N/A |
+| Subsea Umbilicals | Data analysis with time series and FFT techniques <br> Python programming | N/A |
 | Wellhead Fatigue | Data analysis with time series and FFT techniques <br> Python programming | N/A |
 | Umbilical Installation analysis | Umbilical general working <br> Subsea installation fundamentals | N/A |
+| Power Optimization | Electrical calculations <br> PLC programming |  N/A |
+| Drill Rig Motor/VFD refurbishment | High voltage Electrical calculations <br> Vendor technical evaluation | N/A |
+| Drill Rig Instrumentation | Low voltage electrical design <br> Labview 2016 interface with instrumentation | N/A |
+| Wind Turbine | Data from public sources <br> Autocad/Solidworks softwares <br> Analysis Methodology Development using OpenFAST, OpenFOAM, OrcaFlex etc. | N/A |
 | Digital twin development <br> Offshore Energy Economics | Data <br> Programming | N/A |
+| Analytical code implementation experience (Python) | Pipe capacity per API and ASME codes <br> Plate capacity per DnVCN30.1, API-RP-C102 <br> Fitness for service up to Level 2 per API 579 | N/A |
+| Python Interface programming for OrcaFlex and ANYSYS | Result autoamtion <br> Repeat of analysis <br> Batch processing <br> Model generation etc. | N/A |
 
 ## Experience
 
-### Senior Project Engineer, AceEngineer
+### Independent Contractor
 
-Jun 2014 to Dec 2022, Houston, TX and remote
+Jun 2014 to Dec 2022, San Diego, CA and remote
 
 Contract engineer for an Oil and Gas engineering consulting company in Houston. Worked on multiple projects to provide the customer satisfaction based on end-to-end activities. 
 
@@ -84,6 +98,20 @@ Contract engineer for an Oil and Gas engineering consulting company in Houston. 
 - Led a team of 2 designers to help build standard re-usable libraries and automate offshore wind turbine design workflows. Tools used are Solidworks, Autocad, FreeCAD and Blender
 - Consulting engineer assisting with commercial, tender and supply chain activities for offshore wind turbine design, manufacture, installation, operation and monitoring.
 - Evaluate suppliers and contractors for offshore wind developments in US. 
+
+**Digital Twin Development For Subsea Assets**
+
+- Implemented physics based analysis workflows for a riser service/manufacturing company to build FEA (Finite element analysis) digital twin models by utilizing asset class data for following assets:
+- Simple catenary risers (Umbilicals, Flexibles, Rigid Risers)
+  - FE analysis for inplace and installation analysis of power cables
+  - Working knowledge of API 17E & 17B codes
+- Lazy wave catenary risers (Umbilicals, Flexibles)
+  - FE analysis for rigid and flexible risers and flowlines using Orcaflex 
+- Drilling risers
+  - API RP 16Q code calculations
+  - FE analysis using Orcaflex for weather envelopes for installation and operations
+- Analysis scopes for all key components: Global analysis, local component analysis, Fitness for service per API 579:2016, Fatigue service life using S-N and crack growth approaches per BS 7910:2013.
+- The work is utilized by manufacturing company to perform ASCII data-driven, python-driven FEA (OrcaFlex) analysis for quick turn around of global and local analysis.
 
 **Drilling Rig Mud Motor Refurbishment**
 
@@ -114,20 +142,6 @@ Contract engineer for an Oil and Gas engineering consulting company in Houston. 
 - Experienced in OrcaFlex FEA analysis and workflow techniques
 - Experience with electrical designs/routings for subsea power cables or umbilicals
 - Static and dynamic Umbilical installation studies for Oil and Gas for ONGC and KG-D6 assets
-
-**Digital Twin Development For Subsea Assets**
-
-- Implemented automation analysis for a riser service/manufacturing company to build FEA (Finite element analysis) digital twin models by utilizing asset class data for following assets:
-- Simple catenary risers (Umbilicals, Flexibles, Rigid Risers)
-  - FE analysis for inplace and installation analysis of power cables
-  - Working knowledge of API 17E & 17B codes
-- Lazy wave catenary risers (Umbilicals, Flexibles)
-  - FE analysis for rigid and flexible risers and flowlines using Orcaflex 
-- Drilling risers
-  - API RP 16Q code calculations
-  - FE analysis using Orcaflex for weather envelopes for installation and operations
-- Analysis scopes for all key components: Global analysis, local component analysis, Fitness for service per API 579:2016, Fatigue service life using S-N and crack growth approaches per BS 7910:2013.
-- The work is utilized by manufacturing company to perform ASCII data-driven, python-driven FEA (OrcaFlex) analysis for quick turn around of global and local analysis.
 
 **Economic Analysis of Offshore Field Data**
 - Economic analysis of offshore oil fields for marketing use for start-up company, Frontier Deepwater 
