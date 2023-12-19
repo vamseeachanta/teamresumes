@@ -3,7 +3,7 @@ margin-left: 2cm
 margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
-title: Geeta P., FE Simulation Engineer and Programmer
+title: Geeta P. PMP, FE Simulation Engineer and Programmer
 description-meta: 'Resume for job search'
 keywords:
   - 'electrical engineer'
