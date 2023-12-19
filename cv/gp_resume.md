@@ -24,6 +24,7 @@ subject: 'resume_geetha'
   - Design skills using Autocad and Solidworks with a passion to automate workflows
   - Design of systems experience for both high voltage (mud motors, VFDs, transformers etc) and low voltage equipment (chips, instrumentations, IoT devices etc.) 
   - Digital and analog design experience. Programming capabilities for embedded, PLCs, automation and instrumentation
+  - Cathodic protection for subsea and offshore structures using ABS and DNV codes 
   - Excellent project management skills, technical documentation with direct customer interface experience.
 - Pursuing Professional Engineer (PE) certification
 - Commercial/supply chain management experience in offshore wind industry 
