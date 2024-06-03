@@ -22,8 +22,10 @@ subject: 'resume_achanta'
 
 ## Executive Summary
 
-- Served in roles of increasing responsibility spanning from VP of Engineering, Engineering manager, Technical Manager, technical Lead and project manager in structural design and integrity areas for various offshore upstream brownfield and greenfield projects in both start-up and established engineering roles.
+- Served in roles of increasing responsibility spanning from VP of Engineering, Engineering manager, Lead and Analyst for structural design and integrity areas for various offshore upstream brownfield and greenfield projects in both start-up and established engineering roles.
 - Strong in-place and installation analysis using FE Software, Orcaflex.
+  - Global and detailed structural analysis of risers, pipelines, umbilicals, manifolds, moorings, CALM/SALM buoys, platforms, vessels etc.
+  - Installation analysis of umbilicals, flexibles, risers, pipelines, manifolds, moorings, CALM/SALM buoys, platforms, vessels etc.
 - O&G field life cycle (up, mid and downstream) experience for offshore and subsea projects. Design, operations/integrity management and decommission experience.
 - Served as Committee member on professional bodies for API-RP-16Q, API-RP-17G, API-RP-17G2 and ASCE COPRI MRE for riser and structural engineering expertise.
 - Over 10 years of data analytics experience in building digital twins coupled with a passion to automate. Build programming modules for streamline and automation to create upstream engineering microservices.
@@ -101,8 +103,8 @@ subject: 'resume_achanta'
   - Manufacture techniques thru life cycle (Forging, machining, preparation, heat treatment, weldability, coatings etc.) for industrial components
   - Materials & metallurgy concepts, costing, manufacture, project management and delivery of custom midsize (USD 100,000  to USD 500,000) equipment with a manufacturing facility.
 - Automation of processes with digital transformation, data science, programming experience:
-  - Strong knowledge of Python, Matlab, R, Hadoop HDP Ecosystem, Spark (PySpark, Kafka, Spark Streaming), NIFI, VB, C#, Fortran, Java, javascript, C++, relational databases and SQL.
-  - Extensive experience in signal processing and software programming in MATLAB.
+  - Strong knowledge of Python and SQL and automated SURF (structures, umbilical, risers and flowlines) installation analysis for a major installation contractor. See [digitalmodel git repo](https://github.com/vamseeachanta/digitalmodel) for more details.
+  - Extensive experience in signal processing and software programming.
   - Strong relational database knowledge, data governance and data structure. Entity Relationship and Data Flow. SQL coding to enable required output.
   - Experience in machine learning, data science, probability and statistics.
 - Extensive experience with instrumentation sensors, data acquisition and data science. Fundamental knowledge of data cleansing, accuracy, errors, pass filters, nyquist frequency errors etc.
@@ -113,6 +115,29 @@ subject: 'resume_achanta'
 ### VP of Engineering, FDAS
 
 Jun 2016 to Date, Houston, TX and Remote
+
+- WoodFibre LNG Facility Design
+  - Marine Engineering analysis team lead for the WoodFibre LNG facility in British Columbia, Canada
+  - FST detailed Engineering analysis with in-place and without LNG carriers
+  - FST global performance analysis
+  - Mooring and Fender design
+
+- Yellowtail Dynamic and Static umbilical installation analysis
+  - Yellowtail field in water depth of 6000 ft offshore Guyana
+  - 3 dynamic umbilicals going from host vessel (1st end) to subsea manifold
+  - 3 static umbilicals going from subsea manifold to subsea trees
+  - Static installation tables and dynamic analysis with wave and current limits
+  - Installation per specification and procedures
+  - Interface with client and contractor to ensure installation analysis is in line with project requirements
+
+- Talos Static umbilical installation analysis
+  - Static umbilicals for the Venice limerock field in 1050 m water depth
+  - 2 static umbilcals going from subsea manifold to subsea tree
+  - Static installation tables and dynamic analysis with wave and current limits
+
+- Chevron Ballymore structural installation analysis
+  - Install rigid jumpers and manifolds for the Ballymore field
+  - Dynamic and resonance analysis of the structures
 
 - Economic Analysis of GoM Offshore Fields
   - Obtain data from government body (BSEE data center) website to obtain field level economics for GoM fields
