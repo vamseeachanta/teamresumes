@@ -64,6 +64,8 @@ subject: 'resume_achanta'
 | BP-HMC Angola Block 31 Hybrid Riser detailed design | Detailed design package engineer
 | Murphy Azurite SBOP Drilling riser detailed design | Design package for drilling riser
 | Sewol Salvage Lifting Analysis | Lifting global and local hull analysis for a shallow water salvage operation (client: Govt. of Korea)
+| WoodFibre LNG Terminal Detailed design | FST Global performance analysis <br> Mooring and Fender design |
+| Generic: Installation analysis | Umbilicals, risers, pipelines and structures <br> Guyana Yellowtail dynamic and static umbilical installation <br> GoM Venice static umiblical installation <br> GoM Ballymore structure installation <br>
 | Generic: Fitness for Service | GoM topside piping assessment based on measured wall thickness <br> Driling riser in-service joints FFS and 5 yr qualification <br> Expert in API 579 and BS7910 codes
 | Generic: Subsea Installation Analysis | Develop procedures and weather windows for manifolds, umbilicals, structures, risers, rigid jumpers, moorings etc.
 | Generic: Rigid Pipeline installation | Shallow water pipeline installation analysis with weather windows <br> Global and local Buckling analysis
