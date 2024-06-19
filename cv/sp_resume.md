@@ -13,13 +13,12 @@ author:
 - Swamy Polnati
 subject: 'resume_swamy'
 ---
-##### [?] . [ ?? ]
+##### [swamypolnati99@gmail.com] . [+91 86888 98989]
 
-### Analytical design and simulation engineer in the fields of subsea and electrical engineering with deep experience in engineering, package, project management
+### Analytical design and simulation engineer for the Naval Architecture
 
 ## Summary
 
-CAREER OBJECTIVE
 To work in affirm with professional work driven environment where I can utilize and apply my knowledge, skills which would enable me as a graduate to grow while organizational goals.
 
 ## Certifications
