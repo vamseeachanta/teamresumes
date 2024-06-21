@@ -12,7 +12,7 @@ author:
 - Shaik Samdan.
 subject: 'resume_samdan'
 ---
-#####  samdanshaik8998@gmail.com |  +91-6302901157  | https://www.linkedin.com/in/samdanshaik | Vijayawada,India
+##### <samdanshaik8998@gmail.com> |  +91-6302901157  | <https://www.linkedin.com/in/samdanshaik> | Vijayawada,India
 
 ### Software developer with hands-on experince on programming fundamentals and software development
 
@@ -24,15 +24,17 @@ subject: 'resume_samdan'
   
 ## Education
 
-### Six Years Integrated Course in Rajiv Gandhi University of Knowledge Technologies, Srikakulam , AndhraPradesh , India 
-### Four - years B.Technology in Computer Science Engineering ,
-### Two-years Pre University Course(Board of Intermediate Education, AP).
+### Six Years Integrated Course in Rajiv Gandhi University of Knowledge Technologies, Srikakulam , AndhraPradesh , India
 
+### Four - years B.Technology in Computer Science Engineering
+
+### Two-years Pre University Course(Board of Intermediate Education, AP)
 
 ## Skills
 
 ``````
 ``````
+
 ```engineering```
 ```programming```
 ```cs fundamentals```
@@ -45,28 +47,40 @@ subject: 'resume_samdan'
 
 **Python**: Functions , Classes , Dictionaries , Exceptions , Modules , conditionals
 
-**Tech Tools**: Git, Visual Studio code,Jupyter Notebook, Microsoft Office (Excel, PowerPoint, Word), Outlook
+**Tech Tools**: Git, Visual Studio Code (VS Code), Jupyter Notebook, Microsoft Office (Excel, PowerPoint, Word), Outlook
 
-**Other Tools**: Plantuml , matplotlib , Github Actions
+**CI/CD**: Plantuml , matplotlib , Github Actions
 
-**Programming**: Yaml , Configuarations, numpy, pandas , virtual environments
+**Documentation**: Markdown, matplotlib, Plantuml flowcharts, Pyramid diagrams
 
-**Programming**: Algorithms , Data Structures
+**Programming**: Yaml , Configuarations, numpy, pandas, virtual environments
 
-**Databases**: MySQL,SQL Server
+**Programming**: Algorithms, Data Structures
 
-**Test Driven Development**: #TBA
+**Databases**: MySQL, SQL Server
+
+**Test Driven Development**: OOPs, Unit Test, Integration Test
 
 **Debugging**: #TBA
 
+## Projects
 
+### Template library for data science calculations
 
-## Projects:
+### Engineering Physics Based calculations - Cathodic Protection
 
-#TBA
+### Engineering Physics Based calculations - Plate Buckling
 
 ## Experience
 
-#TBA  
+### AceEngineer Inc., Houston TX, Remote
 
+Python Developer, Jan 2024 - Till date
 
+- Developed a template library for data science calculations using Python.
+
+- Cathodic Protection Calculation
+  - Developed a caculation for engineering physics based calculations.
+
+- Plate Buckling Calculation
+  - Developed a template library for engineering physics based calculations.
