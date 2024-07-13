@@ -9,60 +9,47 @@ keywords:
   - 'computer science engineer'
   - 'python'
 author:
-- Shaik Samdan.
+- Shaik Samdan
 subject: 'resume_samdan'
 ---
 ##### <samdanshaik8998@gmail.com> |  +91-6302901157  | <https://www.linkedin.com/in/samdanshaik> | Vijayawada,India
 
-### Software developer with hands-on experince on programming fundamentals, software development and utilizing AI tools
+### Software developer with hands-on experince on programming fundamentals, Software development and Utilizing AI tools
 
 ## Summary
 
-- Multidisciplinary  software engineer with hands-on experience. Possess strong engineering fundamentals, design experience and strong programming skills.
-- Highly motivated and detail-oriented professional with hands-on experience in the IT. Possess strong knowledge in Python programming , with a proven track record of applying these skills in automation. Demonstrated ability to learn new technologies quickly and apply them to solve complex problems.
-- Seeking a challenging role to further enhance my technical skills and contribute to the company's reputation.
+- Multidisciplinary  software developer with hands-on experience on programming , Possess strong engineering fundamentals, design experience and strong programming skills.
+- Highly motivated and detail-oriented professional , Possess strong knowledge in Python programming , with a proven track record of applying in automation. Demonstrated ability to learn new technologies quickly and apply them to solve complex problems.
+- Seeking a challenging role to further enhance my technical skills and contribute to the company.
   
 ## Education
 
-### Six Years Integrated Course in Rajiv Gandhi University of Knowledge Technologies, Srikakulam , AndhraPradesh , India
+### 6 Years Integrated Course in Rajiv Gandhi University of Knowledge Technologies, Srikakulam , AndhraPradesh , India
 
-### Four - years B.Technology in Computer Science Engineering
+### Four - years B.Technology in Computer Science Engineering 
 
-### Two-years Pre University Course(Board of Intermediate Education, AP)
+### Two - years Pre University Course(Board of Intermediate Education, AP)
 
 ## Skills
 
-``````
-``````
 
-```engineering programming```
-```programming```
-```cs fundamentals```
-```programming```
-```data science```
-```databases```
-```software development```
-```Artificial Intelligence```
+**Python**: Functions , Classes , Methods ,Dictionaries , Modules 
+
+**Tech Tools**: Visual Studio Code (VS Code), Jupyter Notebook, Microsoft Office (Excel, PowerPoint, Word)
+
+**Version Control**: Git, multiuser working, test driven development, test pipelines
+
+**Test Driven Development**: OOPs, Unit Test, Integration Test
+
+**Programming Practices**: Algorithms, Data Structures , Yaml , Configurations, numpy, pandas, virtual environments 
+
+**CI/CD**: Github Actions
 
 **Artificial Intelligence**: GitHub Copilot, ChatGPT
-
-**Programming**: Python, SQL
-
-**Programming Practices**: Yaml , Configuarations, numpy, pandas, virtual environments, Algorithms, Data Structures
-
-**Python**: Functions , Classes , Dictionaries , Exceptions , Modules , conditionals
-
-**Tech Tools**: Git, Visual Studio Code (VS Code), Jupyter Notebook, Microsoft Office (Excel, PowerPoint, Word), Outlook
-
-**Version Control**: Git, multiuser working, test driven development, test pipelines,
-
-**CI/CD**: Github Actions, test pipelines
 
 **Documentation**: Markdown, matplotlib, Plantuml flowcharts, Pyramid diagrams
 
 **Databases**: MySQL, SQL Server
-
-**Test Driven Development**: OOPs, Unit Test, Integration Test
 
 **Debugging**: IDE debugging, VS Code for all programming
 
@@ -104,4 +91,4 @@ Python Developer, Jan 2024 - Till date
   - Developed a caculation for engineering physics based calculations.
 
 - Plate Buckling Calculation
-  - Developed a template library for engineering physics based calculations.
+  - Developed a calculation for engineering physics based calculations.
