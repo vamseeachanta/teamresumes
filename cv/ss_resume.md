@@ -32,26 +32,42 @@ subject: 'resume_samdan'
 
 ## Skills
 
+```engineering```
+```python```
+```software development```
+```programming```
+```data science```
+```databases```
+```cs fundamentals```
 
-**Python**: Functions , Classes , Methods ,Dictionaries , Modules 
+**Python**: Functions , Classes , Methods , Dictionaries , Modules 
 
-**Tech Tools**: Visual Studio Code (VS Code), Jupyter Notebook, Microsoft Office (Excel, PowerPoint, Word)
+**Data Science**: Regular expressions , numpy , pandas , Data Processing , Data Analysis
+
+**Data Processing**: Importing Datasets , Data Formatting, Data Frames
+
+**Data Frames**: Summarization, Correlation, Grouping, CSV File operations
+
+**Data Analysis**: Regressions, Model development , Algorithms 
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
 
 **Test Driven Development**: OOPs, Unit Test, Integration Test
 
-**Programming Practices**: Algorithms, Data Structures , Yaml , Configurations, numpy, pandas, virtual environments 
+**Debugging**: IDE debugging, VS Code for all programming
 
-**CI/CD**: Github Actions
+**Programming Practices**: Algorithms, Data Structures , Yaml , Configurations, Virtual environments 
+
+**CI/CD**: GitHub Actions
 
 **Artificial Intelligence**: GitHub Copilot, ChatGPT
+
+**Tech Tools**: Visual Studio Code (VS Code), Jupyter Notebook, Microsoft Office (Excel, PowerPoint, Word)
 
 **Documentation**: Markdown, matplotlib, Plantuml flowcharts, Pyramid diagrams
 
 **Databases**: MySQL, SQL Server
 
-**Debugging**: IDE debugging, VS Code for all programming
 
 ## Projects
 
@@ -59,7 +75,7 @@ subject: 'resume_samdan'
 
 - Developed a template library for data science calculations using Python.
 - Utilized branches to step through calculation phases
-- This application is a benchmark for data science calculations and used for internal training of new members for the company.
+- This application is benchmark for beginners as a good  start with public libraries and used for internal training of new members for the company.
 
 ### Engineering Physics Based calculations - Cathodic Protection
 
@@ -72,7 +88,6 @@ subject: 'resume_samdan'
 ### Engineering Physics Based calculations - Plate Buckling
 
 - Developed a module for cathodic protection engineering calculations using Python .
-- Part of digitalmodel (<https://github.com/vamseeachanta/digitalmodel>) repository for engineering physics based calculations.
 - calculated the plate and stiffner buckling.
 - Calculation useful for the following structures:
   - ship structure
