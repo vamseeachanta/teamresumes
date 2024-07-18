@@ -18,8 +18,8 @@ subject: 'resume_samdan'
 
 ## Summary
 
-- Multidisciplinary  software developer with hands-on experience on programming , Possess strong engineering fundamentals, design experience and strong programming skills.
-- Highly motivated and detail-oriented professional , Possess strong knowledge in Python programming , with a proven track record of applying in automation. Demonstrated ability to learn new technologies quickly and apply them to solve complex problems.
+- Multidisciplinary  software developer with hands-on experience in programming , Possess strong engineering fundamentals, design experience and strong programming skills.
+- Highly motivated and detail-oriented professional , Having strong knowledge in Python programming , with a proven track record of applying in automation. Demonstrated ability to learn new technologies quickly and apply them to solve complex problems.
 - Seeking a challenging role to further enhance my technical skills and contribute to the company.
   
 ## Education
@@ -46,7 +46,7 @@ subject: 'resume_samdan'
 
 **Data Processing**: Importing Datasets , Data Formatting, Data Frames
 
-**Data Frames**: Summarization, Correlation, Grouping, CSV File operations
+**Data Frames**: Summarization, Correlation, Grouping, CSV Files
 
 **Data Analysis**: Regressions, Model development , Algorithms 
 
@@ -81,14 +81,25 @@ subject: 'resume_samdan'
 
 - Developed a module for cathodic protection engineering calculations using Python .
 - Part of digitalmodel (<https://github.com/vamseeachanta/digitalmodel>) repository for engineering physics based calculations.
-- calculated the cathodic protection for the following structures:
+- Calculated the cathodic protection for the following structures:
   - ships
   - pipelines
 
+### Automated Analysis and Summarization Of MES File Warnings and Errors
+
+- Developed a Python-based tool to automate the analysis of warnings and errors from MES files.
+- Implemented regular expressions to parse and extract warnings and errors.
+- Summarized the all warnings and errors in MES files.
+- Created the DataFrames for warnings and errors.
+- Converted the dataframes into CSV files using pandas.
+- Generated a status table indicating the presence of warnings and errors in each file.
+- Automated the process to handle multiple projects and directories programmatically.
+- Reduced the time required for MES file analysis , providing clear insights for project teams.
+
 ### Engineering Physics Based calculations - Plate Buckling
 
-- Developed a module for cathodic protection engineering calculations using Python .
-- calculated the plate and stiffner buckling.
+- Developed a module for cathodic protection engineering calculations using Python.
+- Calculated the plate and stiffner buckling.
 - Calculation useful for the following structures:
   - ship structure
   - subsea structures
@@ -104,6 +115,9 @@ Python Developer, Jan 2024 - Till date
 
 - Cathodic Protection Calculation
   - Developed a caculation for engineering physics based calculations.
+
+- Automated Analysis Of MES Files
+  - Developed automation process to handle MES file warnings and errors across multiple projects.
 
 - Plate Buckling Calculation
   - Developed a calculation for engineering physics based calculations.
