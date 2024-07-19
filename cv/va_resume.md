@@ -4,21 +4,22 @@ margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
 title: Vamsee Achanta P.E., Subsea Engineering Leader
-description-meta: 'career summary'
+description-meta: career summary
 keywords:
-  - 'subsea engineer'
-  - 'oil and gas experience'
-  - 'python'
-  - 'engineering leader'
-  - 'automation'
-  - 'leadership'
+  - subsea
+  - oil and gas experience
+  - sustainable engineer
+  - python
+  - engineering leader
+  - automation
+  - leadership
 author:
 - Vamsee Achanta
 subject: 'resume_achanta'
 ---
 ##### <vamsee.achanta@aceengineer.com> . 713-306-9029 . <https://www.linkedin.com/in/vamseeachanta> . Houston TX
 
-### Subsea Engineering leader (20+ years) with (hands-on) engineering experience and passion to automate workflows
+### Subsea Engineering leader (20+ years) for sustainable and automated engineering solutions, workflows and project success
 
 ## Executive Summary
 
@@ -29,17 +30,17 @@ subject: 'resume_achanta'
 - O&G field life cycle (up, mid and downstream) experience for offshore and subsea projects. Design, operations/integrity management and decommission experience.
 - Served as Committee member on professional bodies for API-RP-16Q, API-RP-17G, API-RP-17G2 and ASCE COPRI MRE for riser and structural engineering expertise.
 - Over 10 years of data analytics experience in building digital twins coupled with a passion to automate. Build programming modules for streamline and automation to create upstream engineering microservices.
-- Possess data science experience to implement physics-based algorithms for engineering teams. Working experience in :
-  - Data (well data, WITSML drilling data, seismic segy data, for use as meta data and engineering/analysis data),
-  - Implementation of web services for oil and gas industry
-  - Databases (SQL design, queries, stored procedures),
-  - Cloud technologies (Azure devops) and team work (Git, Teams, Jira)
-  - Visualizations (spotfire, Power BI, python modules).
+- Possess data science experience to implement physics-based algorithms in production environment for engineering teams. Working experience in :
+	- Data (well data, WITSML drilling data, seismic segy data, for use as meta data and engineering/analysis data), 
+	- Implementation of web services for oil and gas industry
+	- Databases (SQL design, queries, stored procedures), 
+	- Cloud technologies (Azure devops) and team work (Git, Teams, Jira) 
+	- Visualizations (spotfire, Power BI, python modules).
 - Ability to lead and perform analysis as well as lead teams. Over 15 years of experience in employee mentoring, leading, project management and business development. Lead growth teams, manage projects and possess project evaluation experience. Experience (and thrive) in start-up and challenging environments. Possess qualities of teamwork, adaptation, hard work, perseverance, end-to-end knowledge-sharing documentation, resilience and servant leadership.
 - Real-time application development in production-ready manner and Production support. Python programming with relational database interface design (class functions, sql tables, stored procedures or functions)
 - Strong knowledge and know-how in the areas from seismic imaging (.segy files), drilling, completion (frac plugs, sand mitigation etc.), production data, risers, pipelines, interventions etc.
 - Offshore asset design/upstream engineering and integrity management of assets. Structural engineering, fitness for service etc. Strong analytical skills of finance, probability, statistics etc. (part of data science)
-- Can handle client interaction with very clear communications, strong documentation (from requirements to full-fledged application manuals)
+- Can handle client interaction with very clear communications, strong documentation (from requirements to full-fledged reports/manuals)
 
 ### Experience Summary
 
@@ -59,8 +60,10 @@ subject: 'resume_achanta'
 |---------|--------|
 | BP Macondo Containment Riser detailed design | Detailed design and delivery lead <br>Global riser analysis; Suction pile design; <br>Upper and lower flexible jumper designs; <br>Installation analysis of all key components |  N/A |
 | FDAS APS Feasibility Design | Top Tensioned Riser, vessel mooring design; Technical lead for mooring and riser connected analysis to capture non-linear behavior. <br> Economic analysis for Conversion of 6th Generation Drillship and new builds <br> Marketing activities support with operators | N/A |
+| Generic: Subsea Installation Analysis | Develop procedures and weather windows for manifolds, umbilicals, structures, risers, rigid jumpers, moorings etc. 
+| Generic: Rigid Pipeline installation | Shallow water pipeline installation analysis with weather windows <br> Global and local Buckling analysis 
 | BP Thunderhorse SEMI in-field riser analysis | Strength analysis; Hurricane re-analysis post-2005 hurricanes
-| Chevron Jack St. Malo SCR analysis | Strength, fatigue and VIV analysis
+| Chevron Jack St. Malo SCR FEED and detailed design analysis | Strength, fatigue and VIV analysis
 | BP-HMC Angola Block 31 Hybrid Riser detailed design | Detailed design package engineer
 | Murphy Azurite SBOP Drilling riser detailed design | Design package for drilling riser
 | Sewol Salvage Lifting Analysis | Lifting global and local hull analysis for a shallow water salvage operation (client: Govt. of Korea)
@@ -113,6 +116,21 @@ subject: 'resume_achanta'
 - Financial engineering experience with strong financial fundamentals. Passed CFA Level I.
 
 ## Experience
+
+### Subsea Engineering and Analysis
+
+Jan 2023 to Nov 2023, Houston, TX
+
+- Installation analysis for subsea structures
+  - Structures such as Manifolds, PLETs etc.
+  - Flexible and umbilicals
+  - Rigid/flexible jumpers
+
+- Detailed subsea pipeline engineering analysis for installation of 42 inch thin walled (D/t of 67) pipe offshore Venezuela
+  - Detailed finite element analysis in ANSYS to determine the bending moment capacity of pipeline which is outside the DNV code regime (D/t > 45)
+  - Pipelay analysis in OrcaFlex to determine installation windows
+  - Python and API programming utilized to obtain results and plots in an automated manner
+
 
 ### VP of Engineering, FDAS
 
@@ -208,29 +226,36 @@ Jun 2016 to Date, Houston, TX and Remote
 
 Sep 2017 to Dec 2020, Houston, TX and Remote
 
-- Implemented real-time drilling analytics in production environment for a major shale integrated operator. Implemented following algorithms
+- Implemented 50+ physics based algorithms in production environment:
+  - Implemented for multiple assets
+  - Logging to ensure data integrity for assets
+  - Clear insights into running status, asset status, failure reasons etc.
+  - Top class documentation and visualizations
+- Implemented real-time drilling analytics (20+ concurrent drilling campaigns) in production environment for a major shale integrated operator. Implemented following algorithms:
   - Bit position estimation
   - Torque and drag
   - Rig state identification
   - Dysfunction detections (stick and slip and buckling)
   - Time series data.
   - Implementation in edge computing and also production servers
-- Implemented real-time production analytics in production environment to analyse the following
+  - IoT (edge device) implementation
+- Implemented real-time production analytics in production environment (20,000 wells) to analyse the following:
   - Sucker rod pump dynacard analysis
   - ESP exceptions
   - Well Test Validations
   - Time shed analysis for well using well economics
   - Time domain data.
   - Implementation in edge computing and also production servers
+  - IoT (edge device) implementation
 
 ### Engineering Lead,  2H Offshore Inc
 
 Aug 2003 to Jun 2015, Houston, TX
 
-- Chevron - West Seno Bangka SCR and Flexible Riser Design
+- Chevron - West Seno Bangka Steel Catenary and Flexible Riser Design
   - Lead engineer responsible for front end engineering design of production rigid riser and flexible riser. An umbilical was also designed for controlling the Bangka wells.
   - Responsible for leading the installation analysis of rigid and flexible risers. Analysis is conducted to ensure acceptable installation response and determine the installation loads.
-- BP Macondo Riser Engineering Manager.
+- BP Macondo Riser Engineering Manager Detailed design. 
   - Ability to perform in crisis. Lead engineering manager responsible for design of Macondo free standing riser system used for containment of 2010 oil spill in Gulf of Mexico. Design was accomplished in 8 weeks when compared to typical design duration of 3 years.
   - Involved repurposing of several existing assets (Toisa Pisces and HP-1) and components (Flexibles fluid conduits, riser pipe etc.) to achieve the design and installation in 3 months.
 - ENI Devils tower Spar TTR Integrity and life extension
@@ -239,10 +264,11 @@ Aug 2003 to Jun 2015, Houston, TX
   - Chevron Jack St.Malo SCR Analysis
   - Lead engineer for Chevrons Jack / St. Malos pre-FEED SCR feasibility assessment study.
   - The scope of work includes evaluation of the strength response of SCRs attached to a semi-submersible or a spar, development of riser compression mitigation options where required as well as evaluation of the SCR fatigue response due to first and second order vessel motions and vortex induced motions (VIM) of the host vessel.
-- BP Thunder Horse Riser/Flowline Installation Verification
-  - Lead engineer responsible for the installation verification of the North Extension flowlines on the Thunder Horse field. The scope of the work includes independent third party verification of the flowline installation analysis as well as evaluation of the fatigue damage accumulated in the flowline during different stages of the installation operation.
-  - Strength and configuration checks were also conducted for different configurations of the flowline during installation to verify the analysis conducted by the designer. Recommended limiting waves and currents are also defined for the installation of the flowlines.
-- Engineering criticality assessment (ECA) with fracture mechanics approach is also performed to determine the flaw limits.
+- BP Thunder Horse Riser/Flowline design Verification and installation support
+  - Lead engineer responsible for the installation verification of the North Extension flowlines on the Thunder Horse field. The scope of the work includes independent third party verification of the flowline installation analysis as well as evaluation of the fatigue damage accumulated in the flowline during different stages of the installation operation. 
+  - Strength and configuration checks were also conducted for different configurations of the flowline during installation to verify the analysis conducted by the designer. Recommended limiting waves and currents are also defined for the installation of the flowlines. 
+- BP GoM (Thunderhorse, Atlantis, Horn Mountain) field integrity management analysis and model readiness 
+- Engineering criticality assessment (ECA) with fracture mechanics approach is also performed to determine the flaw limits. 
 - Assist operators with decisions and assistance of well and platform decommissioning activities:
   - Assist with Riser and riserless abandonment and decomm decisions
   - Well platform analysis and riserless study tools for decomm analysis
@@ -277,11 +303,12 @@ Aug 2003 to Jun 2015, Houston, TX
   - Detailed Subsea drilling riser adapter FE analysis
   - Subsea BOP Flange pressure and thermal analysis
   - Land Rig DrawWorks Refurbishment Feasibility Study
-  - Papa Terra TTR Thermal Analysis Verification
-  - Chevron - West Seno Bangka Riser FEED
-  - Reliance  KG-D6 In-Water Integrity Management Review
-  - Deepstar  Drilling Riser Structural Damping Test
-  - HMC  BP Angola Block 31 Stand-by Package Engineering
+  - Exxon Yellowtail SCR Feasibility analysis
+  - Papa Terra TTR Thermal Analysis for design verification
+  - Chevron - West Seno Bangka Steel Catenary and Flexile Riser FEED
+  - Reliance KG-D6 In-water (risers, platforms, umbilicals) integrity management.
+  - Deepstar – Drilling Riser Structural Damping Test
+  - HMC – BP Angola Block 31 Freestanding/Hybrid riser design and Stand-by Package Engineering
   - JSM SCR Feasibility Analysis
   - Thunder Horse Flowline Installation Verification
   - ATP Mirage TTR CVA Review
