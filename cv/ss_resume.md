@@ -24,7 +24,7 @@ subject: 'resume_samdan'
   
 ## Education
 
-### 6 Years Integrated Course in Rajiv Gandhi University of Knowledge Technologies, Srikakulam , AndhraPradesh , India
+### 6 Years Integrated Course in Rajiv Gandhi University of Knowledge Technologies, Srikakulam - AndhraPradesh , India
 
 ### Four - years B.Technology in Computer Science Engineering 
 
@@ -89,9 +89,7 @@ subject: 'resume_samdan'
 
 - Developed a Python-based tool to automate the analysis of warnings and errors from MES files.
 - Implemented regular expressions to parse and extract warnings and errors.
-- Summarized the all warnings and errors in MES files.
-- Created the DataFrames for warnings and errors.
-- Converted the dataframes into CSV files using pandas.
+- Created the DataFrames and CSV files using pandas.
 - Generated a status table indicating the presence of warnings and errors in each file.
 - Automated the process to handle multiple projects and directories programmatically.
 - Reduced the time required for MES file analysis , providing clear insights for project teams.
