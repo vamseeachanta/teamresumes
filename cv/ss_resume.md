@@ -40,7 +40,7 @@ subject: 'resume_samdan'
 ```databases```
 ```cs fundamentals```
 
-**Python**: Functions , Classes , Methods , Dictionaries , Modules 
+**Python**: Functions , Classes , Methods , Dictionaries , Subprocess 
 
 **Data Science**: Regular expressions , numpy , pandas , Data Processing , Data Analysis
 
