@@ -40,25 +40,29 @@ subject: 'resume_samdan'
 ```databases```
 ```cs fundamentals```
 
-**Python**: Functions , Classes , Methods , Dictionaries , Subprocess 
+**Python**: Functions , Classes , Methods , Dictionaries , Subprocess  
 
-**Data Science**: Regular expressions , numpy , pandas , Data Processing , Data Analysis
+**Data Science**: Regular expressions , numpy , pandas , Data Preprocessing , Data Visualization
 
-**Data Processing**: Importing Datasets , Data Formatting, Data Frames
+**Data Preprocessing**: Importing Datasets , Data Formatting, Data Frames
 
-**Data Frames**: Summarization, Correlation, Grouping, CSV Files
+**Data Frames**: Summarization, Correlation, Grouping, CSV File operations
 
-**Data Analysis**: Regressions, Model development , Algorithms 
+**Data Visualization**: Matplotlib for XY and Polar Plots 
+
+**Web Scrapping**: Data extraction , API interaction , Data Parsing
+
+**Python libraries**: Sympy , Scikit-learn , BeautifulSoup , requests , Selenium , 
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
+
+**CI/CD**: GitHub Actions
 
 **Test Driven Development**: OOPs, Unit Test, Integration Test
 
 **Debugging**: IDE debugging, VS Code for all programming
 
 **Programming Practices**: Algorithms, Data Structures , Yaml , Configurations, Virtual environments 
-
-**CI/CD**: GitHub Actions
 
 **Artificial Intelligence**: GitHub Copilot, ChatGPT
 
