@@ -123,6 +123,7 @@ subject: 'resume_achanta'
 Jan 2023 to Nov 2023, Houston, TX
 
 - Installation analysis for subsea structures
+  - Pipeline and riser installations
   - Structures such as Manifolds, PLETs etc.
   - Flexible and umbilicals
   - Rigid/flexible jumpers
@@ -323,17 +324,18 @@ Aug 2003 to Jun 2015, Houston, TX
 
 | Publication |   Date | Link |
 |---------|--------|--------|
-| World Oil, Rediscovering the Promise of America's Great Lower Tertiary Play, A GoM lower teritiary field development | 6/1/2021 | [link](https://www.nxtbook.com/nxtbooks/gulfpub/wo_202106/index.php#/p/64) |
-| World Oil, Assessing industry performance in America's great Lower Tertiary play, A GoM lower teritiary field assessment | 4/1/2021 | [link](https://www.nxtbook.com/nxtbooks/gulfpub/wo_202104/index.php#/p/16) |
-| World Oil, Innovative strategy increases profitability of ultra-deepwater fields, Utilize technology to improve production | 2/1/2020 | [link](https://www.nxtbook.com/nxtbooks/gulfpub/wo_202002/index.php#/p/62) |
-| Offshore, Multi-purpose drilling and production system aims to address challenges of Lower Tertiary | 2/1/2020 | [link](https://www.offshore-mag.com/drilling-completion/article/16762083/multipurpose-drilling-and-production-system-aims-to-address-challenges-of-lower-tertiary) |
-| Offshore Technology Conference (OTC), Heavy Lift Dynamics, Sewol Ferry Offshore Salvage | 5/23/2017 | [link](https://onepetro.org/OTCONF/proceedings-abstract/17OTC/4-17OTC/D041S049R004/91825) |
+| Wellbay innovation supports lower-cost, lower-risk phased approach for HP DW discoveries. | 4/1/2024 | [World Oil link](https://read.nxtbook.com/gulf_energy_information/world_oil/april_2024/sf_offshore_tech_shilling_fro.html) |
+| World Oil, Rediscovering the Promise of America's Great Lower Tertiary Play, A GoM lower teritiary field development | 6/1/2021 | [gulf publication link](https://www.nxtbook.com/nxtbooks/gulfpub/wo_202106/index.php#/p/64) |
+| World Oil, Assessing industry performance in America's great Lower Tertiary play, A GoM lower teritiary field assessment | 4/1/2021 | [gulf publication link](https://www.nxtbook.com/nxtbooks/gulfpub/wo_202104/index.php#/p/16) |
+| World Oil, Innovative strategy increases profitability of ultra-deepwater fields, Utilize technology to improve production | 2/1/2020 | [gulf publication link](https://www.nxtbook.com/nxtbooks/gulfpub/wo_202002/index.php#/p/62) |
+| Offshore, Multi-purpose drilling and production system aims to address challenges of Lower Tertiary | 2/1/2020 | [offshore-mag link](https://www.offshore-mag.com/drilling-completion/article/16762083/multipurpose-drilling-and-production-system-aims-to-address-challenges-of-lower-tertiary) |
+| Offshore Technology Conference (OTC), Heavy Lift Dynamics, Sewol Ferry Offshore Salvage | 5/23/2017 | [onepetro link](https://onepetro.org/OTCONF/proceedings-abstract/17OTC/4-17OTC/D041S049R004/91825) |
 | Deepwater Intervention Forum (DIF), Structural considerations for Deepwater Riserless Systems | 8/1/2015 | n/a |
-| Offshore Technology Conference (OTC), Mooring of MRE Structures - Comparison of Codes, Including IEC | 8/1/2015 | [link](https://onepetro.org/OTCONF/proceedings-abstract/15OTC/All-15OTC/OTC-26035-MS/77888) |
-| IADC, FLOATING DRILLING EQUIPMENT AND OPERATIONS | 5/1/2015 | [link](https://www.techstreet.com/products/preview/1897577) |
-| SNAME, Riser and Subsea Asset Life Extension | 2/15/2015 | [link](https://onepetro.org/SNAMETOS/proceedings-abstract/TOS15/1-TOS15/D013S009R004/3728) |
+| Offshore Technology Conference (OTC), Mooring of MRE Structures - Comparison of Codes, Including IEC | 8/1/2015 | [onepetro link](https://onepetro.org/OTCONF/proceedings-abstract/15OTC/All-15OTC/OTC-26035-MS/77888) |
+| IADC, FLOATING DRILLING EQUIPMENT AND OPERATIONS | 5/1/2015 | [techstreet link](https://www.techstreet.com/products/preview/1897577) |
+| SNAME, Riser and Subsea Asset Life Extension | 2/15/2015 | [onepetro link](https://onepetro.org/SNAMETOS/proceedings-abstract/TOS15/1-TOS15/D013S009R004/3728) |
 | SPE Intelligent Technologies Workshop, Deepwater Subsea IM Case Studies | 10/1/2012 | n/a |
 | SPE Deepwater Technology, Riser Systems for Deepwater India | 9/1/2012 | n/a |
 | Petrotech, Subsea Integrity Management in Deepwater Developments | 11/1/2010 | n/a |
-| OMAE, Benchmarking of SHEAR7v4.5: Comparisons to Full-Scale Drilling Riser VIV Data and Legacy Analyses | 6/1/2009 | [link](https://asmedigitalcollection.asme.org/OMAE/proceedings-abstract/OMAE2009/43451/463/338947) |
-| Texas A&M University, An experimental study of endwall heat transfer enhancement for flow past staggered non-conducting pin fin arrays | 5/1/2003 | [link](https://oaktrust.library.tamu.edu/handle/1969.1/140) |
+| OMAE, Benchmarking of SHEAR7v4.5: Comparisons to Full-Scale Drilling Riser VIV Data and Legacy Analyses | 6/1/2009 | [asmedigitalcollection link](https://asmedigitalcollection.asme.org/OMAE/proceedings-abstract/OMAE2009/43451/463/338947) |
+| Texas A&M University, An experimental study of endwall heat transfer enhancement for flow past staggered non-conducting pin fin arrays | 5/1/2003 | [tamu library link](https://oaktrust.library.tamu.edu/handle/1969.1/140) |
