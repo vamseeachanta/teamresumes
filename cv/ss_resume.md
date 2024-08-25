@@ -14,7 +14,7 @@ subject: 'resume_samdan'
 ---
 ##### <samdanshaik8998@gmail.com> |  +91-6302901157  | <https://www.linkedin.com/in/samdanshaik> | Vijayawada,India
 
-### Software developer with hands-on experince on programming fundamentals, Software development and Utilizing AI tools
+### Software Developer with Mastery in Programming Principles, Modern Development Practices and AI Tools
 
 ## Summary
 
@@ -37,7 +37,6 @@ subject: 'resume_samdan'
 ```software development```
 ```programming```
 ```data science```
-```databases```
 ```cs fundamentals```
 
 **Python**: Functions , Classes , Methods , Dictionaries , Subprocess  
@@ -52,7 +51,7 @@ subject: 'resume_samdan'
 
 **Web Scrapping**: Data extraction , API interaction , Data Parsing
 
-**Python libraries**: Sympy , Scikit-learn , BeautifulSoup , requests , Selenium , 
+**Python libraries**: Sympy , Scikit-learn , BeautifulSoup , yfinance , Selenium 
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
 
@@ -93,7 +92,6 @@ subject: 'resume_samdan'
 
 - Developed a Python-based tool to automate the analysis of warnings and errors from MES files.
 - Implemented regular expressions to parse and extract warnings and errors.
-- Created the DataFrames and CSV files using pandas.
 - Generated a status table indicating the presence of warnings and errors in each file.
 - Automated the process to handle multiple projects and directories programmatically.
 - Reduced the time required for MES file analysis , providing clear insights for project teams.
