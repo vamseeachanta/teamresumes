@@ -12,7 +12,7 @@ author:
 - Shaik Samdan
 subject: 'resume_samdan'
 ---
-##### <samdanshaik8998@gmail.com> |  +91-6302901157  | <https://www.linkedin.com/in/samdanshaik> | Vijayawada,India
+##### <samdanshaik8998@gmail.com> |  +91-6302901157  | <https://github.com/samdansk2> | Vijayawada,India
 
 ### Software Developer with Mastery in Programming Principles, Modern Development Practices and AI Tools
 
