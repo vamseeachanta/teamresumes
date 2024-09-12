@@ -47,7 +47,7 @@ subject: 'resume_samdan'
 
 **Data Frames**: Summarization, Correlation, Grouping, CSV File operations
 
-**Data Visualization**: Matplotlib for XY and Polar Plots 
+**Data Visualization**: Matplotlib for XY , Polar and Scatter Plots
 
 **Web Scrapping**: Data extraction , API interaction , Data Parsing
 
@@ -67,7 +67,7 @@ subject: 'resume_samdan'
 
 **Tech Tools**: Visual Studio Code (VS Code), Jupyter Notebook, Microsoft Office (Excel, PowerPoint, Word)
 
-**Documentation**: Markdown, matplotlib, Plantuml flowcharts, Pyramid diagrams
+**Documentation**: Markdown, Plantuml flowcharts, Pyramid diagrams
 
 **Databases**: MySQL, SQL Server
 
