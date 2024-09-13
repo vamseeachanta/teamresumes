@@ -39,7 +39,7 @@ subject: 'resume_samdan'
 ```data science```
 ```cs fundamentals```
 
-**Python**: Functions , Classes , Methods , Dictionaries , Subprocess  
+**Python**: Functions , Classes , Methods , Dictionaries , Subprocess , Datetime  
 
 **Data Science**: Regular expressions , numpy , pandas , Data Preprocessing , Data Visualization
 
