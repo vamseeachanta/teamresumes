@@ -49,9 +49,9 @@ subject: 'resume_samdan'
 
 **Data Visualization**: Matplotlib for XY , Polar and Scatter Plots
 
-**Web Scrapping**: Data extraction , API interaction , Data Parsing
+**Web Scrapping**: Data extraction , API interaction , Data Parsing ,  
 
-**Python libraries**: Sympy , Scikit-learn , BeautifulSoup , yfinance , Selenium 
+**Python libraries**: Sympy , Scikit-learn , BeautifulSoup , Selenium , yfinance 
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
 
@@ -79,6 +79,13 @@ subject: 'resume_samdan'
 - Developed a template library for data science calculations using Python.
 - Utilized branches to step through calculation phases
 - This application is benchmark for beginners as a good  start with public libraries and used for internal training of new members for the company.
+
+### Bsee Data Web Scraping 
+
+ - Built a Selenium-based web scraper to extract well data from the Bureau of Safety and Environmental Enforcement (BSEE) website.     
+ - Automated form submission and data downloads, handling CSV file filtering, and organizing data for analysis.
+ - Integrated Pandas for processing and storing well data in structured CSV formats, enabling streamlined data analysis and reporting.
+ - for more information visit https://github.com/vamseeachanta/energydata
 
 ### Engineering Physics Based calculations - Cathodic Protection
 
