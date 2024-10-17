@@ -39,7 +39,7 @@ subject: 'resume_samdan'
 ```data science```
 ```cs fundamentals```
 
-**Python**: Functions , Classes , Methods , Dictionaries , Subprocess , Datetime  
+**Python**: Functions , Classes , Methods , Dictionaries , Subprocess , Datetime , Lambda Function
 
 **Data Science**: Regular expressions , numpy , pandas , Data Preprocessing , Data Visualization
 
@@ -49,9 +49,9 @@ subject: 'resume_samdan'
 
 **Data Visualization**: Matplotlib for XY , Polar and Scatter Plots
 
-**Web Scrapping**: Data extraction , API interaction , Data Parsing ,  
+**Web Scrapping**: Data extraction , API interaction , Data Parsing   
 
-**Python libraries**: Sympy , Scikit-learn , BeautifulSoup , Selenium , yfinance 
+**Python libraries**: PIL , Sympy , Scikit-learn , BeautifulSoup , Selenium , yfinance 
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
 
