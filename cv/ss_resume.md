@@ -24,7 +24,7 @@ subject: 'resume_samdan'
   
 ## Education
 
-### 6 Years Integrated Course in Rajiv Gandhi University of Knowledge Technologies, Srikakulam - AndhraPradesh , India
+### 6 Years Integrated Course in Rajiv Gandhi University Of Knowledge Technologies, Srikakulam - AndhraPradesh , India
 
 ### Four - years B.Technology in Computer Science Engineering 
 
@@ -51,7 +51,7 @@ subject: 'resume_samdan'
 
 **Web Scrapping**: Data extraction , API interaction , Data Parsing   
 
-**Python libraries**: PIL , Sympy , Scikit-learn , BeautifulSoup , Selenium , yfinance 
+**Python libraries**: PIL , Sympy , Scikit-learn , BeautifulSoup , Selenium , yfinance , Colorama 
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
 
