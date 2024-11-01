@@ -18,7 +18,7 @@ subject: 'resume_samdan'
 
 ## Summary
 
-- Multidisciplinary  software developer with hands-on experience in programming , Possess strong engineering fundamentals, design experience and strong programming skills.
+- Multidisciplinary  software developer with hands-on experience in programming , Possess strong engineering fundamentals and design experience.
 - Highly motivated and detail-oriented professional , Having strong knowledge in Python programming , with a proven track record of applying in automation. Demonstrated ability to learn new technologies quickly and apply them to solve complex problems.
 - Seeking a challenging role to further enhance my technical skills and contribute to the company.
   
@@ -41,17 +41,15 @@ subject: 'resume_samdan'
 
 **Python**: Functions , Classes , Methods , Dictionaries , Subprocess , Datetime , Lambda Function
 
-**Data Science**: Regular expressions , numpy , pandas , Data Preprocessing , Data Visualization
-
-**Data Preprocessing**: Importing Datasets , Data Formatting, Data Frames
-
-**Data Frames**: Summarization, Correlation, Grouping, CSV File operations
+**Data Science**: Regular expressions , numpy , pandas , Data Preprocessing , Data Visualization , DataFrames
 
 **Data Visualization**: Matplotlib for XY , Polar and Scatter Plots
 
-**Web Scrapping**: Data extraction , API interaction , Data Parsing   
+**Web Scraping**: Data extraction , API interaction , Data Parsing , Webpage Inspection
 
-**Python libraries**: PIL , Sympy , Scikit-learn , BeautifulSoup , Selenium , yfinance , Colorama 
+**Tools** : Scrapy , Requests , BeautifulSoup , Selenium
+
+**Python libraries**: PIL , Sympy , Scikit-learn , yfinance , Colorama
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
 
@@ -80,12 +78,19 @@ subject: 'resume_samdan'
 - Utilized branches to step through calculation phases
 - This application is benchmark for beginners as a good  start with public libraries and used for internal training of new members for the company.
 
-### Bsee Data Web Scraping 
+### Bsee Web Scraper 
 
- - Built a Selenium-based web scraper to extract well data from the Bureau of Safety and Environmental Enforcement (BSEE) website.     
- - Automated form submission and data downloads, handling CSV file filtering, and organizing data for analysis.
- - Integrated Pandas for processing and storing well data in structured CSV formats, enabling streamlined data analysis and reporting.
- - for more information visit https://github.com/vamseeachanta/energydata
+ - Built a scrapy-based web scraper to extract data from the Bureau of Safety and Environmental Enforcement (BSEE) website.     
+ - Automated form submission and data downloads, handling CSV files and organizing data for analysis.
+ - Integrated Pandas for processing and storing data in structured CSV formats.
+ - Part of energydata (<https://github.com/vamseeachanta/energydata>) repository for getting data from public sources.
+
+### Automated Analysis and Summarization Of MES File Warnings and Errors
+
+- Developed a Python-based tool to automate the analysis of warnings and errors from MES files.
+- Implemented regular expressions to parse and extract warnings and errors.
+- Generated a status table indicating the presence of warnings and errors in each file.
+- Reduced the time required for MES file analysis , providing clear insights for project teams.
 
 ### Engineering Physics Based calculations - Cathodic Protection
 
@@ -94,14 +99,6 @@ subject: 'resume_samdan'
 - Calculated the cathodic protection for the following structures:
   - ships
   - pipelines
-
-### Automated Analysis and Summarization Of MES File Warnings and Errors
-
-- Developed a Python-based tool to automate the analysis of warnings and errors from MES files.
-- Implemented regular expressions to parse and extract warnings and errors.
-- Generated a status table indicating the presence of warnings and errors in each file.
-- Automated the process to handle multiple projects and directories programmatically.
-- Reduced the time required for MES file analysis , providing clear insights for project teams.
 
 ### Engineering Physics Based calculations - Plate Buckling
 
@@ -120,11 +117,10 @@ Python Developer, Jan 2024 - Till date
 
 - Developed a template library for data science calculations using Python.
 
-- Cathodic Protection Calculation
-  - Developed a caculation for engineering physics based calculations.
+- Developed scrapy based webscraper for Data extraction from BSEE website.
 
 - Automated Analysis Of MES Files
   - Developed automation process to handle MES file warnings and errors across multiple projects.
 
-- Plate Buckling Calculation
-  - Developed a calculation for engineering physics based calculations.
+- Cathodic Protection Calculation
+  - Developed a caculation for engineering physics based calculations.
