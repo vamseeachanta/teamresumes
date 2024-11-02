@@ -47,7 +47,7 @@ subject: 'resume_samdan'
 
 **Web Scraping**: Data extraction , API interaction , Data Parsing , Webpage Inspection
 
-**Tools** : Scrapy , Requests , BeautifulSoup , Selenium
+**Tools**: Scrapy , Requests , BeautifulSoup , Selenium
 
 **Python libraries**: PIL , Sympy , Scikit-learn , yfinance , Colorama
 
@@ -80,9 +80,10 @@ subject: 'resume_samdan'
 
 ### Bsee Web Scraper 
 
- - Built a scrapy-based web scraper to extract data from the Bureau of Safety and Environmental Enforcement (BSEE) website.     
- - Automated form submission and data downloads, handling CSV files and organizing data for analysis.
- - Integrated Pandas for processing and storing data in structured CSV formats.
+ - Built and optimized a Scrapy-based web scraper to automate the extraction of data from the Bureau of 
+   Safety and Environmental Enforcement (BSEE) website.     
+ - Enhanced data processing by integrating Scrapy's FormRequest for efficient form-based scraping.
+ - Leveraged Python's pandas to process and validate extracted data directly from HTTP responses.
  - Part of energydata (<https://github.com/vamseeachanta/energydata>) repository for getting data from public sources.
 
 ### Automated Analysis and Summarization Of MES File Warnings and Errors
@@ -102,7 +103,7 @@ subject: 'resume_samdan'
 
 ### Engineering Physics Based calculations - Plate Buckling
 
-- Developed a module for cathodic protection engineering calculations using Python.
+- Developed a module for plate buckling engineering calculations using Python.
 - Calculated the plate and stiffner buckling.
 - Calculation useful for the following structures:
   - ship structure
@@ -117,7 +118,8 @@ Python Developer, Jan 2024 - Till date
 
 - Developed a template library for data science calculations using Python.
 
-- Developed scrapy based webscraper for Data extraction from BSEE website.
+- BSEE Web Scraper
+  - Developed scrapy based tool for data extraction from BSEE website.
 
 - Automated Analysis Of MES Files
   - Developed automation process to handle MES file warnings and errors across multiple projects.
