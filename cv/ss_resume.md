@@ -14,7 +14,7 @@ subject: 'resume_samdan'
 ---
 ##### <samdanshaik8998@gmail.com> |  +91-6302901157  | <https://github.com/samdansk2> | Vijayawada,India
 
-### Software Developer with Mastery in Programming Principles, Modern Development Practices and AI Tools
+
 
 ## Summary
 
@@ -49,6 +49,8 @@ subject: 'resume_samdan'
 
 **Tools**: Scrapy , Requests , BeautifulSoup , Selenium
 
+**Web development**: Basic HTML , Javascript 
+
 **Python libraries**: PIL , Sympy , Scikit-learn , yfinance , Colorama
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
@@ -59,7 +61,7 @@ subject: 'resume_samdan'
 
 **Debugging**: IDE debugging, VS Code for all programming
 
-**Programming Practices**: Algorithms, Data Structures , Yaml , Configurations, Virtual environments 
+**Programming Practices**: Algorithms, Data Structures , Yaml , Configurations, Virtual environments (Conda)
 
 **Artificial Intelligence**: GitHub Copilot, ChatGPT
 
@@ -74,7 +76,7 @@ subject: 'resume_samdan'
 
 ### Template library for data science calculations
 
-- Developed a template library for data science calculations using Python.
+- Developed a simple python library for data science calculations using Python. (<https://github.com/samdansk2/librarytemplate>)
 - Utilized branches to step through calculation phases
 - This application is benchmark for beginners as a good  start with public libraries and used for internal training of new members for the company.
 
@@ -82,7 +84,7 @@ subject: 'resume_samdan'
 
  - Built and optimized a Scrapy-based web scraper to automate the extraction of data from the Bureau of 
    Safety and Environmental Enforcement (BSEE) website.     
- - Enhanced data processing by integrating Scrapy's FormRequest for efficient form-based scraping.
+ - Enhanced data processing by integrating Scrapy's FormRequest for efficient form submission.
  - Leveraged Python's pandas to process and validate extracted data directly from HTTP responses.
  - Part of energydata (<https://github.com/vamseeachanta/energydata>) repository for getting data from public sources.
 
@@ -119,10 +121,10 @@ Python Developer, Jan 2024 - Till date
 - Developed a template library for data science calculations using Python.
 
 - BSEE Web Scraper
-  - Developed scrapy based tool for data extraction from BSEE website.
+  - Implemented scrapy based tool for data extraction from BSEE website.
 
 - Automated Analysis Of MES Files
-  - Developed automation process to handle MES file warnings and errors across multiple projects.
+  - Formulated automation process to handle MES file warnings and errors across multiple projects.
 
 - Cathodic Protection Calculation
-  - Developed a caculation for engineering physics based calculations.
+  - Designed a caculation for engineering physics based calculations.
