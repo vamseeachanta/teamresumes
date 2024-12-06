@@ -43,15 +43,13 @@ subject: 'resume_samdan'
 
 **Data Science**: Regular expressions , numpy , pandas , Data Preprocessing , Data Visualization , DataFrames
 
-**Data Visualization**: Matplotlib for XY , Polar and Scatter Plots
-
 **Web Scraping**: Data extraction , API interaction , Data Parsing , Webpage Inspection
 
-**Tools**: Scrapy , Requests , BeautifulSoup , Selenium
+**Tools**: Scrapy , Beautiful Soup , Selenium , requests
 
 **Web development**: Basic HTML , Javascript 
 
-**Python libraries**: PIL , Sympy , Scikit-learn , yfinance , Colorama
+**Python libraries**: Matplotlib , PIL , Sympy , Scikit-learn , yfinance , ffn
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
 
