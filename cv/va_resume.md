@@ -47,7 +47,7 @@ subject: 'resume_achanta'
 | Area |  System/Components | Analysis/Software
 |---------|--------|--------|
 | Subsea Installations analysis | dynamic umbilicals, static umbilicals, pipelines, risers, jumpers, manifolds etc | Design, Installation analysis <br> detailed structural analysis |
-| Field Development | Well drilling, completion, production, interventions, abandonment <br> Wet tree vs. dry tree  | Field economics <br> Facilities planning |
+| Field Development | Well drilling, completion, production, interventions, abandonment <br> Deep and shallow water experience <br> Wet tree vs. dry tree  | Field economics <br> Facilities planning |
 | Subsea In-place design | All floaters & rigid/flexible risers <br> pipelines <br> geotechnical | Global analysis <br> detailed structural analysis  |
 | Facilities In-place design | vessel hull & hydrodynamics <br> SALM and CALM Buoy designs <br> moorings <br> platform analysis | Global analysis <br> detailed structural analysis <br> buckling, punch, and shear checks |
 | Detailed structural analysis | connectors/couplings/flanges <br> rigid jumpers| Elastic plastic ASME VIII Div 2, Div 3 <br> pipe buckling, plate buckling  |
@@ -58,7 +58,8 @@ subject: 'resume_achanta'
 
 | Project |   Skills |
 |---------|--------|
-| BP Macondo Containment Riser detailed design | Detailed design and delivery lead <br>Global riser analysis; Suction pile design; <br>Upper and lower flexible jumper designs; <br>Installation analysis of all key components |  N/A |
+| BP Macondo Containment Riser detailed design | Detailed design and delivery lead <br>Lead for 20+ engineers and designers <br>Global riser analysis; Suction pile design; <br>Upper and lower flexible jumper designs; <br>Installation analysis of all key components |  N/A |
+| WoodFibre FLNG | Detailed design and delivery lead <br>Lead for 10+ engineers and designers <br>Global mooring analysis for 2 FSTs berthed bow-to-bow; <br> Mooring and fender design <br> Cathodic protection design |  N/A |
 | FDAS APS Feasibility Design | Top Tensioned Riser, vessel mooring design; Technical lead for mooring and riser connected analysis to capture non-linear behavior. <br> Economic analysis for Conversion of 6th Generation Drillship and new builds <br> Marketing activities support with operators | N/A |
 | Generic: Subsea Installation Analysis | Develop procedures and weather windows for manifolds, umbilicals, structures, risers, rigid jumpers, moorings etc. 
 | Generic: Rigid Pipeline installation | Shallow water pipeline installation analysis with weather windows <br> Global and local Buckling analysis 
@@ -117,9 +118,16 @@ subject: 'resume_achanta'
 
 ## Experience
 
-### Subsea Engineering and Analysis
+### VP of Engineering, FDAS
 
-Jan 2023 to Nov 2023, Houston, TX
+Jun 2016 to Date, Houston, TX and Remote
+
+- WoodFibre LNG Facility Design
+  - Marine Engineering analysis team lead for the WoodFibre LNG facility in British Columbia, Canada
+  - Lead 10+ engineers and designers to deliver the marine and structural engineering analysis for the project
+  - FST detailed Engineering analysis with in-place and without LNG carriers
+  - FST global performance analysis
+  - Mooring and Fender design
 
 - Installation analysis for subsea structures
   - Structures such as Manifolds, PLETs etc.
@@ -130,17 +138,6 @@ Jan 2023 to Nov 2023, Houston, TX
   - Detailed finite element analysis in ANSYS to determine the bending moment capacity of pipeline which is outside the DNV code regime (D/t > 45)
   - Pipelay analysis in OrcaFlex to determine installation windows
   - Python and API programming utilized to obtain results and plots in an automated manner
-
-
-### VP of Engineering, FDAS
-
-Jun 2016 to Date, Houston, TX and Remote
-
-- WoodFibre LNG Facility Design
-  - Marine Engineering analysis team lead for the WoodFibre LNG facility in British Columbia, Canada
-  - FST detailed Engineering analysis with in-place and without LNG carriers
-  - FST global performance analysis
-  - Mooring and Fender design
 
 - Yellowtail Dynamic and Static umbilical installation analysis
   - Yellowtail field in water depth of 6000 ft offshore Guyana
@@ -319,6 +316,7 @@ Aug 2003 to Jun 2015, Houston, TX
   - Murphy Surface BOP Drilling Riser Analysis
   - Unocal  Gendalo SCR Feasibility Analysis
   - BP Na kika  Completion Riser Analysis
+  - BP Thangguh Gas export pipeline VIV analysis
   - BP Thunder Horse  Top Tensioned Riser Tubing Landing Analysis
   - BP  High Pressure High Temperature (HPHT) Top Tensioned Riser Feasibility Study
   - Murphy Sabah - Kikeh Field Development
