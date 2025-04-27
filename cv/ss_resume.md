@@ -12,7 +12,7 @@ author:
 - Shaik Samdan
 subject: 'resume_samdan'
 ---
-##### <samdanshaik8998@gmail.com> |  +91-6302901157  | <https://github.com/samdansk2> | Vijayawada,India
+##### <samdanshaik8998@gmail.com> |  +91-6302901157  | <https://github.com/samdansk2> | <https://www.linkedin.com/in/samdanshaik/>
 
 
 
@@ -34,9 +34,10 @@ subject: 'resume_samdan'
 
 ```engineering```
 ```python```
-```software development```
-```programming```
 ```data science```
+```data visualization```
+```artificial intelligence```
+```programming```
 ```cs fundamentals```
 
 **Python**: Functions , Classes , Methods , Dictionaries , Subprocess , Datetime , Lambda Function
@@ -45,11 +46,11 @@ subject: 'resume_samdan'
 
 **Web Scraping**: Data extraction , API interaction , Data Parsing , Webpage Inspection
 
-**Tools**: Scrapy , Beautiful Soup , Selenium , requests
+**Tools**: Poetry , Scrapy , Beautiful Soup , Selenium , requests
 
 **Web development**: Basic HTML , Javascript 
 
-**Python libraries**: Matplotlib , PIL , Sympy , Scikit-learn , yfinance , ffn
+**Python libraries**: Matplotlib , Plotly , PIL , Sympy , Scikit-learn , yfinance , ffn
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
 
@@ -59,7 +60,9 @@ subject: 'resume_samdan'
 
 **Debugging**: IDE debugging, VS Code for all programming
 
-**Programming Practices**: Algorithms, Data Structures , Yaml , Configurations, Virtual environments (Conda)
+**Programming Practices**: Algorithms, Data Structures , Configurations, Virtual environments (Conda)
+
+**Yaml**: Pyyaml, Ruamel yaml
 
 **Artificial Intelligence**: GitHub Copilot, ChatGPT
 
@@ -78,7 +81,7 @@ subject: 'resume_samdan'
 - Utilized branches to step through calculation phases
 - This application is benchmark for beginners as a good  start with public libraries and used for internal training of new members for the company.
 
-### Bsee Web Scraper 
+### Web Scraper 
 
  - Built and optimized a Scrapy-based web scraper to automate the extraction of data from the Bureau of 
    Safety and Environmental Enforcement (BSEE) website.     
@@ -86,35 +89,35 @@ subject: 'resume_samdan'
  - Leveraged Python's pandas to process and validate extracted data directly from HTTP responses.
  - Part of energydata (<https://github.com/vamseeachanta/energydata>) repository for getting data from public sources.
 
-### Automated Analysis and Summarization Of MES File Warnings and Errors
+### Oil and Gas Data Analysis (BSEE)
+
+The project's main aim is to focus on leveraging data analytics to enhance safety, environmental protection, and regulatory oversight in offshore energy operations. 
+Main key tasks include:
+- Data Extraction: Extracting data from the BSEE website using Scrapy. 
+- Data Analysis: Performing data analysis to identify trends, patterns, and anomalies.
+- Data Visualization: Creating visualizations to present the analysis results effectively.
+
+### MES Files Analysis 
 
 - Developed a Python-based tool to automate the analysis of warnings and errors from MES files.
 - Implemented regular expressions to parse and extract warnings and errors.
 - Generated a status table indicating the presence of warnings and errors in each file.
 - Reduced the time required for MES file analysis , providing clear insights for project teams.
 
-### Engineering Physics Based calculations - Cathodic Protection
+### Engineering Physics Based calculations
 
-- Developed a module for cathodic protection engineering calculations using Python .
+- Developed a module for cathodic protection and plate buckling calculations using Python.
 - Part of digitalmodel (<https://github.com/vamseeachanta/digitalmodel>) repository for engineering physics based calculations.
 - Calculated the cathodic protection for the following structures:
   - ships
-  - pipelines
-
-### Engineering Physics Based calculations - Plate Buckling
-
-- Developed a module for plate buckling engineering calculations using Python.
-- Calculated the plate and stiffner buckling.
-- Calculation useful for the following structures:
-  - ship structure
   - subsea structures
-  - etc
+  - pipelines
 
 ## Experience
 
 ### AceEngineer Inc., Houston TX, Remote
 
-Python Developer, Jan 2024 - Till date
+Python Developer (Full-time) | Sep 2024 - Present
 
 - Developed a template library for data science calculations using Python.
 
