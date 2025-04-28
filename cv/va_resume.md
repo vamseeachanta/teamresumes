@@ -122,6 +122,35 @@ subject: 'resume_achanta'
 
 Jun 2016 to Date, Houston, TX and Remote
 
+- 6000 ft water Depth Semisubmersible Production Vessel Design Feasibility
+  - Design of riser support structure and vessel interface design
+  - Drilling Riser, production riser and Mooring feasibility analysis
+  - A semi mooring analysis to help determine a feasible mooring configuration for deep water gulf of Mexico
+  - The mooring configuration along with mooring loads and the associated anchor loads are determined
+  - Coupled riser analysis to determine refined stroke requirements for 100 year and 1000 year hurricane conditions
+  - Marketing quality 3D models and animation of host vessel, Riser and mooring system
+  - Conversion analysis and Costing of idle 6th Generation Semi submersible drillships to repurpose as host vessels.
+
+- Economic Analysis of GoM Offshore Fields
+  - Obtain data from government body (BSEE data center) website to obtain field level economics for GoM fields
+  - Tasks included SQL database storage, GIS information, financial analysis and visualizations.
+
+- Wellhead Fatigue Data Analysis
+  - Utilized engineering and digital signal processing (DSP) expertise to analyze time series data
+  - Assist SMEs (subject matter experts) with data exploration of 1 Hz (1 second) and 10 Hz (high frequency) measured data.
+  - Performed basic data cleaning methods (rolling average, filtering) and advanced digital methods (fast fourier transforms, frequency filters, FFT and iFFT) to help SMEs understand and assess data to meaningful structural analysis quantities
+  - Developed modular plug and play architecture for near real-time data processing for next project phase with following aspects.
+  - Input and output data flexibility (input files, databases etc.) for Proof of concepts, SME testing and production)
+  - Processing engine to accommodate various custom calculations
+  - Detailed Hull finite element analysis for salvage ship SEWOL offshore Korea
+  - Detailed stress analysis per DNV-RP-C102 performed in ANSYS for ship located subsea
+  - Panel buckling analysis per DNV-RP-C201. Plate, stiffener and girder are considered as part of this analysis
+  - ANSYS extension Python programming is utilized to automate the structural analysis process and reduce manual interventions and thus increase productivity.
+
+### Engineering Lead Consultant, AceEngineer
+
+Jun 2012 to Date, Houston, TX and Remote
+
 - WoodFibre LNG Facility Design
   - Marine Engineering analysis team lead for the WoodFibre LNG facility in British Columbia, Canada
   - Lead 10+ engineers and designers to deliver the marine and structural engineering analysis for the project
@@ -156,30 +185,6 @@ Jun 2016 to Date, Houston, TX and Remote
   - Install rigid jumpers and manifolds for the Ballymore field
   - Dynamic and resonance analysis of the structures
 
-- Economic Analysis of GoM Offshore Fields
-  - Obtain data from government body (BSEE data center) website to obtain field level economics for GoM fields
-  - Tasks included SQL database storage, GIS information, financial analysis and visualizations.
-
-- 6000 ft water Depth Semisubmersible Production Vessel Design Feasibility
-  - Design of riser support structure and vessel interface design
-  - Drilling Riser, production riser and Mooring feasibility analysis
-  - A semi mooring analysis to help determine a feasible mooring configuration for deep water gulf of Mexico
-  - The mooring configuration along with mooring loads and the associated anchor loads are determined
-  - Coupled riser analysis to determine refined stroke requirements for 100 year and 1000 year hurricane conditions
-  - Marketing quality 3D models and animation of host vessel, Riser and mooring system
-  - Conversion analysis and Costing of idle 6th Generation Semi submersible drillships to repurpose as host vessels.
-
-- Wellhead Fatigue Data Analysis
-  - Utilized engineering and digital signal processing (DSP) expertise to analyze time series data
-  - Assist SMEs (subject matter experts) with data exploration of 1 Hz (1 second) and 10 Hz (high frequency) measured data.
-  - Performed basic data cleaning methods (rolling average, filtering) and advanced digital methods (fast fourier transforms, frequency filters, FFT and iFFT) to help SMEs understand and assess data to meaningful structural analysis quantities
-  - Developed modular plug and play architecture for near real-time data processing for next project phase with following aspects.
-  - Input and output data flexibility (input files, databases etc.) for Proof of concepts, SME testing and production)
-  - Processing engine to accommodate various custom calculations
-  - Detailed Hull finite element analysis for salvage ship SEWOL offshore Korea
-  - Detailed stress analysis per DNV-RP-C102 performed in ANSYS for ship located subsea
-  - Panel buckling analysis per DNV-RP-C201. Plate, stiffener and girder are considered as part of this analysis
-  - ANSYS extension Python programming is utilized to automate the structural analysis process and reduce manual interventions and thus increase productivity.
 - Implemented automation analysis for a riser service company to build digital twins by utilizing database driven data for following assets:
   - Drilling risers
   - Top tensioned risers
@@ -219,7 +224,7 @@ Jun 2016 to Date, Houston, TX and Remote
   - Recommendations are provided for regular field inspections and post-hurricane inspections
   - Utilized COMSOL, Matlab, Java API and DOS batch processing to automate and process multiple models and associated results.
 
-### Data Science Lead, Occidental Petroleum
+### Engineering SME for Data Science Team, Occidental Petroleum
 
 Sep 2017 to Dec 2020, Houston, TX and Remote
 
