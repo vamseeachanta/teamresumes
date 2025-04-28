@@ -14,13 +14,18 @@ subject: 'resume_samdan'
 ---
 ##### <samdanshaik8998@gmail.com> |  +91-6302901157  | <https://github.com/samdansk2> | <https://www.linkedin.com/in/samdanshaik/>
 
-
+### Software Engineer (Python) & Data Enthusiast Crafting AI-powered, automated solutions through code, data, and innovation
 
 ## Summary
 
-- Multidisciplinary  software developer with hands-on experience in programming , Possess strong engineering fundamentals and design experience.
-- Highly motivated and detail-oriented professional , Having strong knowledge in Python programming , with a proven track record of applying in automation. Demonstrated ability to learn new technologies quickly and apply them to solve complex problems.
-- Seeking a challenging role to further enhance my technical skills and contribute to the company.
+- Multidisciplinary  software engineer with hands-on experience in Python programming, Data Science and Software Development.
+- Strong background in developing Python-based tools for automating data analysis processes with a focus on engineering applications.
+- Proficient in Python programming and familiar with various libraries and tools for data manipulation and analysis.
+- Skilled in Web scraping processes using Scrapy with a strong understanding of data extraction techniques.
+- Implemented CI/CD pipelines using GitHub Actions to automate testing and deployment for various 
+projects.
+- Passionate about writing clean, maintainable code and continuously learning new trends in technologies.
+- Seeking a challenging role to further enhance my technical skills and contribute to innovative projects.
   
 ## Education
 
@@ -79,6 +84,7 @@ subject: 'resume_samdan'
 
 - Developed a simple python library for data science calculations using Python. (<https://github.com/samdansk2/librarytemplate>)
 - Utilized branches to step through calculation phases
+- Implemented a CI/CD pipeline using GitHub Actions to automate testing and deployment of the library.
 - This application is benchmark for beginners as a good  start with public libraries and used for internal training of new members for the company.
 
 ### Open Source Repository (AssetUtilities) Contributions
@@ -90,27 +96,21 @@ subject: 'resume_samdan'
 
 #### Web Scraper 
 
- - Built and optimized a Scrapy-based web scraper to automate the extraction of data from the Bureau of 
-   Safety and Environmental Enforcement (BSEE) website.     
- - Enhanced data processing by integrating Scrapy's FormRequest for efficient form submission.
+ - Built and optimized a Scrapy-based web scraper to automate the data extraction process from public websites.    
+ - Enhanced the data processing pipeline by implementing data validation and transformation steps.
  - Leveraged Python's pandas to process and validate extracted data directly from HTTP responses.
- - Part of energydata (<https://github.com/vamseeachanta/energydata>) repository for getting data from public sources.
+ - Reduced the time required for data extraction and validation through automation, improving overall efficiency.
+ - part of assetutilities (<https://github.com/vamseeachanta/assetutilities>) for automation of development processes.
 
 ### Oil and Gas Data Analysis (BSEE)
 
-The project's main aim is to focus on leveraging data analytics to help assess Gulf of Mexico (Gulf of America) field performance. 
-Main key tasks include:
-- Data Extraction: Extracting well, production and field data from the BSEE website 
-  - Used Scrappy 
-  - direct read from Bulk data zip files to save data and time.
-- Data Analysis: Performing data analysis to identify trends, patterns, and anomalies.
-  - Analyze data by well
-  - group by block
-  - group by field
-- Data Visualization: Creating visualizations to present the analysis results effectively.
-  - matplotlib for static charts
-  - plotly for interactive charts
-- Work documented and code contributed to open source python repository "EnergyData".
+- The project's main aim is to focus on leveraging data analytics to enhance safety, environmental protection, and regulatory  oversight in offshore energy operations. 
+- Analysis involves the following key components:
+  - Data Extraction: Extracting useful data insights from the BSEE website using Scrapy. 
+  - Data Analysis: Performing data analysis to identify production trends, patterns, and anomalies.
+  - Data Visualization: Creating plots all kinds of data to present the analysis results effectively.
+- Part of energydata (<https://github.com/vamseeachanta/energydata>) repository for data extraction and analysis from
+  public sources.
 
 ### Analytical Program Output Files Analysis 
 
@@ -130,19 +130,22 @@ Main key tasks include:
   - subsea structures
   - pipelines
 
+
 ## Experience
 
 ### AceEngineer Inc., Houston TX, Remote
 
 Python Developer (Full-time) | Sep 2024 - Present
 
-- Developed a template library for data science calculations using Python.
+- Library Template
+  - Designed a template library for data science calculations using Python.
 
-- BSEE Web Scraper
+- Web Scraper
   - Implemented scrapy based tool for data extraction from BSEE website.
 
+- Oil and Gas Data Analysis
+  - Optimized data extraction and analysis processes for BSEE data.
+  - Designed data visualization tools to present analysis results effectively.
+  
 - Automated Analysis Of MES Files
   - Formulated automation process to handle MES file warnings and errors across multiple projects.
-
-- Cathodic Protection Calculation
-  - Designed a caculation for engineering physics based calculations.
