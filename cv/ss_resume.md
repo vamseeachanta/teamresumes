@@ -96,8 +96,7 @@ projects.
 
 ### Oil and Gas Data Analysis (BSEE)
 
-- The project's main aim is to focus on leveraging data analytics to enhance safety, environmental protection, and regulatory   
-  oversight in offshore energy operations. 
+- The project's main aim is to focus on leveraging data analytics to enhance safety, environmental protection, and regulatory  oversight in offshore energy operations. 
 - Analysis involves the following key components:
   - Data Extraction: Extracting useful data insights from the BSEE website using Scrapy. 
   - Data Analysis: Performing data analysis to identify production trends, patterns, and anomalies.
