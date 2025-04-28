@@ -32,13 +32,13 @@ subject: 'resume_samdan'
 
 ## Skills
 
+```computer science fundamentals```
+```programming```
 ```engineering```
 ```python```
 ```data science```
 ```data visualization```
 ```artificial intelligence```
-```programming```
-```cs fundamentals```
 
 **Python**: Functions , Classes , Methods , Dictionaries , Subprocess , Datetime , Lambda Function
 
@@ -81,7 +81,14 @@ subject: 'resume_samdan'
 - Utilized branches to step through calculation phases
 - This application is benchmark for beginners as a good  start with public libraries and used for internal training of new members for the company.
 
-### Web Scraper 
+### Open Source Repository (AssetUtilities) Contributions
+
+#### Environment Management
+- Developed a Python-based tool to automate the management of virtual environments using Poetry.
+
+#### File management
+
+#### Web Scraper 
 
  - Built and optimized a Scrapy-based web scraper to automate the extraction of data from the Bureau of 
    Safety and Environmental Enforcement (BSEE) website.     
@@ -91,18 +98,28 @@ subject: 'resume_samdan'
 
 ### Oil and Gas Data Analysis (BSEE)
 
-The project's main aim is to focus on leveraging data analytics to enhance safety, environmental protection, and regulatory oversight in offshore energy operations. 
+The project's main aim is to focus on leveraging data analytics to help assess Gulf of Mexico (Gulf of America) field performance. 
 Main key tasks include:
-- Data Extraction: Extracting data from the BSEE website using Scrapy. 
+- Data Extraction: Extracting well, production and field data from the BSEE website 
+  - Used Scrappy 
+  - direct read from Bulk data zip files to save data and time.
 - Data Analysis: Performing data analysis to identify trends, patterns, and anomalies.
+  - Analyze data by well
+  - group by block
+  - group by field
 - Data Visualization: Creating visualizations to present the analysis results effectively.
+  - matplotlib for static charts
+  - plotly for interactive charts
+- Work documented and code contributed to open source python repository "EnergyData".
 
-### MES Files Analysis 
+### Analytical Program Output Files Analysis 
 
-- Developed a Python-based tool to automate the analysis of warnings and errors from MES files.
+- Developed a Python-based tool to automate the analysis of warnings and errors for the following program output files
+  - ANSYS AQWA MES files
+  - Orcaflex .SIM file output statistics (start time, end time failures, etc.)
 - Implemented regular expressions to parse and extract warnings and errors.
 - Generated a status table indicating the presence of warnings and errors in each file.
-- Reduced the time required for MES file analysis , providing clear insights for project teams.
+- Reduced the time required to identify failures in bulk runs thus providing clear insights for project teams.
 
 ### Engineering Physics Based calculations
 
