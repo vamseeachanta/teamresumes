@@ -84,6 +84,7 @@ projects.
 
 - Developed a simple python library for data science calculations using Python. (<https://github.com/samdansk2/librarytemplate>)
 - Utilized branches to step through calculation phases
+- Implemented a CI/CD pipeline using GitHub Actions to automate testing and deployment of the library.
 - This application is benchmark for beginners as a good  start with public libraries and used for internal training of new members for the company.
 
 ### Web Scraper 
@@ -120,6 +121,7 @@ projects.
   - subsea structures
   - pipelines
 
+
 ## Experience
 
 ### AceEngineer Inc., Houston TX, Remote
@@ -127,10 +129,14 @@ projects.
 Python Developer (Full-time) | Sep 2024 - Present
 
 - Library Template
- - Designed a template library for data science calculations using Python.
+  - Designed a template library for data science calculations using Python.
 
 - Web Scraper
   - Implemented scrapy based tool for data extraction from BSEE website.
 
+- Oil and Gas Data Analysis
+  - Optimized data extraction and analysis processes for BSEE data.
+  - Designed data visualization tools to present analysis results effectively.
+  
 - Automated Analysis Of MES Files
   - Formulated automation process to handle MES file warnings and errors across multiple projects.
