@@ -19,7 +19,7 @@ subject: 'resume_achanta'
 ---
 ##### <vamsee.achanta@aceengineer.com> . 713-306-9029 . <https://www.linkedin.com/in/vamseeachanta> . Houston TX
 
-### Subsea Engineering leader (20+ years) for sustainable and automated engineering solutions, workflows and project success
+### Subsea Engineering leader (23+ years) for sustainable and automated engineering solutions, workflows and project success
 
 ## Executive Summary
 
@@ -47,7 +47,7 @@ subject: 'resume_achanta'
 | Area |  System/Components | Analysis/Software
 |---------|--------|--------|
 | Subsea Installations analysis | dynamic umbilicals, static umbilicals, pipelines, risers, jumpers, manifolds etc | Design, Installation analysis <br> detailed structural analysis |
-| Field Development | Well drilling, completion, production, interventions, abandonment <br> Wet tree vs. dry tree  | Field economics <br> Facilities planning |
+| Field Development | Well drilling, completion, production, interventions, abandonment <br> Deep and shallow water experience <br> Wet tree vs. dry tree  | Field economics <br> Facilities planning |
 | Subsea In-place design | All floaters & rigid/flexible risers <br> pipelines <br> geotechnical | Global analysis <br> detailed structural analysis  |
 | Facilities In-place design | vessel hull & hydrodynamics <br> SALM and CALM Buoy designs <br> moorings <br> platform analysis | Global analysis <br> detailed structural analysis <br> buckling, punch, and shear checks |
 | Detailed structural analysis | connectors/couplings/flanges <br> rigid jumpers| Elastic plastic ASME VIII Div 2, Div 3 <br> pipe buckling, plate buckling  |
@@ -58,7 +58,8 @@ subject: 'resume_achanta'
 
 | Project |   Skills |
 |---------|--------|
-| BP Macondo Containment Riser detailed design | Detailed design and delivery lead <br>Global riser analysis; Suction pile design; <br>Upper and lower flexible jumper designs; <br>Installation analysis of all key components |  N/A |
+| BP Macondo Containment Riser detailed design | Detailed design and delivery lead <br>Lead for 20+ engineers and designers <br>Global riser analysis; Suction pile design; <br>Upper and lower flexible jumper designs; <br>Installation analysis of all key components |  N/A |
+| WoodFibre FLNG | Detailed design and delivery lead <br>Lead for 10+ engineers and designers <br>Global mooring analysis for 2 FSTs berthed bow-to-bow; <br> Mooring and fender design <br> Cathodic protection design |  N/A |
 | FDAS APS Feasibility Design | Top Tensioned Riser, vessel mooring design; Technical lead for mooring and riser connected analysis to capture non-linear behavior. <br> Economic analysis for Conversion of 6th Generation Drillship and new builds <br> Marketing activities support with operators | N/A |
 | Generic: Subsea Installation Analysis | Develop procedures and weather windows for manifolds, umbilicals, structures, risers, rigid jumpers, moorings etc. 
 | Generic: Rigid Pipeline installation | Shallow water pipeline installation analysis with weather windows <br> Global and local Buckling analysis 
@@ -117,9 +118,45 @@ subject: 'resume_achanta'
 
 ## Experience
 
-### Subsea Engineering and Analysis
+### VP of Engineering, FDAS
 
-Jan 2023 to Nov 2023, Houston, TX
+Jun 2016 to Date, Houston, TX and Remote
+
+- 6000 ft water Depth Semisubmersible Production Vessel Design Feasibility
+  - Design of riser support structure and vessel interface design
+  - Drilling Riser, production riser and Mooring feasibility analysis
+  - A semi mooring analysis to help determine a feasible mooring configuration for deep water gulf of Mexico
+  - The mooring configuration along with mooring loads and the associated anchor loads are determined
+  - Coupled riser analysis to determine refined stroke requirements for 100 year and 1000 year hurricane conditions
+  - Marketing quality 3D models and animation of host vessel, Riser and mooring system
+  - Conversion analysis and Costing of idle 6th Generation Semi submersible drillships to repurpose as host vessels.
+
+- Economic Analysis of GoM Offshore Fields
+  - Obtain data from government body (BSEE data center) website to obtain field level economics for GoM fields
+  - Tasks included SQL database storage, GIS information, financial analysis and visualizations.
+
+- Wellhead Fatigue Data Analysis
+  - Utilized engineering and digital signal processing (DSP) expertise to analyze time series data
+  - Assist SMEs (subject matter experts) with data exploration of 1 Hz (1 second) and 10 Hz (high frequency) measured data.
+  - Performed basic data cleaning methods (rolling average, filtering) and advanced digital methods (fast fourier transforms, frequency filters, FFT and iFFT) to help SMEs understand and assess data to meaningful structural analysis quantities
+  - Developed modular plug and play architecture for near real-time data processing for next project phase with following aspects.
+  - Input and output data flexibility (input files, databases etc.) for Proof of concepts, SME testing and production)
+  - Processing engine to accommodate various custom calculations
+  - Detailed Hull finite element analysis for salvage ship SEWOL offshore Korea
+  - Detailed stress analysis per DNV-RP-C102 performed in ANSYS for ship located subsea
+  - Panel buckling analysis per DNV-RP-C201. Plate, stiffener and girder are considered as part of this analysis
+  - ANSYS extension Python programming is utilized to automate the structural analysis process and reduce manual interventions and thus increase productivity.
+
+### Engineering Lead Consultant, AceEngineer
+
+Jun 2012 to Date, Houston, TX and Remote
+
+- WoodFibre LNG Facility Design
+  - Marine Engineering analysis team lead for the WoodFibre LNG facility in British Columbia, Canada
+  - Lead 10+ engineers and designers to deliver the marine and structural engineering analysis for the project
+  - FST detailed Engineering analysis with in-place and without LNG carriers
+  - FST global performance analysis
+  - Mooring and Fender design
 
 - Installation analysis for subsea structures
   - Structures such as Manifolds, PLETs etc.
@@ -130,17 +167,6 @@ Jan 2023 to Nov 2023, Houston, TX
   - Detailed finite element analysis in ANSYS to determine the bending moment capacity of pipeline which is outside the DNV code regime (D/t > 45)
   - Pipelay analysis in OrcaFlex to determine installation windows
   - Python and API programming utilized to obtain results and plots in an automated manner
-
-
-### VP of Engineering, FDAS
-
-Jun 2016 to Date, Houston, TX and Remote
-
-- WoodFibre LNG Facility Design
-  - Marine Engineering analysis team lead for the WoodFibre LNG facility in British Columbia, Canada
-  - FST detailed Engineering analysis with in-place and without LNG carriers
-  - FST global performance analysis
-  - Mooring and Fender design
 
 - Yellowtail Dynamic and Static umbilical installation analysis
   - Yellowtail field in water depth of 6000 ft offshore Guyana
@@ -159,30 +185,6 @@ Jun 2016 to Date, Houston, TX and Remote
   - Install rigid jumpers and manifolds for the Ballymore field
   - Dynamic and resonance analysis of the structures
 
-- Economic Analysis of GoM Offshore Fields
-  - Obtain data from government body (BSEE data center) website to obtain field level economics for GoM fields
-  - Tasks included SQL database storage, GIS information, financial analysis and visualizations.
-
-- 6000 ft water Depth Semisubmersible Production Vessel Design Feasibility
-  - Design of riser support structure and vessel interface design
-  - Drilling Riser, production riser and Mooring feasibility analysis
-  - A semi mooring analysis to help determine a feasible mooring configuration for deep water gulf of Mexico
-  - The mooring configuration along with mooring loads and the associated anchor loads are determined
-  - Coupled riser analysis to determine refined stroke requirements for 100 year and 1000 year hurricane conditions
-  - Marketing quality 3D models and animation of host vessel, Riser and mooring system
-  - Conversion analysis and Costing of idle 6th Generation Semi submersible drillships to repurpose as host vessels.
-
-- Wellhead Fatigue Data Analysis
-  - Utilized engineering and digital signal processing (DSP) expertise to analyze time series data
-  - Assist SMEs (subject matter experts) with data exploration of 1 Hz (1 second) and 10 Hz (high frequency) measured data.
-  - Performed basic data cleaning methods (rolling average, filtering) and advanced digital methods (fast fourier transforms, frequency filters, FFT and iFFT) to help SMEs understand and assess data to meaningful structural analysis quantities
-  - Developed modular plug and play architecture for near real-time data processing for next project phase with following aspects.
-  - Input and output data flexibility (input files, databases etc.) for Proof of concepts, SME testing and production)
-  - Processing engine to accommodate various custom calculations
-  - Detailed Hull finite element analysis for salvage ship SEWOL offshore Korea
-  - Detailed stress analysis per DNV-RP-C102 performed in ANSYS for ship located subsea
-  - Panel buckling analysis per DNV-RP-C201. Plate, stiffener and girder are considered as part of this analysis
-  - ANSYS extension Python programming is utilized to automate the structural analysis process and reduce manual interventions and thus increase productivity.
 - Implemented automation analysis for a riser service company to build digital twins by utilizing database driven data for following assets:
   - Drilling risers
   - Top tensioned risers
@@ -222,7 +224,7 @@ Jun 2016 to Date, Houston, TX and Remote
   - Recommendations are provided for regular field inspections and post-hurricane inspections
   - Utilized COMSOL, Matlab, Java API and DOS batch processing to automate and process multiple models and associated results.
 
-### Data Science Lead, Occidental Petroleum
+### Engineering SME for Data Science Team, Occidental Petroleum
 
 Sep 2017 to Dec 2020, Houston, TX and Remote
 
@@ -319,6 +321,7 @@ Aug 2003 to Jun 2015, Houston, TX
   - Murphy Surface BOP Drilling Riser Analysis
   - Unocal  Gendalo SCR Feasibility Analysis
   - BP Na kika  Completion Riser Analysis
+  - BP Thangguh Gas export pipeline VIV analysis
   - BP Thunder Horse  Top Tensioned Riser Tubing Landing Analysis
   - BP  High Pressure High Temperature (HPHT) Top Tensioned Riser Feasibility Study
   - Murphy Sabah - Kikeh Field Development
