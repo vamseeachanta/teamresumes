@@ -104,12 +104,17 @@ projects.
 
 ### Oil and Gas Data Analysis (BSEE)
 
-- The project's main aim is to focus on leveraging data analytics to enhance safety, environmental protection, and regulatory  oversight in offshore energy operations. 
-- Analysis involves the following key components:
-  - Data Extraction: Extracting useful data insights from the BSEE website using Scrapy. 
-  - Data Analysis: Performing data analysis to identify production trends, patterns, and anomalies.
-  - Data Visualization: Creating plots all kinds of data to present the analysis results effectively.
-- Part of energydata (<https://github.com/vamseeachanta/energydata>) repository for data extraction and analysis from
+ Data Extraction: Extracting well, production and field data from the BSEE website 
+  - Used Scrappy 
+  - direct read from Bulk data zip files to save data and time.
+- Data Analysis: Performing data analysis to identify trends, patterns, and anomalies.
+  - Analyze data by well
+  - group by block
+  - group by field
+- Data Visualization: Creating visualizations to present the analysis results effectively.
+  - matplotlib for static charts
+  - plotly for interactive charts
+- Work documented and code contributed to open source python repository "EnergyData" <https://github.com/vamseeachanta/energydata>, an open source repository for data extraction and analysis from
   public sources.
 
 ### Analytical Program Output Files Analysis 
