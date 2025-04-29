@@ -3,7 +3,7 @@ margin-left: 2cm
 margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
-title: Shaik Samdan , Software developer and Programmer
+title: Shaik Samdan , Software engineer and Data Visionary
 description-meta: 'Resume for job search'
 keywords:
   - 'computer science engineer'
@@ -18,10 +18,10 @@ subject: 'resume_samdan'
 
 ## Summary
 
-- Multidisciplinary  software engineer with hands-on experience in Python programming, Data Science and Software Development.
+- Multidisciplinary software engineer with hands-on experience in Python programming, data science, and software development.
 - Strong background in developing Python-based tools for automating data analysis processes with a focus on engineering applications.
 - Proficient in Python programming and familiar with various libraries and tools for data manipulation and analysis.
-- Skilled in Web scraping processes using Scrapy with a strong understanding of data extraction techniques.
+- Skilled in web scraping processes using Scrapy with a strong understanding of data extraction techniques.
 - Implemented CI/CD pipelines using GitHub Actions to automate testing and deployment for various 
 projects.
 - Passionate about writing clean, maintainable code and continuously learning new trends in technologies.
@@ -77,7 +77,6 @@ projects.
 
 **Databases**: MySQL, SQL Server
 
-
 ## Projects
 
 ### Template library for data science calculations
@@ -89,24 +88,25 @@ projects.
 
 ### Open Source Repository (AssetUtilities) Contributions
 
-#### Environment Management
-- Developed a Python-based tool to automate the management of virtual environments using Poetry.
+- **Environment Management**
+  - Developed a Python-based tool to automate the management of virtual environments using Poetry.
 
-#### File management
+- **File management**
+  - Created a Python script to automate the process of file renaming and organization based on user-defined rules.
+  - Implemented robust tests to ensure the reliability of the file management tool.
 
-#### Web Scraper 
+### Web Scraper 
 
  - Built and optimized a Scrapy-based web scraper to automate the data extraction process from public websites.    
  - Enhanced the data processing pipeline by implementing data validation and transformation steps.
- - Leveraged Python's pandas to process and validate extracted data directly from HTTP responses.
  - Reduced the time required for data extraction and validation through automation, improving overall efficiency.
  - part of assetutilities (<https://github.com/vamseeachanta/assetutilities>) for automation of development processes.
 
 ### Oil and Gas Data Analysis (BSEE)
 
- Data Extraction: Extracting well, production and field data from the BSEE website 
+- Data Extraction: Extracting well, production and field data from the BSEE website 
   - Used Scrappy 
-  - direct read from Bulk data zip files to save data and time.
+  - Direct read from bulk data zip files to save data and time.
 - Data Analysis: Performing data analysis to identify trends, patterns, and anomalies.
   - Analyze data by well
   - group by block
@@ -114,8 +114,7 @@ projects.
 - Data Visualization: Creating visualizations to present the analysis results effectively.
   - matplotlib for static charts
   - plotly for interactive charts
-- Work documented and code contributed to open source python repository "EnergyData" <https://github.com/vamseeachanta/energydata>, an open source repository for data extraction and analysis from
-  public sources.
+- Work documented and code contributed to open-source python repository "EnergyData" <https://github.com/vamseeachanta/energydata>, which is an ideal tool for data extraction and analysis from public data sources.
 
 ### Analytical Program Output Files Analysis 
 
@@ -123,7 +122,6 @@ projects.
   - ANSYS AQWA MES files
   - Orcaflex .SIM file output statistics (start time, end time failures, etc.)
 - Implemented regular expressions to parse and extract warnings and errors.
-- Generated a status table indicating the presence of warnings and errors in each file.
 - Reduced the time required to identify failures in bulk runs thus providing clear insights for project teams.
 
 ### Engineering Physics Based calculations
@@ -134,7 +132,6 @@ projects.
   - ships
   - subsea structures
   - pipelines
-
 
 ## Experience
 
@@ -152,5 +149,5 @@ Python Developer (Full-time) | Sep 2024 - Present
   - Optimized data extraction and analysis processes for BSEE data.
   - Designed data visualization tools to present analysis results effectively.
   
-- Automated Analysis Of MES Files
-  - Formulated automation process to handle MES file warnings and errors across multiple projects.
+- Analytical Program Output Files Analysis
+  - Formulated automation process to handle various file warnings and errors across multiple projects.
