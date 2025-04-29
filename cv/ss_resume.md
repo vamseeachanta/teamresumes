@@ -3,7 +3,7 @@ margin-left: 2cm
 margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
-title: Shaik Samdan , Software developer and Programmer
+title: Shaik Samdan , Software engineer and Data Visionary
 description-meta: 'Resume for job search'
 keywords:
   - 'computer science engineer'
@@ -95,7 +95,7 @@ projects.
   - Created a Python script to automate the process of file renaming and organization based on user-defined rules.
   - Implemented robust tests to ensure the reliability of the file management tool.
 
-#### Web Scraper 
+### Web Scraper 
 
  - Built and optimized a Scrapy-based web scraper to automate the data extraction process from public websites.    
  - Enhanced the data processing pipeline by implementing data validation and transformation steps.
