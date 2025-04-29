@@ -149,5 +149,5 @@ Python Developer (Full-time) | Sep 2024 - Present
   - Optimized data extraction and analysis processes for BSEE data.
   - Designed data visualization tools to present analysis results effectively.
   
-- Automated Analysis Of MES Files
-  - Formulated automation process to handle MES file warnings and errors across multiple projects.
+- Analytical Program Output Files Analysis
+  - Formulated automation process to handle various file warnings and errors across multiple projects.
