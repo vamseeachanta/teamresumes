@@ -135,6 +135,10 @@ Jun 2016 to Date, Houston, TX and Remote
   - Obtain data from government body (BSEE data center) website to obtain field level economics for GoM fields
   - Tasks included SQL database storage, GIS information, financial analysis and visualizations.
 
+- Curcular BOP Design and Analysis
+  - Detailed FEA analysis for seals and connectors for circular BOPs
+  - Nonlinear and Elastic-plastic analysis in ANSYS FEA
+
 - Wellhead Fatigue Data Analysis
   - Utilized engineering and digital signal processing (DSP) expertise to analyze time series data
   - Assist SMEs (subject matter experts) with data exploration of 1 Hz (1 second) and 10 Hz (high frequency) measured data.
@@ -156,7 +160,7 @@ Jun 2012 to Date, Houston, TX and Remote
   - Lead 10+ engineers and designers to deliver the marine and structural engineering analysis for the project
   - FST detailed Engineering analysis with in-place and without LNG carriers
   - FST global performance analysis
-  - Mooring and Fender design
+  - Mooring and non-linear Fender design analysis to ensure components are fit-for-purpose
 
 - Installation analysis for subsea structures
   - Structures such as Manifolds, PLETs etc.
