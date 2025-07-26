@@ -135,6 +135,21 @@ Jun 2016 to Date, Houston, TX and Remote
   - Obtain data from government body (BSEE data center) website to obtain field level economics for GoM fields
   - Tasks included SQL database storage, GIS information, financial analysis and visualizations.
 
+- Wellhead Fatigue Data Analysis
+  - Utilized engineering and digital signal processing (DSP) expertise to analyze time series data
+  - Assist SMEs (subject matter experts) with data exploration of 1 Hz (1 second) and 10 Hz (high frequency) measured data.
+  - Performed basic data cleaning methods (rolling average, filtering) and advanced digital methods (fast fourier transforms, frequency filters, FFT and iFFT) to help SMEs understand and assess data to meaningful structural analysis quantities
+  - Developed modular plug and play architecture for near real-time data processing for next project phase with following aspects.
+  - Input and output data flexibility (input files, databases etc.) for Proof of concepts, SME testing and production)
+  - Processing engine to accommodate various custom calculations
+  - Detailed Hull finite element analysis for salvage ship SEWOL offshore Korea
+  - Detailed stress analysis per DNV-RP-C102 performed in ANSYS for ship located subsea
+  - Panel buckling analysis per DNV-RP-C201. Plate, stiffener and girder are considered as part of this analysis
+  - ANSYS extension Python programming is utilized to automate the structural analysis process and reduce manual interventions and thus increase productivity.
+
+### Engineering Lead Consultant, AceEngineer
+
+=======
 - Curcular BOP Design and Analysis
   - Detailed FEA analysis for seals and connectors for circular BOPs
   - Nonlinear and Elastic-plastic analysis in ANSYS FEA
@@ -163,6 +178,16 @@ Jun 2012 to Date, Houston, TX and Remote
   - FST detailed Engineering analysis with in-place and without LNG carriers
   - FST global performance analysis
   - Mooring and non-linear Fender design analysis to ensure components are fit-for-purpose
+
+- Installation analysis for subsea structures
+  - Structures such as Manifolds, PLETs etc.
+  - Flexible and umbilicals
+  - Rigid/flexible jumpers
+
+- Detailed subsea pipeline engineering analysis for installation of 42 inch thin walled (D/t of 67) pipe offshore Venezuela
+  - Detailed finite element analysis in ANSYS to determine the bending moment capacity of pipeline which is outside the DNV code regime (D/t > 45)
+  - Pipelay analysis in OrcaFlex to determine installation windows
+  - Python and API programming utilized to obtain results and plots in an automated manner
 
 - Installation analysis for subsea structures
   - Structures such as Manifolds, PLETs etc.

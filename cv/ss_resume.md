@@ -51,7 +51,7 @@ projects.
 
 **Web Scraping**: Data extraction , API interaction , Data Parsing , Webpage Inspection
 
-**Tools**: Scrapy , Beautiful Soup , Selenium , requests
+**Tools**: Poetry , Scrapy , Beautiful Soup , Selenium , requests
 
 **Web development**: Basic HTML, CSS and Javascript 
 
@@ -65,7 +65,9 @@ projects.
 
 **Debugging**: IDE debugging, VS Code for all programming
 
-**Programming Practices**: Algorithms, Data Structures , Configurations, Virtual environments
+**Programming Practices**: Algorithms, Data Structures , Configurations, Virtual environments (Conda)
+
+**Yaml**: Pyyaml, Ruamel yaml
 
 **Virtual Environments**: Poetry , Conda 
 
@@ -122,15 +124,12 @@ projects.
   - matplotlib for static charts
   - plotly for interactive charts
 - Work documented and code contributed to open-source python repository "WorldEnergyData" <https://github.com/vamseeachanta/worldenergydata>, which is an ideal tool for data extraction and analysis from public data sources.
-=======
-- Work documented and code contributed to open-source python repository "EnergyData" <https://github.com/vamseeachanta/energydata>, which is an ideal tool for data extraction and analysis from public data sources.
 
 ### Analytical Program Output Files Analysis 
 
 - Developed a Python-based tool to automate the analysis of warnings and errors for the following program output files
   - ANSYS AQWA MES files
   - Orcaflex .SIM file output statistics (start time, end time failures, etc.)
-=======
 - Implemented regular expressions to parse and extract warnings and errors.
 - Reduced the time required to identify failures in bulk runs thus providing clear insights for project teams.
 - Work done in collaboration with the team and contributed to the open-source repository "AssetUtilities" (<https://github.com/vamseeachanta/assetutilities>).
@@ -154,7 +153,7 @@ Python Developer (Full-time) | Sep 2024 - Present
   - Designed a template library for data science calculations using Python.
 
 - Web Scraper
-  - Implemented scrapy based tool for data extraction from public websites.
+  - Implemented scrapy based tool for data extraction from BSEE website.
 
 - Oil and Gas Data Analysis
   - Optimized data extraction and analysis processes for BSEE data.
