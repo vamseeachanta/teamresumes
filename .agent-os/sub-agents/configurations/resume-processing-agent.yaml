@@ -1,0 +1,174 @@
+# Resume Processing Agent Configuration
+# Specializes in resume format validation, PDF generation QA, and content quality
+
+name: "resume-processing-agent"
+version: "1.0.0"
+description: "Validates resume markdown format, ensures PDF generation quality, and maintains professional content standards"
+specialization: "resume-validation-and-processing"
+
+# Agent activation conditions
+triggers:
+  files:
+    - "*.md"          # Resume markdown files
+    - "cv/*.md"       # CV directory files
+    - "*_resume.md"   # Files ending with _resume.md
+  commands:
+    - "check-resume"
+    - "validate-cv"
+    - "generate-pdf"
+    - "format-resume"
+  workflows:
+    - "resume-quality-check"
+    - "pdf-generation-qa"
+    - "content-validation"
+
+# Available tools and capabilities
+tools:
+  allowed:
+    - "file_read"
+    - "file_write"
+    - "file_analyze"
+    - "process_execute"
+    - "system_info"
+  
+  analysis:
+    - "markdown-parser"
+    - "content-validator"
+    - "format-checker"
+    - "pdf-generator"
+    - "skills-extractor"
+    - "experience-validator"
+  
+  generation:
+    - "pdf-converter"
+    - "format-standardizer"
+    - "content-enhancer"
+    - "skills-formatter"
+  
+  validation:
+    - "structure-validator"
+    - "content-quality-checker"
+    - "format-consistency"
+    - "professional-standards"
+  
+  restricted:
+    - "external_api_calls"
+    - "system_modifications"
+    - "network_access"
+
+# Security and permissions
+permissions:
+  read:
+    - "*.md"
+    - "cv/*.md"
+    - "*.css"
+    - "*.bat"
+    - "*.sh"
+    - "pandoc-templates/*"
+  
+  write:
+    - "cv/*.md"        # Can update resume files
+    - "cv/*.pdf"       # Can generate PDF outputs
+    - "temp/*"         # Can create temporary files
+  
+  execute:
+    - "pandoc"         # PDF generation
+    - "wkhtmltopdf"    # PDF conversion
+    - "python"         # Analysis scripts
+
+security:
+  sandbox: true
+  file_operations: "restricted"
+  network_access: false
+  system_commands: "limited"
+  audit_logging: true
+  session_timeout: 1800  # 30 minutes
+
+# Agent behavior patterns
+behavior:
+  analysis_depth: "comprehensive"
+  validation_strictness: "professional"
+  feedback_style: "constructive"
+  error_handling: "graceful"
+  
+  quality_standards:
+    - "professional_formatting"
+    - "consistent_structure"
+    - "clear_content"
+    - "complete_sections"
+    - "proper_grammar"
+  
+  resume_sections:
+    required:
+      - "name_header"
+      - "contact_information"
+      - "professional_experience"
+      - "skills"
+      - "education"
+    
+    optional:
+      - "summary"
+      - "projects"
+      - "certifications"
+      - "awards"
+      - "languages"
+      - "publications"
+
+# Integration with other systems
+integration:
+  frameworks:
+    - "agent-os"
+    - "claude-code"
+  
+  coordination:
+    with_agents:
+      - "code-quality-agent"      # For script validation
+      - "documentation-agent"     # For README updates
+      - "content-generation-agent" # For LinkedIn content
+    
+    triggers:
+      - "after_resume_update"
+      - "before_pdf_generation"
+      - "quality_check_complete"
+
+# Agent coordination and workflow
+coordination:
+  priority: "high"
+  execution_order: 2
+  
+  dependencies:
+    - "pandoc_installed"
+    - "wkhtmltopdf_available"
+    - "resume_templates_present"
+  
+  outputs:
+    - "validation_report"
+    - "quality_assessment"
+    - "pdf_generation_status"
+    - "improvement_suggestions"
+
+# Metadata and versioning
+metadata:
+  author: "Agent OS Framework"
+  created: "2025-07-25"
+  updated: "2025-07-25"
+  
+  tags:
+    - "resume-processing"
+    - "pdf-generation"
+    - "content-validation"
+    - "professional-documents"
+  
+  capabilities:
+    - "Resume format validation"
+    - "PDF generation quality assurance"
+    - "Content structure verification"
+    - "Skills formatting validation"
+    - "Experience section analysis"
+    - "Professional standards compliance"
+  
+  limitations:
+    - "Limited to markdown resume formats"
+    - "Requires pandoc for PDF generation"
+    - "English content focus"
+    - "Cannot modify core resume content without approval"

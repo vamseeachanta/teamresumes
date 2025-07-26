@@ -32,14 +32,14 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
   - [x] 3.6 Create documentation prompt templates
   - [x] 3.7 Verify all tests pass for documentation agent
 
-- [ ] 4. Implement Resume Processing Agent
-  - [ ] 4.1 Write tests for resume processing functionality
-  - [ ] 4.2 Create resume-processing-agent.yaml configuration
-  - [ ] 4.3 Develop resume markdown validation logic
-  - [ ] 4.4 Implement PDF generation quality assurance
-  - [ ] 4.5 Add skills and experience formatting validation
-  - [ ] 4.6 Create resume processing prompt templates
-  - [ ] 4.7 Verify all tests pass for resume processing agent
+- [x] 4. Implement Resume Processing Agent
+  - [x] 4.1 Write tests for resume processing functionality
+  - [x] 4.2 Create resume-processing-agent.yaml configuration
+  - [x] 4.3 Develop resume markdown validation logic
+  - [x] 4.4 Implement PDF generation quality assurance
+  - [x] 4.5 Add skills and experience formatting validation
+  - [x] 4.6 Create resume processing prompt templates
+  - [x] 4.7 Verify all tests pass for resume processing agent
 
 - [ ] 5. Implement Content Generation Agent
   - [ ] 5.1 Write tests for content generation functionality
