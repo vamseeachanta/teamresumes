@@ -75,7 +75,9 @@ projects.
 
 **Tech Tools**: Visual Studio Code (VS Code), Jupyter Notebook, Microsoft Office (Excel, PowerPoint, Word)
 
-**Documentation**: Markdown, Plantuml flowcharts
+**Documentation**: Markdown, Plantuml flowcharts, Pyramid diagrams
+
+**Databases**: MySQL, SQL Server
 
 ## Projects
 
@@ -89,6 +91,7 @@ projects.
 ### Open Source Repository (AssetUtilities) Contributions
 
 - Contributed to open source repository "AssetUtilities" (<https://github.com/vamseeachanta/assetutilities>) focused on automating development processes.
+
 - **Environment Management**
   - Developed a Python-based tool to automate the management of virtual environments using Poetry.
 
@@ -108,6 +111,8 @@ projects.
 - Contributed to Oil and Gas Data Analysis project focused on extracting and analyzing data from the Bureau of Safety and Environmental Enforcement (BSEE) website.
 - Data Extraction: Extracting well, production and field data from the BSEE website 
   - Used Scrapy 
+- Data Extraction: Extracting well, production and field data from the BSEE website 
+  - Used Scrappy 
   - Direct read from bulk data zip files to save data and time.
 - Data Analysis: Performing data analysis to identify trends, patterns, and anomalies.
   - Analyze data by well
@@ -117,12 +122,16 @@ projects.
   - matplotlib for static charts
   - plotly for interactive charts
 - Work documented and code contributed to open-source python repository "WorldEnergyData" <https://github.com/vamseeachanta/worldenergydata>, which is an ideal tool for data extraction and analysis from public data sources.
+=======
+- Work documented and code contributed to open-source python repository "EnergyData" <https://github.com/vamseeachanta/energydata>, which is an ideal tool for data extraction and analysis from public data sources.
 
 ### Analytical Program Output Files Analysis 
 
 - Developed a Python-based tool to automate the analysis of warnings and errors for the following program output files
   - ANSYS AQWA MES files
   - Orcaflex .SIM file output statistics (start time, end time failures, etc.)
+=======
+- Implemented regular expressions to parse and extract warnings and errors.
 - Reduced the time required to identify failures in bulk runs thus providing clear insights for project teams.
 - Work done in collaboration with the team and contributed to the open-source repository "AssetUtilities" (<https://github.com/vamseeachanta/assetutilities>).
 
