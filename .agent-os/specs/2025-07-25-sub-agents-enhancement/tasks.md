@@ -14,14 +14,14 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
   - [x] 1.4 Create agent permission and security framework
   - [x] 1.5 Test configuration system with sample agents
 
-- [ ] 2. Implement Code Quality Agent
-  - [ ] 2.1 Write tests for code quality analysis functionality
-  - [ ] 2.2 Create code-quality-agent.yaml configuration
-  - [ ] 2.3 Develop Python code analysis capabilities
-  - [ ] 2.4 Implement batch script validation logic
-  - [ ] 2.5 Add CSS and markdown consistency checking
-  - [ ] 2.6 Create code quality prompt templates
-  - [ ] 2.7 Verify all tests pass for code quality agent
+- [x] 2. Implement Code Quality Agent
+  - [x] 2.1 Write tests for code quality analysis functionality
+  - [x] 2.2 Create code-quality-agent.yaml configuration
+  - [x] 2.3 Develop Python code analysis capabilities
+  - [x] 2.4 Implement batch script validation logic
+  - [x] 2.5 Add CSS and markdown consistency checking
+  - [x] 2.6 Create code quality prompt templates
+  - [x] 2.7 Verify all tests pass for code quality agent
 
 - [ ] 3. Implement Documentation Agent
   - [ ] 3.1 Write tests for documentation maintenance functionality
