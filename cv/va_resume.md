@@ -46,11 +46,11 @@ subject: 'resume_achanta'
 
 | Area |  System/Components | Analysis/Software
 |---------|--------|--------|
+| Detailed structural analysis | connectors/couplings/flanges <br> BOP and Seal Design <br> Rigid jumpers| ANSYS Elastic plastic analyiss <br> Elastic plastic ASME VIII Div 2, Div 3 <br> pipe buckling, plate buckling  |
 | Subsea Installations analysis | dynamic umbilicals, static umbilicals, pipelines, risers, jumpers, manifolds etc | Design, Installation analysis <br> detailed structural analysis |
 | Field Development | Well drilling, completion, production, interventions, abandonment <br> Deep and shallow water experience <br> Wet tree vs. dry tree  | Field economics <br> Facilities planning |
 | Subsea In-place design | All floaters & rigid/flexible risers <br> pipelines <br> geotechnical | Global analysis <br> detailed structural analysis  |
 | Facilities In-place design | vessel hull & hydrodynamics <br> SALM and CALM Buoy designs <br> moorings <br> platform analysis | Global analysis <br> detailed structural analysis <br> buckling, punch, and shear checks |
-| Detailed structural analysis | connectors/couplings/flanges <br> rigid jumpers| Elastic plastic ASME VIII Div 2, Div 3 <br> pipe buckling, plate buckling  |
 | Fitness for service | pipings, pressure vessels, vessel hull | Remaining useful life <br> API579 & BS7910 <br> fracture mechanics |
 | Task automation, Data analysis and algorithm development | near real-time drilling algorithms <br> near real-time production algorithms <br> measured data analysis for subsea assets | git <br> github <br> python <br> plantuml <br> automations <br> visualizations |
 
@@ -135,6 +135,12 @@ Jun 2016 to Date, Houston, TX and Remote
   - Obtain data from government body (BSEE data center) website to obtain field level economics for GoM fields
   - Tasks included SQL database storage, GIS information, financial analysis and visualizations.
 
+- Curcular BOP Design and Analysis
+  - Detailed FEA analysis for seals and connectors for circular BOPs
+  - Nonlinear and Elastic-plastic analysis in ANSYS FEA
+  - Metal and Elastomer materials considered
+  - Annulus and Drill pipe seal analysis for various conditions
+
 - Wellhead Fatigue Data Analysis
   - Utilized engineering and digital signal processing (DSP) expertise to analyze time series data
   - Assist SMEs (subject matter experts) with data exploration of 1 Hz (1 second) and 10 Hz (high frequency) measured data.
@@ -156,7 +162,7 @@ Jun 2012 to Date, Houston, TX and Remote
   - Lead 10+ engineers and designers to deliver the marine and structural engineering analysis for the project
   - FST detailed Engineering analysis with in-place and without LNG carriers
   - FST global performance analysis
-  - Mooring and Fender design
+  - Mooring and non-linear Fender design analysis to ensure components are fit-for-purpose
 
 - Installation analysis for subsea structures
   - Structures such as Manifolds, PLETs etc.

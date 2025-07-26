@@ -51,11 +51,11 @@ projects.
 
 **Web Scraping**: Data extraction , API interaction , Data Parsing , Webpage Inspection
 
-**Tools**: Poetry , Scrapy , Beautiful Soup , Selenium , requests
+**Tools**: Scrapy , Beautiful Soup , Selenium , requests
 
-**Web development**: Basic HTML , Javascript 
+**Web development**: Basic HTML, CSS and Javascript 
 
-**Python libraries**: Matplotlib , Plotly , PIL , Sympy , Scikit-learn , yfinance , ffn
+**Python libraries**: Matplotlib , Plotly , PIL , Sympy , Scikit-learn , yfinance , ffn, numpy-financial
 
 **Version Control**: Git, multiuser working, test driven development, test pipelines
 
@@ -65,11 +65,13 @@ projects.
 
 **Debugging**: IDE debugging, VS Code for all programming
 
-**Programming Practices**: Algorithms, Data Structures , Configurations, Virtual environments (Conda)
+**Programming Practices**: Algorithms, Data Structures , Configurations, Virtual environments
+
+**Virtual Environments**: Poetry , Conda 
 
 **Yaml**: Pyyaml, Ruamel yaml
 
-**Artificial Intelligence**: GitHub Copilot, ChatGPT
+**Artificial Intelligence**: GitHub Copilot, ChatGPT, Claude AI, Deepseek 
 
 **Tech Tools**: Visual Studio Code (VS Code), Jupyter Notebook, Microsoft Office (Excel, PowerPoint, Word)
 
@@ -88,6 +90,8 @@ projects.
 
 ### Open Source Repository (AssetUtilities) Contributions
 
+- Contributed to open source repository "AssetUtilities" (<https://github.com/vamseeachanta/assetutilities>) focused on automating development processes.
+
 - **Environment Management**
   - Developed a Python-based tool to automate the management of virtual environments using Poetry.
 
@@ -104,6 +108,9 @@ projects.
 
 ### Oil and Gas Data Analysis (BSEE)
 
+- Contributed to Oil and Gas Data Analysis project focused on extracting and analyzing data from the Bureau of Safety and Environmental Enforcement (BSEE) website.
+- Data Extraction: Extracting well, production and field data from the BSEE website 
+  - Used Scrapy 
 - Data Extraction: Extracting well, production and field data from the BSEE website 
   - Used Scrappy 
   - Direct read from bulk data zip files to save data and time.
@@ -114,6 +121,8 @@ projects.
 - Data Visualization: Creating visualizations to present the analysis results effectively.
   - matplotlib for static charts
   - plotly for interactive charts
+- Work documented and code contributed to open-source python repository "WorldEnergyData" <https://github.com/vamseeachanta/worldenergydata>, which is an ideal tool for data extraction and analysis from public data sources.
+=======
 - Work documented and code contributed to open-source python repository "EnergyData" <https://github.com/vamseeachanta/energydata>, which is an ideal tool for data extraction and analysis from public data sources.
 
 ### Analytical Program Output Files Analysis 
@@ -121,8 +130,10 @@ projects.
 - Developed a Python-based tool to automate the analysis of warnings and errors for the following program output files
   - ANSYS AQWA MES files
   - Orcaflex .SIM file output statistics (start time, end time failures, etc.)
+=======
 - Implemented regular expressions to parse and extract warnings and errors.
 - Reduced the time required to identify failures in bulk runs thus providing clear insights for project teams.
+- Work done in collaboration with the team and contributed to the open-source repository "AssetUtilities" (<https://github.com/vamseeachanta/assetutilities>).
 
 ### Engineering Physics Based calculations
 
@@ -143,7 +154,7 @@ Python Developer (Full-time) | Sep 2024 - Present
   - Designed a template library for data science calculations using Python.
 
 - Web Scraper
-  - Implemented scrapy based tool for data extraction from BSEE website.
+  - Implemented scrapy based tool for data extraction from public websites.
 
 - Oil and Gas Data Analysis
   - Optimized data extraction and analysis processes for BSEE data.
