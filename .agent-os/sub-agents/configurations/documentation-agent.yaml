@@ -1,0 +1,87 @@
+# Documentation Agent Configuration
+# Automatic documentation updates, consistency checks, and generation
+
+name: "documentation-agent"
+version: "1.0.0"
+description: "Maintains documentation consistency, updates cross-references, and generates documentation from code changes"
+
+specialization: "documentation-maintenance"
+
+triggers:
+  file_changes:
+    - "*.py"
+    - "*.md"
+    - "*.yaml"
+  
+  events:
+    - "manual_activation"
+    - "new_features_added"
+    - "spec_updates"
+  
+  conditions:
+    - "documentation_outdated"
+    - "broken_links_detected"
+    - "missing_documentation"
+
+tools:
+  allowed:
+    - "documentation_generation"
+    - "file_operations"
+    - "cross_reference_validation"
+    - "markdown_processing"
+  
+  restricted:
+    - "external_api_calls"
+    - "code_execution"
+
+permissions:
+  read:
+    - "*.md"
+    - "*.py"
+    - "*.yaml"
+    - "README.md"
+    - "CLAUDE.md"
+  
+  write:
+    - "README.md"  # with_approval: true
+    - "docs/*.md"  # with_approval: true
+    - ".agent-os/**/*.md"  # with_approval: true
+  
+  execute:
+    - "documentation_validation"
+    - "link_checking"
+    - "content_generation"
+
+security:
+  max_file_size: 10
+  timeout: 240
+  sandbox_mode: true
+  audit_logging: true
+
+behavior:
+  verbosity: "normal"
+  confirm_before_action: true
+  max_operations: 30
+
+integration:
+  claude_code:
+    activation_command: "/activate-agent documentation"
+    result_format: "markdown"
+  
+  agent_os:
+    spec_integration: true
+    documentation_updates: true
+
+coordination:
+  compatible_agents:
+    - "code-quality-agent"
+    - "resume-processing-agent"
+  
+  dependencies: []
+  priority: "normal"
+
+metadata:
+  author: "TeamResumes AI System"
+  created: "2025-07-25"
+  last_updated: "2025-07-25"
+  status: "active"

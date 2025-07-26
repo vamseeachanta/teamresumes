@@ -7,12 +7,12 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
 
 ## Tasks
 
-- [ ] 1. Create sub-agent infrastructure and configuration system
-  - [ ] 1.1 Create .agent-os/sub-agents directory structure
-  - [ ] 1.2 Create YAML configuration template system
-  - [ ] 1.3 Implement agent configuration parser and validator
-  - [ ] 1.4 Create agent permission and security framework
-  - [ ] 1.5 Test configuration system with sample agents
+- [x] 1. Create sub-agent infrastructure and configuration system
+  - [x] 1.1 Create .agent-os/sub-agents directory structure
+  - [x] 1.2 Create YAML configuration template system
+  - [x] 1.3 Implement agent configuration parser and validator
+  - [x] 1.4 Create agent permission and security framework
+  - [x] 1.5 Test configuration system with sample agents
 
 - [ ] 2. Implement Code Quality Agent
   - [ ] 2.1 Write tests for code quality analysis functionality
