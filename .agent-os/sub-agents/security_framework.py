@@ -283,6 +283,8 @@ class SecurityFramework:
             "dev_tools/",
             ".agent-os/",
             ".claude/",
+            "temp/",  # Allow temporary files for agents
+            "generated-content/",  # Allow generated content output
             "README.md",
             "CLAUDE.md"
         ]

@@ -1,0 +1,176 @@
+# Content Generation Agent Configuration
+# Specializes in generating professional content from resume data for social media and professional networking
+
+name: "content-generation-agent"
+version: "1.0.0"
+description: "Generates LinkedIn posts, professional bios, and social media content from resume data"
+specialization: "content-creation-and-marketing"
+
+# Agent activation conditions
+triggers:
+  files:
+    - "*.md"          # Resume markdown files
+    - "cv/*.md"       # CV directory files
+    - "*_resume.md"   # Files ending with _resume.md
+  commands:
+    - "generate-linkedin"
+    - "create-bio"
+    - "generate-social"
+    - "create-content"
+  workflows:
+    - "linkedin-update"
+    - "social-media-campaign"
+    - "professional-branding"
+
+# Available tools and capabilities
+tools:
+  allowed:
+    - "file_read"
+    - "file_write"
+    - "content_generation"
+    - "text_processing"
+    - "template_engine"
+  
+  analysis:
+    - "resume-parser"
+    - "skills-extractor"
+    - "achievement-analyzer"
+    - "experience-summarizer"
+    - "keyword-identifier"
+  
+  generation:
+    - "linkedin-post-generator"
+    - "bio-creator"
+    - "headline-writer"
+    - "summary-generator"
+    - "hashtag-suggester"
+  
+  templates:
+    - "linkedin-templates"
+    - "bio-templates"
+    - "social-templates"
+    - "achievement-templates"
+  
+  restricted:
+    - "external_api_calls"
+    - "system_modifications"
+    - "direct_posting"
+
+# Security and permissions
+permissions:
+  read:
+    - "*.md"
+    - "cv/*.md"
+    - "templates/*.md"
+    - ".agent-os/specs/*"
+  
+  write:
+    - "generated-content/*.md"    # Generated content output
+    - "generated-content/*.txt"   # Text format output
+    - "temp/*"                    # Temporary files
+  
+  execute:
+    - "python"         # Content generation scripts
+    - "node"          # Template processing
+
+security:
+  sandbox: true
+  file_operations: "restricted"
+  network_access: false
+  system_commands: "minimal"
+  audit_logging: true
+  session_timeout: 1800  # 30 minutes
+
+# Agent behavior patterns
+behavior:
+  generation_style: "professional"
+  tone: "confident_humble"
+  creativity_level: "moderate"
+  error_handling: "graceful"
+  
+  content_guidelines:
+    - "professional_tone"
+    - "achievement_focused"
+    - "value_driven"
+    - "authentic_voice"
+    - "industry_appropriate"
+  
+  linkedin_standards:
+    character_limits:
+      post: 3000
+      headline: 220
+      summary: 2600
+    
+    engagement_tactics:
+      - "question_ending"
+      - "value_proposition"
+      - "storytelling"
+      - "data_driven"
+  
+  content_types:
+    - "achievement_highlights"
+    - "skill_showcases"
+    - "career_updates"
+    - "thought_leadership"
+    - "professional_insights"
+
+# Integration with other systems
+integration:
+  frameworks:
+    - "agent-os"
+    - "claude-code"
+  
+  coordination:
+    with_agents:
+      - "resume-processing-agent"   # Get validated resume data
+      - "documentation-agent"       # Update content docs
+      - "code-quality-agent"       # Validate generated scripts
+    
+    triggers:
+      - "after_resume_validation"
+      - "on_content_request"
+      - "periodic_updates"
+
+# Agent coordination and workflow
+coordination:
+  priority: "normal"
+  execution_order: 3
+  
+  dependencies:
+    - "validated_resume_data"
+    - "content_templates"
+    - "generation_rules"
+  
+  outputs:
+    - "linkedin_posts"
+    - "professional_bios"
+    - "social_media_content"
+    - "content_calendar"
+
+# Metadata and versioning
+metadata:
+  author: "Agent OS Framework"
+  created: "2025-07-27"
+  updated: "2025-07-27"
+  
+  tags:
+    - "content-generation"
+    - "linkedin"
+    - "social-media"
+    - "professional-branding"
+    - "marketing"
+  
+  capabilities:
+    - "LinkedIn post generation from achievements"
+    - "Professional bio creation"
+    - "Skills-based content generation"
+    - "Career story narratives"
+    - "Achievement quantification"
+    - "Hashtag optimization"
+    - "Content calendar suggestions"
+  
+  limitations:
+    - "Cannot directly post to social media"
+    - "Requires human review before publishing"
+    - "English language focus"
+    - "Professional content only"
