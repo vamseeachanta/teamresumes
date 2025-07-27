@@ -308,7 +308,7 @@ class SecurityFramework:
                 return True
         
         # Allow root-level files with specific extensions
-        if "/" not in path_str and path_str.endswith(('.md', '.py', '.bat', '.css', '.yaml')):
+        if "/" not in path_str and path_str.endswith(('.md', '.py', '.bat', '.css', '.yaml', '.txt', '.json', '.toml', '.cfg', '.ini')):
             return True
         
         return False
