@@ -10,7 +10,10 @@
       "Bash(rm:*)",
       "Bash(test:*)",
       "Bash(afplay:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(git checkout:*)",
+      "Bash(python:*)",
+      "Bash(mv:*)"
     ],
     "deny": []
   }

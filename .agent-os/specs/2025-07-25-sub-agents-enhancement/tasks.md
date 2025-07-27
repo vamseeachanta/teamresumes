@@ -41,14 +41,14 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
   - [x] 4.6 Create resume processing prompt templates
   - [x] 4.7 Verify all tests pass for resume processing agent
 
-- [ ] 5. Implement Content Generation Agent
-  - [ ] 5.1 Write tests for content generation functionality
-  - [ ] 5.2 Create content-generation-agent.yaml configuration
-  - [ ] 5.3 Develop LinkedIn post generation from resume data
-  - [ ] 5.4 Implement social media content templates
-  - [ ] 5.5 Add professional bio generation capabilities
-  - [ ] 5.6 Create content generation prompt templates
-  - [ ] 5.7 Verify all tests pass for content generation agent
+- [x] 5. Implement Content Generation Agent
+  - [x] 5.1 Write tests for content generation functionality
+  - [x] 5.2 Create content-generation-agent.yaml configuration
+  - [x] 5.3 Develop LinkedIn post generation from resume data
+  - [x] 5.4 Implement social media content templates
+  - [x] 5.5 Add professional bio generation capabilities
+  - [x] 5.6 Create content generation prompt templates
+  - [x] 5.7 Verify all tests pass for content generation agent
 
 - [ ] 6. Implement Maintenance Agent
   - [ ] 6.1 Write tests for maintenance functionality
