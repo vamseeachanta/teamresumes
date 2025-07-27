@@ -1,0 +1,280 @@
+# Maintenance Agent Configuration
+# Specializes in dependency monitoring, security scanning, and project health monitoring
+
+name: "maintenance-agent"
+version: "1.0.0"
+description: "Monitors project dependencies, scans for security vulnerabilities, and tracks project health metrics"
+specialization: "project-maintenance-and-monitoring"
+
+# Agent activation conditions
+triggers:
+  files:
+    - "requirements.txt"    # Python dependencies
+    - "package.json"        # Node.js dependencies
+    - "Pipfile"            # Python Pipenv files
+    - "pyproject.toml"     # Python project files
+    - "composer.json"      # PHP dependencies
+    - "Gemfile"            # Ruby dependencies
+    - ".env"               # Environment files
+    - "*.py"               # Python source files
+    - "*.js"               # JavaScript files
+    - "*.ts"               # TypeScript files
+  commands:
+    - "check-dependencies"
+    - "security-scan"
+    - "health-check"
+    - "maintenance-report"
+    - "vulnerability-scan"
+  workflows:
+    - "dependency-update"
+    - "security-audit"
+    - "project-health-monitoring"
+    - "maintenance-cleanup"
+
+# Available tools and capabilities
+tools:
+  allowed:
+    - "file_read"
+    - "file_write"
+    - "file_analyze"
+    - "process_execute"
+    - "system_info"
+    - "dependency_analysis"
+    - "security_scanning"
+    - "health_monitoring"
+  
+  analysis:
+    - "dependency-analyzer"
+    - "vulnerability-scanner"
+    - "code-quality-analyzer"
+    - "project-structure-validator"
+    - "git-health-checker"
+    - "test-coverage-analyzer"
+  
+  monitoring:
+    - "dependency-monitor"
+    - "security-monitor"
+    - "performance-monitor"
+    - "health-metrics-collector"
+    - "outdated-package-detector"
+  
+  reporting:
+    - "maintenance-reporter"
+    - "security-report-generator"
+    - "health-dashboard-generator"
+    - "recommendation-engine"
+  
+  restricted:
+    - "automatic_dependency_updates"
+    - "system_modifications"
+    - "external_vulnerability_db_write"
+
+# Security and permissions
+permissions:
+  read:
+    - "requirements.txt"
+    - "package.json"
+    - "Pipfile"
+    - "pyproject.toml"
+    - "composer.json"
+    - "Gemfile"
+    - "*.py"
+    - "*.js"
+    - "*.ts"
+    - "*.md"
+    - ".env"
+    - ".env.*"
+    - ".gitignore"
+    - "*.yaml"
+    - "*.yml"
+    - "*.json"
+    - "*.toml"
+    - "*.cfg"
+    - "*.ini"
+    - "tests/*"
+    - "src/*"
+    - "docs/*"
+    - ".agent-os/*"
+  
+  write:
+    - "generated-content/maintenance-*.md"    # Maintenance reports
+    - "generated-content/security-*.md"      # Security reports
+    - "generated-content/health-*.md"        # Health reports
+    - "temp/*"                               # Temporary analysis files
+  
+  execute:
+    - "python"          # For dependency analysis scripts
+    - "pip"            # Package management
+    - "npm"            # Node package management
+    - "git"            # Git repository analysis
+
+security:
+  sandbox: true
+  file_operations: "restricted"
+  network_access: "limited"  # For checking package versions
+  system_commands: "minimal"
+  audit_logging: true
+  session_timeout: 3600  # 60 minutes for thorough analysis
+
+# Agent behavior patterns
+behavior:
+  analysis_depth: "comprehensive"
+  reporting_style: "detailed"
+  recommendation_level: "actionable"
+  alert_threshold: "medium"
+  
+  scanning_priorities:
+    - "critical_vulnerabilities"
+    - "outdated_dependencies"
+    - "security_issues"
+    - "code_quality_issues"
+    - "project_structure_issues"
+  
+  monitoring_frequency:
+    dependencies: "weekly"
+    security: "daily"
+    health_metrics: "daily"
+    full_analysis: "monthly"
+  
+  reporting_format:
+    - "markdown_reports"
+    - "json_data_export"
+    - "summary_dashboards"
+    - "priority_recommendations"
+
+# Integration with other systems
+integration:
+  frameworks:
+    - "agent-os"
+    - "claude-code"
+  
+  coordination:
+    with_agents:
+      - "code-quality-agent"        # Collaborate on code analysis
+      - "documentation-agent"       # Update maintenance docs
+      - "security-monitoring-agent" # Security coordination
+    
+    triggers:
+      - "after_dependency_changes"
+      - "on_security_alert"
+      - "periodic_health_check"
+      - "before_major_releases"
+  
+  external_tools:
+    - "pip-audit"         # Python security scanning
+    - "npm-audit"         # Node.js security scanning
+    - "bandit"            # Python security linter
+    - "safety"            # Python dependency vulnerability checker
+    - "snyk"              # Multi-language vulnerability scanner
+
+# Agent coordination and workflow
+coordination:
+  priority: "normal"
+  execution_order: 2
+  
+  dependencies:
+    - "project_files_access"
+    - "dependency_files"
+    - "source_code_access"
+  
+  outputs:
+    - "dependency_analysis"
+    - "security_scan_results"
+    - "health_metrics"
+    - "maintenance_reports"
+    - "priority_recommendations"
+  
+  scheduling:
+    - "daily_security_check"
+    - "weekly_dependency_review"
+    - "monthly_comprehensive_audit"
+
+# Specific maintenance configurations
+maintenance_config:
+  dependency_monitoring:
+    python:
+      files: ["requirements.txt", "Pipfile", "pyproject.toml"]
+      tools: ["pip", "pipenv", "poetry"]
+      vulnerability_sources: ["pyup.io", "safety-db"]
+    
+    nodejs:
+      files: ["package.json", "package-lock.json", "yarn.lock"]
+      tools: ["npm", "yarn"]
+      vulnerability_sources: ["npm-audit", "snyk"]
+    
+    ruby:
+      files: ["Gemfile", "Gemfile.lock"]
+      tools: ["bundler"]
+      vulnerability_sources: ["bundler-audit"]
+  
+  security_scanning:
+    code_analysis:
+      python: ["bandit", "semgrep"]
+      javascript: ["eslint-security", "semgrep"]
+      general: ["secretlint", "detect-secrets"]
+    
+    dependency_scanning:
+      - "known_vulnerabilities"
+      - "license_compliance"
+      - "malicious_packages"
+    
+    secrets_detection:
+      patterns:
+        - "api_keys"
+        - "database_credentials"
+        - "private_keys"
+        - "tokens"
+        - "passwords"
+  
+  health_monitoring:
+    code_quality:
+      - "lines_of_code"
+      - "comment_ratio"
+      - "function_complexity"
+      - "test_coverage"
+      - "code_duplication"
+    
+    project_structure:
+      - "documentation_completeness"
+      - "test_organization"
+      - "configuration_management"
+      - "dependency_organization"
+    
+    git_health:
+      - "commit_frequency"
+      - "branch_management"
+      - "merge_conflict_history"
+      - "contributor_activity"
+
+# Metadata and versioning
+metadata:
+  author: "Agent OS Framework"
+  created: "2025-07-27"
+  updated: "2025-07-27"
+  
+  tags:
+    - "maintenance"
+    - "dependencies"
+    - "security"
+    - "monitoring"
+    - "project-health"
+    - "vulnerability-scanning"
+  
+  capabilities:
+    - "Python dependency analysis and vulnerability scanning"
+    - "Node.js package security monitoring"
+    - "Code security pattern detection"
+    - "Project structure validation"
+    - "Git repository health analysis"
+    - "Test coverage assessment"
+    - "Maintenance report generation"
+    - "Priority-based recommendation engine"
+    - "Automated security scanning"
+    - "Dependency update recommendations"
+  
+  limitations:
+    - "Cannot automatically update dependencies without approval"
+    - "Limited to static analysis for security scanning"
+    - "Requires internet access for vulnerability database updates"
+    - "May produce false positives in security scans"
+    - "English language focus for reporting"
