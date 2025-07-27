@@ -1,88 +1,72 @@
-# Code Quality Agent Configuration
-# Automated code review, formatting, and best practices enforcement
-
-name: "code-quality-agent"
-version: "1.0.0"
-description: "Analyzes code quality, enforces formatting standards, and suggests improvements for Python, batch scripts, and CSS files"
-
-specialization: "code-review-and-formatting"
-
-triggers:
-  file_changes:
-    - "*.py"
-    - "*.bat"
-    - "*.css"
-    - "*.md"
-  
-  events:
-    - "manual_activation"
-    - "pre_commit"
-    - "code_review_request"
-  
-  conditions:
-    - "code_quality_issues_detected"
-    - "formatting_inconsistencies"
-
-tools:
-  allowed:
-    - "code_analysis"
-    - "file_operations"
-    - "formatting_tools"
-    - "style_checking"
-  
-  restricted:
-    - "external_api_calls"
-    - "system_modifications"
-
-permissions:
-  read:
-    - "*.py"
-    - "*.bat"
-    - "*.css"
-    - "*.md"
-    - "requirements.txt"
-    - "environment.yml"
-  
-  write:
-    - "*.py"  # with_approval: true
-    - "*.bat"  # with_approval: true
-    - "*.css"  # with_approval: true
-  
-  execute:
-    - "python_analysis"
-    - "style_formatting"
-    - "code_validation"
-
-security:
-  max_file_size: 5
-  timeout: 180
-  sandbox_mode: true
-  audit_logging: true
-
 behavior:
-  verbosity: "detailed"
+  analysis_depth: comprehensive
   confirm_before_action: true
   max_operations: 25
-
-integration:
-  claude_code:
-    activation_command: "/activate-agent code-quality"
-    result_format: "markdown"
-  
-  agent_os:
-    spec_integration: true
-    documentation_updates: true
-
+  report_format: detailed
+  verbosity: detailed
 coordination:
   compatible_agents:
-    - "documentation-agent"
-    - "maintenance-agent"
-  
+  - documentation-agent
+  - maintenance-agent
   dependencies: []
-  priority: "high"
-
+  priority: high
+description: Analyzes code quality, enforces formatting standards, and suggests improvements
+  for Python, batch scripts, and CSS files
+integration:
+  agent_os:
+    documentation_updates: true
+    spec_integration: true
+  claude_code:
+    activation_command: /activate-agent code-quality
+    result_format: markdown
 metadata:
-  author: "TeamResumes AI System"
-  created: "2025-07-25"
-  last_updated: "2025-07-25"
-  status: "active"
+  author: TeamResumes AI System
+  created: '2025-07-25'
+  last_updated: '2025-07-25'
+  status: active
+name: code-quality-agent
+permissions:
+  execute:
+  - python_analysis
+  - style_formatting
+  - code_validation
+  read:
+  - '*.py'
+  - '*.bat'
+  - '*.css'
+  - '*.md'
+  - requirements.txt
+  - environment.yml
+  write:
+  - '*.py'
+  - '*.bat'
+  - '*.css'
+security:
+  audit_logging: true
+  max_file_size: 5
+  sandbox_mode: true
+  timeout: 180
+specialization: code-review-and-formatting
+tools:
+  allowed:
+  - code_analysis
+  - file_operations
+  - formatting_tools
+  - style_checking
+  restricted:
+  - external_api_calls
+  - system_modifications
+triggers:
+  conditions:
+  - code_quality_issues_detected
+  - formatting_inconsistencies
+  events:
+  - manual_activation
+  - pre_commit
+  - code_review_request
+  file_changes:
+  - '*.py'
+  - '*.bat'
+  - '*.css'
+  - '*.md'
+version: 1.0.0
