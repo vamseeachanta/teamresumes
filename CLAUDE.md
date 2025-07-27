@@ -18,6 +18,9 @@
 - **Tasks Execution:** Use `@~/.agent-os/instructions/execute-tasks.md`
 
 ### Sub-Agent System
+- **🚀 Quick Start Guide:** @.agent-os/sub-agents/GETTING_STARTED.md
+- **⚡ Quick Reference:** @.agent-os/sub-agents/QUICK_REFERENCE.md
+- **📖 Complete Documentation:** @.agent-os/sub-agents/README.md
 - **Available Agents:** @.agent-os/sub-agents/configurations/
 - **Agent Coordination:** @.agent-os/sub-agents/coordination/
 - **Integration Commands:** See sub-agent commands below
