@@ -1,0 +1,111 @@
+# Sub-Agent Configuration Template
+# This is a template for creating new sub-agent configurations
+
+name: "agent-name"
+version: "1.0.0"
+description: "Brief description of the agent's purpose and capabilities"
+
+# Agent specialization and domain expertise
+specialization: "domain-area"
+
+# Triggers that activate this agent
+triggers:
+  # File-based triggers
+  file_changes: 
+    - "*.py"
+    - "*.md"
+  
+  # Event-based triggers
+  events:
+    - "manual_activation"
+    - "scheduled_daily"
+    - "dependency_updates"
+  
+  # Conditional triggers
+  conditions:
+    - "code_quality_issues"
+    - "documentation_outdated"
+
+# Tools and capabilities the agent can use
+tools:
+  allowed:
+    - "file_operations"
+    - "code_analysis"
+    - "documentation_generation"
+  
+  restricted:
+    - "external_api_calls"
+    - "system_modifications"
+
+# Permission model for agent operations
+permissions:
+  read:
+    - "*.py"
+    - "*.md"
+    - "*.yaml"
+  
+  write:
+    # All write operations require user approval
+    - "*.py"  # with_approval: true
+    - "*.md"  # with_approval: true
+  
+  execute:
+    - "code_analysis"
+    - "formatting_tools"
+
+# Security constraints and boundaries
+security:
+  # Maximum file size the agent can process (in MB)
+  max_file_size: 10
+  
+  # Timeout for agent operations (in seconds)
+  timeout: 300
+  
+  # Whether agent can access files outside project root
+  sandbox_mode: true
+  
+  # Audit logging for all agent actions
+  audit_logging: true
+
+# Agent behavior configuration
+behavior:
+  # How verbose the agent should be in responses
+  verbosity: "normal"  # options: minimal, normal, detailed
+  
+  # Whether agent should ask for confirmation before actions
+  confirm_before_action: true
+  
+  # Maximum number of operations per session
+  max_operations: 50
+
+# Integration settings
+integration:
+  # How agent integrates with Claude Code
+  claude_code:
+    activation_command: "/activate-agent {name}"
+    result_format: "markdown"
+  
+  # How agent works with Agent OS
+  agent_os:
+    spec_integration: true
+    documentation_updates: true
+
+# Agent coordination settings
+coordination:
+  # Which agents this one can work with
+  compatible_agents:
+    - "documentation-agent"
+    - "code-quality-agent"
+  
+  # Dependencies on other agents
+  dependencies: []
+  
+  # Priority level for coordination conflicts
+  priority: "normal"  # options: low, normal, high
+
+# Metadata for agent management
+metadata:
+  author: "TeamResumes AI System"
+  created: "2025-07-25"
+  last_updated: "2025-07-25"
+  status: "active"  # options: active, inactive, deprecated

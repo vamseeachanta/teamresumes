@@ -1,0 +1,234 @@
+# Sub-Agent Workflow Definitions
+# Defines common coordination patterns and workflows
+
+workflows:
+  
+  # Quality Assurance Pipeline
+  quality-assurance-pipeline:
+    name: "Quality Assurance Pipeline"
+    description: "Comprehensive code quality check and documentation update"
+    trigger: "manual"
+    sequence:
+      - agent: "code-quality-agent"
+        action: "analyze_code_quality"
+        wait_for_completion: true
+      
+      - agent: "documentation-agent"
+        action: "update_documentation"
+        depends_on: "code-quality-agent"
+        conditions:
+          - "code_changes_detected"
+        wait_for_completion: true
+      
+      - agent: "maintenance-agent"
+        action: "check_dependencies"
+        parallel: true
+        wait_for_completion: false
+    
+    success_criteria:
+      - "all_agents_completed"
+      - "no_critical_errors"
+    
+    failure_handling:
+      - "log_errors"
+      - "notify_user"
+      - "continue_with_warnings"
+
+  # Resume Update Workflow
+  resume-update-workflow:
+    name: "Resume Update and Content Generation"
+    description: "Updates resume and generates related content"
+    trigger: "file_changes"
+    file_patterns:
+      - "*_resume.md"
+    
+    sequence:
+      - agent: "resume-processing-agent"
+        action: "validate_resume_format"
+        wait_for_completion: true
+      
+      - agent: "resume-processing-agent"
+        action: "generate_pdf"
+        depends_on: "validate_resume_format"
+        wait_for_completion: true
+      
+      - agent: "content-generation-agent"
+        action: "generate_linkedin_content"
+        depends_on: "generate_pdf"
+        parallel: true
+        wait_for_completion: false
+      
+      - agent: "documentation-agent"
+        action: "update_team_documentation"
+        parallel: true
+        wait_for_completion: false
+    
+    success_criteria:
+      - "resume_validation_passed"
+      - "pdf_generation_successful"
+    
+    failure_handling:
+      - "rollback_changes"
+      - "notify_user"
+      - "preserve_backup"
+
+  # Maintenance Workflow
+  maintenance-workflow:
+    name: "Regular Maintenance Tasks"
+    description: "Performs regular maintenance and health checks"
+    trigger: "scheduled"
+    schedule: "weekly"
+    
+    parallel_execution: true
+    agents:
+      - agent: "maintenance-agent"
+        action: "check_dependencies"
+        priority: "high"
+      
+      - agent: "maintenance-agent"
+        action: "scan_security_vulnerabilities"
+        priority: "high"
+      
+      - agent: "code-quality-agent"
+        action: "analyze_project_health"
+        priority: "normal"
+      
+      - agent: "documentation-agent"
+        action: "validate_links"
+        priority: "low"
+    
+    success_criteria:
+      - "no_critical_vulnerabilities"
+      - "dependencies_up_to_date"
+    
+    failure_handling:
+      - "create_maintenance_report"
+      - "notify_user"
+      - "schedule_followup"
+
+  # Documentation Sync Workflow
+  documentation-sync-workflow:
+    name: "Documentation Synchronization"
+    description: "Ensures all documentation is consistent and up-to-date"
+    trigger: "manual"
+    
+    sequence:
+      - agent: "documentation-agent"
+        action: "validate_cross_references"
+        wait_for_completion: true
+      
+      - agent: "documentation-agent"
+        action: "update_readme"
+        depends_on: "validate_cross_references"
+        wait_for_completion: true
+      
+      - agent: "documentation-agent"
+        action: "generate_api_docs"
+        parallel: true
+        wait_for_completion: false
+    
+    success_criteria:
+      - "all_links_valid"
+      - "documentation_consistent"
+    
+    failure_handling:
+      - "report_inconsistencies"
+      - "suggest_fixes"
+
+  # Emergency Response Workflow
+  emergency-response-workflow:
+    name: "Emergency Response"
+    description: "Rapid response to critical issues"
+    trigger: "emergency"
+    conditions:
+      - "critical_error_detected"
+      - "security_breach_suspected"
+    
+    immediate_actions:
+      - agent: "maintenance-agent"
+        action: "create_backup"
+        priority: "critical"
+        timeout: 60
+      
+      - agent: "maintenance-agent"
+        action: "assess_damage"
+        priority: "critical"
+        timeout: 120
+    
+    follow_up_actions:
+      - agent: "code-quality-agent"
+        action: "analyze_error_sources"
+        depends_on: "assess_damage"
+      
+      - agent: "documentation-agent"
+        action: "document_incident"
+        depends_on: "analyze_error_sources"
+    
+    success_criteria:
+      - "backup_created"
+      - "issue_contained"
+    
+    failure_handling:
+      - "escalate_to_human"
+      - "preserve_evidence"
+      - "halt_automation"
+
+# Coordination Policies
+coordination_policies:
+  
+  # Resource Management
+  resource_management:
+    max_concurrent_agents: 3
+    max_file_locks: 10
+    timeout_default: 300
+    memory_limit_mb: 512
+  
+  # Priority Rules
+  priority_rules:
+    high_priority_agents: ["maintenance-agent", "code-quality-agent"]
+    preemption_allowed: false
+    queue_management: "priority_first"
+  
+  # Security Policies
+  security_policies:
+    require_approval_for:
+      - "file_modifications"
+      - "external_communications"
+      - "system_changes"
+    
+    audit_all_actions: true
+    sandbox_enforcement: true
+  
+  # Error Handling
+  error_handling:
+    max_retries: 3
+    retry_delay_seconds: 5
+    escalation_threshold: "3_consecutive_failures"
+    fallback_to_manual: true
+
+# Agent Interaction Patterns
+interaction_patterns:
+  
+  # Producer-Consumer
+  producer_consumer:
+    description: "One agent produces data, another consumes it"
+    examples:
+      - producer: "code-quality-agent"
+        consumer: "documentation-agent"
+        data_type: "code_analysis_results"
+  
+  # Request-Response
+  request_response:
+    description: "One agent requests service from another"
+    examples:
+      - requester: "resume-processing-agent"
+        responder: "content-generation-agent"
+        service: "generate_social_media_content"
+  
+  # Publish-Subscribe
+  publish_subscribe:
+    description: "Agents subscribe to events from other agents"
+    examples:
+      - publisher: "maintenance-agent"
+        event: "dependency_update_available"
+        subscribers: ["code-quality-agent", "documentation-agent"]
