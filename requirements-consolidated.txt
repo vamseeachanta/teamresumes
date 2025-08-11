@@ -1,0 +1,35 @@
+# Consolidated Requirements
+# Generated from all requirements.txt files in repository
+# This file is now replaced by pyproject.toml
+# Kept for reference only
+
+# From: dev_tools/requirements.txt
+digitalmodel
+assetutilities
+pandas
+plotly
+dash
+pyyaml
+bumpver
+webcolors
+matplotlib
+scipy
+xlrd
+openpyxl
+imgkit
+xmltodict
+OrcFxAPI
+docx
+deepdiff
+pytest
+sympy
+kaleido
+pytest
+deepdiff
+rainflow
+pydantic
+black
+isort
+poetry
+tabulate
+
