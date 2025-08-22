@@ -24,31 +24,31 @@ classifiers = [
 ]
 
 dependencies = [
-    "assetutilities"
-    "black"
-    "bumpver"
-    "dash"
-    "deepdiff"
-    "digitalmodel"
-    "docx"
-    "imgkit"
-    "isort"
-    "kaleido"
-    "matplotlib"
-    "openpyxl"
-    "OrcFxAPI"
-    "pandas"
-    "plotly"
-    "poetry"
-    "pydantic"
-    "pytest"
-    "pyyaml"
-    "rainflow"
-    "scipy"
-    "sympy"
-    "tabulate"
-    "webcolors"
-    "xlrd"
+    "assetutilities",
+    "black",
+    "bumpver",
+    "dash",
+    "deepdiff",
+    "digitalmodel",
+    "docx",
+    "imgkit",
+    "isort",
+    "kaleido",
+    "matplotlib",
+    "openpyxl",
+    "OrcFxAPI",
+    "pandas",
+    "plotly",
+    "poetry",
+    "pydantic",
+    "pytest",
+    "pyyaml",
+    "rainflow",
+    "scipy",
+    "sympy",
+    "tabulate",
+    "webcolors",
+    "xlrd",
     "xmltodict"
 ]
 
@@ -75,9 +75,6 @@ docs = [
 "Homepage" = "https://github.com/username/teamresumes"
 "Bug Tracker" = "https://github.com/username/teamresumes/issues"
 "Documentation" = "https://github.com/username/teamresumes#readme"
-
-[tool.setuptools]
-packages = ["src"]
 
 [tool.setuptools.packages.find]
 where = ["."]
