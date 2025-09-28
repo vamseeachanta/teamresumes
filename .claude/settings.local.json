@@ -1,16 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(git push:*)",
-      "Bash(touch:*)",
-      "Bash(ls:*)",
-      "Bash(rm:*)",
-      "Bash(test:*)",
-      "Bash(afplay:*)",
-      "Bash(find:*)"
+      "mcp__ruv-swarm",
+      "mcp__claude-flow@alpha",
+      "mcp__flow-nexus"
     ],
     "deny": []
   }

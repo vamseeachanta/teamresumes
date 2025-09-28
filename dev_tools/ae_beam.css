@@ -1,0 +1,396 @@
+/* @theme siva-copy-beam */
+/* Author: rnd195 https://github.com/rnd195/ */
+/* beam license - GNU GPLv3 https://github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE_beam */
+/* License of beamer which inspired this theme - GNU GPLv2 https://github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE_GPLv2 */
+
+@import "default";
+
+:root {
+  font-family: "CMU Sans Serif", "Segoe UI", Helvetica, sans-serif;
+  --main: #2b8fce;
+  --secondary: #1d2451;
+}
+
+section {
+  background-color: #ffffff;
+  /* bottom two-coloured bar in base64 svg */
+  background-image:
+    url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjUwbW0iIGhlaWdodD0iNS4zNTQ2bW0iIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDI1MCA1LjM1NDYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMC4zNDcgLTkxLjAyOCkiPgo8cmVjdCB4PSIyMC4zNDciIHk9IjkxLjAyOCIgd2lkdGg9IjEyNSIgaGVpZ2h0PSI1LjM1NDYiIGZpbGw9IiMxZDI0NTEiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLXdpZHRoPSIwIi8+CjxwYXRoIGQ9Im0xNDUuMzUgOTMuNzA1di0yLjY3NzNoMTI1djUuMzU0NmgtMTI1eiIgZmlsbD0iIzJiOGZjZSIgc3Ryb2tlLXdpZHRoPSIwIi8+CjwvZz4KPC9zdmc+);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 150% 1em;
+  padding: 2em;
+}
+
+header {
+  font-size: 0.6em;
+  /* this text-align is important */
+  text-align: right;
+  /* I don't like this absolute positioning, but it works */
+  position: absolute;
+  top: 96.2%;
+  width: 100%;
+  right: 0;
+  left: -51%;
+  color: white;
+}
+
+footer {
+  font-size: 0.6em;
+  position: absolute;
+  /* this text-align is important */
+  text-align: left;
+  bottom: 0.8%;
+  width: auto;
+  left: 1em;
+  color: white;
+  z-index: 100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1d2451;
+}
+
+/* only apply to the first occurrence of h1 */
+h1:nth-of-type(1) {
+  font-family: "CMU Bright", "Segoe UI Semibold";
+  color: #ffffff;
+  background-color: var(--main);
+  border-top: 0.3em solid var(--main);
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 1.5em;
+  text-indent: 0.5em;
+}
+
+/* Ensure all text inside h1 is white */
+h1:nth-of-type(1) * {
+  color: #ffffff !important;
+  background-color: transparent !important;
+}
+
+/* Regular code blocks */
+pre code {
+  background-color: rgba(100, 100, 100, 0.2);
+}
+
+/* || HIGHLIGHT STYLES */
+/* Marp converts ==text== to <mark>text</mark> when using markdown */
+/* Also works with HTML when enabled with <!-- marp: true --> */
+mark {
+  background-color: #ffeb3b !important;
+  color: #000000 !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  display: inline !important;
+  width: auto !important;
+}
+
+/* For bold highlighting, use **==text==** */
+mark strong,
+strong mark {
+  background-color: #ff9800 !important;
+  color: #ffffff !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 4px !important;
+  display: inline !important;
+}
+
+/* For italic highlighting, use *==text==* */
+mark em,
+em mark {
+  background-color: #4caf50 !important;
+  color: #ffffff !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 4px !important;
+  font-style: normal !important;
+  display: inline !important;
+}
+
+/* Inline code highlighting - for code within text */
+/* Exclude standalone code blocks using :not() selector */
+p code:not(:only-child),
+li code,
+td code,
+blockquote code {
+  background-color: #ffeb3b !important;
+  color: #000000 !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  font-family: inherit !important;
+  font-size: 0.75em !important;
+  display: inline !important;
+  width: auto !important;
+  margin: 0 !important;
+}
+
+/* Standalone code blocks - centered pink callouts */
+/* When a paragraph contains only a code block, style it as a callout */
+p:only-child > code:only-child,
+p:last-child > code:only-child,
+section > p > code:only-child {
+  background-color: #ffb3b3 !important;
+  color: #000000 !important;
+  padding: 0.5em 0.8em !important;
+  border-radius: 8px !important;
+  margin: 0.3em auto !important;
+  font-weight: bold !important;
+  font-size: 0.95em !important;
+  font-family: "CMU Sans Serif", "Segoe UI", Helvetica, sans-serif !important;
+  display: block !important;
+  width: fit-content !important;
+  text-align: center !important;
+  border: none !important;
+}
+
+/* Special highlight classes using data attributes */
+/* Use in markdown as: <span data-highlight="attention">text</span> */
+[data-highlight="attention"] {
+  background-color: #ff9800 !important;
+  color: #ffffff !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  display: inline !important;
+}
+
+[data-highlight="success"] {
+  background-color: #4caf50 !important;
+  color: #ffffff !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  display: inline !important;
+}
+
+[data-highlight="critical"] {
+  background-color: #f44336 !important;
+  color: #ffffff !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  display: inline !important;
+}
+
+/* formatting page numbers  */
+section::after {
+  font-size: 0.6em;
+  /* https://github.com/yhatt/marp/issues/263 */
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  position: absolute;
+  text-align: right;
+  bottom: 0.8%;
+  width: auto;
+  right: 1em;
+  color: white;
+  z-index: 100;
+  font-weight: bold;
+}
+
+/* inline math was too large wrt text */
+.katex {
+  font: normal 1.05em KaTeX_Main, "Times New Roman", serif
+}
+
+/* the "center" keyword centers the image - may break, careful */
+/* https://github.com/marp-team/marpit/issues/141#issuecomment-473204518 */
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+/* || SECTION CLASS: title */
+/* title page - only to be used as for a single slide */
+/* <!-- _class: title --> */
+section.title>h1 {
+  font-family: "CMU Bright", "Segoe UI Semibold";
+  color: #ffffff;
+  background-color: var(--main);
+  border-radius: 25px;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  padding: 0.5em 0;
+  height: auto;
+}
+
+/* First paragraph - subtitle/tagline */
+section.title>p:first-of-type {
+  position: absolute;
+  top: 37%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  font-size: 1em;
+  color: var(--secondary);
+  line-height: 1.4;
+}
+
+/* Second paragraph - author and date */
+section.title>p:nth-of-type(2) {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  font-size: 1em;
+  color: var(--secondary);
+  line-height: 1.5;
+}
+
+/* Logo positioning - centered just above bottom bar */
+section.title img {
+  position: absolute;
+  bottom: 1.5em; /* Just above the bottom bar which is 1em height */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Hide h2 on title slides as we're using paragraphs */
+section.title>h2 {
+  display: none;
+}
+
+/* Style strong and em in title slides */
+section.title strong {
+  font-weight: bold;
+  color: var(--secondary);
+}
+
+section.title em {
+  font-style: italic;
+  color: #666;
+}
+
+/* || SECTION CLASS: tinytext */
+/* new class that makes p, ul, and blockquote text smaller */
+/* might be useful for the References slide, use <!-- _class: tinytext --> */
+section.tinytext>p,
+section.tinytext>ul,
+section.tinytext>blockquote {
+  font-size: 0.65em;
+  text-align: left;
+}
+
+/* Override center alignment from title class when combined */
+section.title.tinytext>p {
+  text-align: left;
+  top: 35px;
+  position: relative;
+}
+
+/* || TABLE STYLES */
+/* Default table styling - more specific selectors for Marp */
+section table {
+  border-collapse: collapse !important;
+  width: auto !important;
+  margin: 1em auto !important;
+  font-size: 1em !important; /* Normal font size */
+}
+
+section table th,
+section table td {
+  border: 1px solid #ddd !important;
+  padding: 0.5em 0.8em !important;
+  text-align: left !important;
+}
+
+section table th {
+  background-color: var(--main) !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+section table tr:nth-child(even) {
+  background-color: #f2f2f2 !important;
+}
+
+/* Small table with regular text class - 25% smaller font for tables only */
+section.small-table-regular-text table,
+section .small-table-regular-text table,
+section table.small {
+  font-size: 0.75em !important; /* 75% of normal = 25% smaller */
+}
+
+section.small-table-regular-text table th,
+section.small-table-regular-text table td,
+section .small-table-regular-text table th,
+section .small-table-regular-text table td,
+section table.small th,
+section table.small td {
+  padding: 0.3em 0.5em !important; /* Slightly smaller padding for compact look */
+}
+
+/* Alternative: Using data attributes for table sizing */
+section[data-table-size="small"] table {
+  font-size: 0.75em !important;
+}
+
+section[data-table-size="small"] table th,
+section[data-table-size="small"] table td {
+  padding: 0.3em 0.5em !important;
+}
+
+/* || ADDITIONAL CALLOUT STYLES */
+/* For explicit callout divs when needed */
+/* Example: <div class="callout">`Important Note`</div> */
+.callout {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.callout code {
+  background-color: #ffb3b3 !important;
+  padding: 0.5em 0.8em !important;
+  border-radius: 8px !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+  font-size: 0.95em !important;
+  font-family: "CMU Sans Serif", "Segoe UI", Helvetica, sans-serif !important;
+  display: inline-block !important;
+}
+
+/* Block attention box using blockquote */
+blockquote {
+  border-left: 5px solid #ff9800;
+  background-color: #fff3e0;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+  font-style: normal;
+}
+
+blockquote strong {
+  color: #e65100;
+  display: block;
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+/* Ensure h1 code blocks remain unstyled */
+h1 code {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  display: inline;
+  width: auto;
+}
