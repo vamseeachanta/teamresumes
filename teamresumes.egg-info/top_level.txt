@@ -1,5 +1,10 @@
 agent_os
 agents
+coordination
 cv
 dev_tools
+memory
+scripts
+specs
+src
 tools
