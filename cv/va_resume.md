@@ -28,15 +28,15 @@ subject: 'resume_achanta'
 
 ## Executive Summary
 
-- **Engineering Leadership:** VP of Engineering with 23+ years driving subsea/offshore projects from concept to decommission, leading teams of 20+ engineers while delivering 100% on-time project completion across 100+ riser design projects worth $500M+ in total value.
+- **Pre-FEED/FEED Pipeline & Riser Expert:** 23+ years of subsea engineering experience with 10+ years focused on pre-FEED and FEED activities for major offshore capital projects. Led feasibility studies, concept selection, and design basis development for 100+ riser design projects and extensive pipeline systems in water depths to 6,000 ft, delivering cost-optimized fit-for-purpose solutions worth $500M+ total project value.
 
-- **Digital Transformation Pioneer:** Implemented 50+ physics-based algorithms in production environment for real-time drilling (20+ concurrent campaigns) and production analytics (20,000 wells), reducing analysis time by 70% and saving $2M+ annually through automation.
+- **Offshore Pipeline & Flowline Design Mastery:** Comprehensive experience in offshore pipeline mechanical design including hydraulic analyses, material selection, cost estimation, and constructability reviews. Executed detailed subsea pipeline engineering analyses for 42-inch thin-walled pipelines, umbilical installation optimization, and dynamic pipelay analysis. Proven ability to lead pipeline feasibility studies and define optimized routing solutions.
 
-- **Technical Authority:** Served on API committees (API-RP-16Q, API-RP-17G, API-RP-17G2) as riser/structural engineering expert; authored industry standards and 10+ technical publications including OTC, SPE, and OMAE papers on subsea integrity and deepwater systems.
+- **Riser System Design & Optimization:** Extensive expertise in all riser configurations (SCR, TTR, Hybrid, Lazy Wave Catenary, Simple Catenary) with advanced analysis capabilities using OrcaFlex, ANSYS, and Abaqus. Led FEED design for 8-riser production systems, optimizing configurations for 18% weight reduction and significant cost savings while maintaining full technical compliance.
 
-- **Crisis-Proven Leader:** Engineering Manager for BP Macondo containment riser emergency response - delivered complete design in 8 weeks (vs. typical 3 years), repurposing existing assets to enable successful oil spill containment in 2010.
+- **Contractor Management & Technical Assurance:** Proven track record managing 3rd-party EPC contractor deliverables, reviewing and improving FEED and detailed design documents, and providing technical authority assurance. Successfully coordinated with multiple teams and contractor organizations across GoM, West Africa, and Asia-Pacific for major operators including BP, Chevron, ExxonMobil, Shell, and ENI.
 
-- **Full-Stack Domain Expert:** Complete O&G lifecycle expertise from seismic to decommission, combining FEA/Orcaflex analysis mastery with Python/SQL automation, delivering digital twins that achieve 84% reduction in engineering hours and enable real-time decision-making.
+- **Risk Assessment & Technology Deployment:** Specialized in evaluating development risks including HS&E assessments with mitigation planning. Deployed advanced analysis technologies and automation solutions (Python/SQL-based digital twins) reducing engineering hours by 84%, enabling faster decision-making on pipeline and riser system development.
 
 ## Core Technical Expertise
 
@@ -57,7 +57,7 @@ Dec 2023 to Date, Houston, TX
   - Performed coupled analysis as follows
     -  FSTs with shore mooring for extreme weather conditions
     - FSTs with shore mooring and LNG carriers with fenders and LNGC moorings to FSTs to ensure safe operations in up to 5 year weather conditions.
-    - Designed mooring system handling up to 180,000m³ LNG carriers with 99.5% availability
+    - Designed mooring system handling up to 180,000mï¿½ LNG carriers with 99.5% availability
   - Utilized AQWA, OrcaWave and OrcaFlex software for the analysis
 
 
