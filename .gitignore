@@ -60,3 +60,8 @@ coordination/orchestration/*
 *.sqlite-wal
 # Removed Windows wrapper files per user request
 hive-mind-prompt-*.txt
+
+# claude-flow removed 2026-02-18
+.claude-flow/
+.hive-mind/
+.swarm/
