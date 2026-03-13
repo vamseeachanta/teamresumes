@@ -19,14 +19,15 @@
 | # | Action | Priority | Status | Owner |
 |---|--------|----------|--------|-------|
 | 1 | Apply resume edits §2.1–2.5 to `Geeta_Resume_Rev1.docx` | HIGH | **DONE** | AI |
-| 2 | Create power systems marketing brochure (`marketing_brochure_power_systems.md`) | HIGH | pending | AI |
-| 3 | Structure GitHub portfolio README per §5 guidance | MEDIUM | **DONE** | AI |
-| 4 | Mirror Core Competencies as LinkedIn Skills; add Featured section | MEDIUM | pending | Geeta |
-| 5 | Add PE certification projected date to resume | MEDIUM | pending | Geeta |
-| 6 | Reframe Qualcomm/TI bullets for controls audience (§5) | MEDIUM | pending | Geeta |
-| 7 | Research NACE CP Technician / ISA CAP certification paths | LOW | pending | Geeta |
-| 8 | Create cover letter draft with CP + controls angle (§5) | LOW | pending | AI |
-| 9 | Archive WRK-1155, WRK-1156, WRK-1157; close WRK-1048 | LOW | pending | AI |
+| 2 | Resume Rev2 — add 5 new module bullets | HIGH | **DONE** → [`Geeta_Resume_Rev2.docx`](Geeta_Resume_Rev2.docx) | AI |
+| 3 | Create power systems marketing brochure | HIGH | **DONE** → [`marketing_brochure_power_generation_controls.md`](https://github.com/vamseeachanta/digitalmodel/blob/main/reports/modules/marketing/marketing_brochure_power_generation_controls.md) | AI |
+| 4 | Structure GitHub portfolio README per §5 guidance | MEDIUM | **DONE** | AI |
+| 5 | Create cover letter draft with CP + controls angle | MEDIUM | **DONE** → [`Geeta_Cover_Letter_Power_Controls.md`](Geeta_Cover_Letter_Power_Controls.md) | AI |
+| 6 | Mirror Core Competencies as LinkedIn Skills; add Featured section | MEDIUM | pending | Geeta |
+| 7 | Add PE certification projected date to resume | MEDIUM | pending | Geeta |
+| 8 | Reframe Qualcomm/TI bullets for controls audience (§5) | MEDIUM | pending | Geeta |
+| 9 | Research NACE CP Technician / ISA CAP certification paths | LOW | pending | Geeta |
+| 10 | Archive all child WRKs; close WRK-1048 | LOW | pending | AI |
 
 **Technical portfolio — ALL 10 MODULES COMPLETE:**
 - WRK-1153 SCADA/Protocols ✓ | WRK-1154 Generator Sequencing ✓
@@ -875,14 +876,16 @@ Remaining work to maximize portfolio impact:
 
 | Priority | Item | Description | Status |
 |----------|------|-------------|--------|
-| HIGH | Power systems marketing brochure | Create `marketing_brochure_power_systems.md` covering all 10 power modules | pending |
-| HIGH | Resume Rev2 — add new modules | Update `Geeta_Resume_Rev1.docx` with relay protection, GOOSE, load flow, droop, fuel CP bullets | pending |
 | MEDIUM | LinkedIn profile update | Mirror Core Competencies as Skills; add Featured section | pending (Geeta) |
-| MEDIUM | Cover letter draft | CP + controls + power flow angle for this specific posting | pending |
+| MEDIUM | Reframe Qualcomm/TI bullets | Position semiconductor experience for controls audience | pending (Geeta) |
+| MEDIUM | Add PE certification date | Add projected PE exam date to resume | pending (Geeta) |
 | LOW | NACE CP Technician study plan | Research certification path and timeline | pending (Geeta) |
 | LOW | ISA CAP certification research | Certified Automation Professional — validates controls portfolio | pending (Geeta) |
 
-**Completed items (moved from prior list):**
-- ✓ Resume edit implementation → `Geeta_Resume_Rev1.docx`
-- ✓ GitHub portfolio README → digitalmodel README updated with all modules
+**Completed items:**
+- ✓ Resume Rev1 → [`Geeta_Resume_Rev1.docx`](Geeta_Resume_Rev1.docx) (Professional Summary, Core Competencies, skill lines, bullet rewrites)
+- ✓ Resume Rev2 → [`Geeta_Resume_Rev2.docx`](Geeta_Resume_Rev2.docx) (relay coordination, GOOSE, load flow, droop, fuel CP bullets)
+- ✓ Marketing brochure → [`marketing_brochure_power_generation_controls.md`](https://github.com/vamseeachanta/digitalmodel/blob/main/reports/modules/marketing/marketing_brochure_power_generation_controls.md)
+- ✓ Cover letter → [`Geeta_Cover_Letter_Power_Controls.md`](Geeta_Cover_Letter_Power_Controls.md)
+- ✓ GitHub portfolio README → digitalmodel README updated with all 10 modules
 - ✓ All 10 technical modules implemented (306 tests passing)
