@@ -119,6 +119,12 @@ claude --no-context
 | `Ctrl+L` | Clear screen | Clean display |
 | `Ctrl+R` | Search history | Find previous commands |
 
+### Terminal (Readline)
+| Shortcut | Action | Notes |
+|----------|--------|-------|
+| `Alt+Backspace` | Delete word backward | Remove previous word |
+| `Alt+Del` | Delete word forward | Remove next word |
+
 ## 🔄 TeamResumes Workflows
 
 ### 1. Update Multiple Resumes
