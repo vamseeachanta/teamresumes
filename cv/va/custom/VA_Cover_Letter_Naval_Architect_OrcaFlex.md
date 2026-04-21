@@ -1,0 +1,15 @@
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Naval Architect contract position supporting global performance and mooring fatigue analysis in OrcaFlex. The scope you have described maps directly onto the work I perform daily in my most recent role, and I believe I can contribute to your project deliverables with minimal ramp-up.
+
+I recently worked as Naval Architect at Alan McClure & Associates in Houston, where OrcaFlex (alongside OrcaWave and AQWA) is my primary analysis platform. My recent assignments include the coupled global performance and mooring design for the WoodFibre LNG terminal — two side-by-side FSTs in 35 m water depth, with shore moorings under extreme weather and LNG carriers (up to 180,000 m³) moored alongside with fenders under five-year conditions — and a diffraction and global analysis investigation of a moored barge mooring-line failure in extreme weather. I have also completed passing-ship time-domain analyses for tug-boat floundering assessments. In every case, I took the work from diffraction model build through coupled time-domain simulation and into engineering recommendations and technical reports for the client.
+
+Mooring fatigue analysis is an area where I bring both analytical depth and programmatic rigor. I have developed Python toolchains around the OrcaFlex API (OrcFxAPI) that automate model creation, batched execution, and results post-processing for mooring and riser systems — the same automation backbone that I apply to fatigue screening across large load-case matrices. I have implemented fatigue acceptance workflows using both S-N and crack-growth methodologies per BS 7910 for subsea assets, and I have modelled long-term mooring-line corrosion progression (galvanized wire with blocking-compound degradation) in COMSOL to support inspection-interval recommendations on a producing facility. Combined with coupled riser/mooring analyses I have delivered for 100- and 1,000-year hurricane conditions on a 6,000 ft semisubmersible production vessel, this gives me a working understanding of the full fatigue envelope from extreme-event load definition through long-term damage accumulation.
+
+Beyond the immediate toolset, I bring 23+ years of offshore engineering experience — P.E. licensure, an M.S. in Mechanical Engineering from Texas A&M and a B.Tech from IIT Madras, API-RP-16Q committee authorship, and a project portfolio delivered for BP, Chevron, ExxonMobil, Shell, ENI, and others across the Gulf of Mexico, West Africa, and Asia-Pacific. I am accustomed to short-cycle, deadline-driven engagements: prior emergency responses I have led include the BP Macondo containment riser design (eight weeks vs. a typical three-year cycle) and the Sewol salvage hull FEA (72-hour turnaround). I understand how to deliver rigorous, defensible analysis under contract-schedule pressure.
+
+I am available to start on short notice and would welcome the opportunity to discuss how I can contribute to your project. Thank you for your consideration.
+
+Sincerely,
+Vamsee Achanta, P.E.
+vamsee.achanta@aceengineer.com | 713-306-9029
