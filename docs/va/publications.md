@@ -102,6 +102,13 @@
   - Automated diffraction analysis using AI
   - Digital twin frameworks for marine operations
 
+## External Resource References
+
+### 2026
+- **World Oil (April 2026):** "SF Offshore Technology—Shilling (Frontier Deepwater Appraisal Solutions LLC)"
+  - Resource link: https://read.nxtbook.com/gulf_energy_information/world_oil/april_2026/sf_offshore_technology_shilling_frontier_deepwater_appraisal_solutions_llc.html
+  - Added as a supporting industry reference for Vamsee Achanta's offshore technology and deepwater appraisal positioning
+
 ---
 
 *For copies of publications or additional information, please contact: vamsee.achanta@aceengineer.com*

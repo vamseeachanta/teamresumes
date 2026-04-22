@@ -183,6 +183,7 @@ subject: 'executive_resume_achanta'
 - **OTC (2017):** "Heavy Lift Dynamics - Sewol Ferry Offshore Salvage"
 - **IADC (2015):** Contributing Author, "Floating Drilling Equipment and Operations" (12th Edition)
 - **OMAE (2009):** "Benchmarking SHEAR7v4.5: Full-Scale Drilling Riser VIV Data"
+- **World Oil Industry Reference (April 2026):** "SF Offshore Technology—Shilling (Frontier Deepwater Appraisal Solutions LLC)"
 
 *Full publication list available in docs/va/publications.md*
 
@@ -238,4 +239,5 @@ subject: 'executive_resume_achanta'
 
 ## References
 
-Available upon request from major operators and engineering firms.
+- Major operators and engineering firm references available upon request
+- World Oil industry reference: https://read.nxtbook.com/gulf_energy_information/world_oil/april_2026/sf_offshore_technology_shilling_frontier_deepwater_appraisal_solutions_llc.html
