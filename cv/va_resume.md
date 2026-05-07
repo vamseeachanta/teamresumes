@@ -1,233 +1,155 @@
 ---
-margin-left: 2cm
-margin-right: 2cm
-margin-top: 1cm
-margin-bottom: 2cm
-title: Vamsee Achanta P.E., Subsea Engineering Leader
-description-meta: career summary
+margin-left: 1.4cm
+margin-right: 1.4cm
+margin-top: 1.2cm
+margin-bottom: 1.2cm
+title: Vamsee Achanta P.E. - Naval Architect, Subsea Engineering and Digital Transformation Leader
+description-meta: Job-search CV for naval architecture, marine/offshore engineering, subsea systems, and engineering automation roles
 keywords:
-  - subsea
-  - oil and gas experience
-  - sustainable engineer
-  - python
-  - engineering leader
-  - automation
-  - leadership
+  - naval architecture
+  - marine systems analysis
+  - subsea engineering
+  - offshore pipelines
+  - risers
+  - mooring analysis
+  - OrcaFlex
+  - AQWA
+  - OrcaWave
+  - ANSYS
+  - Python automation
+  - digital twins
+  - engineering leadership
 author:
 - Vamsee Achanta
-subject: 'resume_achanta'
+subject: 'cv_vamsee_achanta_job_search'
 ---
 
 # VAMSEE ACHANTA, P.E.
-## VP Engineering | Subsea Systems Expert | Digital Transformation Leader
+## Naval Architect | Subsea & Marine Systems Engineering Leader | Digital Transformation Executive
 
 **Email:** vamsee.achanta@aceengineer.com | **Phone:** 713-306-9029  
-**LinkedIn:** [linkedin.com/in/vamseeachanta](https://www.linkedin.com/in/vamseeachanta) | **Location:** Houston, TX
+**LinkedIn:** [linkedin.com/in/vamseeachanta](https://www.linkedin.com/in/vamseeachanta) | **GitHub:** [github.com/vamseeachanta](https://github.com/vamseeachanta) | **Location:** Houston, TX
 
 ---
 
-## Executive Summary
+## Professional Profile
 
-- **Engineering Leadership:** VP of Engineering with 23+ years driving subsea/offshore projects from concept to decommission, leading teams of 20+ engineers while delivering 100% on-time project completion across 100+ riser design projects worth $500M+ in total value.
+Marine/offshore engineering leader with 23+ years of experience in naval architecture, subsea systems, risers, pipelines, umbilicals, moorings, installation engineering, integrity management, and engineering automation. Professional Engineer in Texas with a track record leading high-consequence offshore work from concept/FEED through detailed analysis, installation support, operations, and emergency response.
 
-- **Digital Transformation Pioneer:** Implemented 50+ physics-based algorithms in production environment for real-time drilling (20+ concurrent campaigns) and production analytics (20,000 wells), reducing analysis time by 70% and saving $2M+ annually through automation.
+Combines hands-on technical authority in OrcaFlex, AQWA, OrcaWave, ANSYS, Abaqus, and COMSOL with Python/SQL automation and data-science experience. Known for converting complex engineering workflows into repeatable digital tools, digital twins, and production-grade analytics that reduce analysis cycle time, improve quality, and support faster project decisions.
 
-- **Technical Authority:** Served on API committees (API-RP-16Q, API-RP-17G, API-RP-17G2) as riser/structural engineering expert; authored industry standards and 10+ technical publications including OTC, SPE, and OMAE papers on subsea integrity and deepwater systems.
+## Career Highlights
 
-- **Crisis-Proven Leader:** Engineering Manager for BP Macondo containment riser emergency response - delivered complete design in 8 weeks (vs. typical 3 years), repurposing existing assets to enable successful oil spill containment in 2010.
+- **Current marine systems analysis:** Naval Architect at Alan McClure & Associates performing coupled marine global analysis, diffraction analysis, mooring analysis, and time-domain assessment for floating assets, LNG terminals, barges, tugs, and marine operations.
+- **Major LNG terminal analysis:** Supported WoodFibre LNG Terminal design in British Columbia, including dual Floating Storage Terminals (FSTs), shore mooring systems, LNG carrier berthing/fender interactions, and operational/extreme weather assessment.
+- **Subsea and riser authority:** Delivered 100+ offshore riser and subsea projects across Gulf of Mexico, West Africa, Asia-Pacific, Guyana, and Venezuela for major operators including BP, Shell, Chevron, ExxonMobil, ENI, Murphy, Reliance, Talos, and others.
+- **Emergency response leadership:** Engineering Manager for BP Macondo containment riser response; delivered a complete containment riser design in 8 weeks versus a typical multi-year cycle by repurposing existing assets.
+- **Digital transformation:** Built Python/API-driven automation and digital twin workflows for OrcaFlex, AQWA, OrcaWave, ANSYS, COMSOL, BSEE field economics, drilling analytics, production surveillance, and fitness-for-service assessment.
+- **Standards and technical credibility:** API committee participant/contributor for API-RP-16Q, API-RP-17G, and API-RP-17G2; author/co-author of technical publications for OTC, OMAE, IADC, and World Oil.
 
-- **Full-Stack Domain Expert:** Complete O&G lifecycle expertise from seismic to decommission, combining FEA/Orcaflex analysis mastery with Python/SQL automation, delivering digital twins that achieve 84% reduction in engineering hours and enable real-time decision-making.
+## Core Competencies
 
-## Core Technical Expertise
+**Marine & Subsea Engineering:** Naval architecture, floating systems, FST/FPSO/FPU concepts, LNG marine operations, risers (SCR, TTR, hybrid, lazy-wave, simple catenary), pipelines, umbilicals, jumpers, manifolds, moorings, CALM/SALM buoys, installation engineering, integrity management, decommissioning.
 
-**Subsea Systems:** Risers (SCR, TTR, Hybrid) • Pipelines • Umbilicals • Manifolds • Trees • Jumpers • CALM/SALM Buoys  
-**Analysis Tools:** ANSYS • Orcaflex • Abaqus • COMSOL • Flexcom • Python • SQL • Git • Azure DevOps  
-**Standards:** API-RP-16Q, API-RP-17G, API-579, BS7910, DNV-RP-C201/C202, ASME VIII  
-**Digital Skills:** Real-time Analytics • Machine Learning • Digital Twins • Edge Computing • IoT Implementation
+**Analysis & Simulation:** Coupled dynamic analysis, diffraction/radiation analysis, mooring analysis, time-domain simulations, global riser analysis, pipelay and installation windows, detailed FEA, nonlinear elastic-plastic analysis, fracture mechanics, fatigue, corrosion simulation, hydrodynamics, operability assessment.
 
+**Software & Automation:** OrcaFlex / OrcFxAPI, AQWA, OrcaWave, ANSYS, Abaqus, COMSOL, Flexcom, Python, SQL, Git, Azure DevOps, pandas, NumPy, Matplotlib, Plotly/D3JS, API-driven model generation, batch execution, automated post-processing, engineering dashboards.
 
-## Experience
+**Standards & Governance:** API-RP-16Q, API-RP-17G, API-RP-17G2, API 579-1 / ASME FFS-1, BS 7910, DNV offshore recommended practices, ASME VIII, engineering assurance, contractor deliverable review, design basis development, technical risk assessment.
 
-### Naval Architect, Alan McClure & Associates 
+**Leadership:** Engineering team leadership, mentoring, client-facing technical advisory, project management, contractor coordination, proposal support, business development, emergency response, cross-functional engineering/data-science integration.
 
-Dec 2023 to Date, Houston, TX
+---
 
-- **WoodFibre LNG Terminal Design ($1.8B project, British Columbia)**
-  - Detailed marine global analysis to deliver the design of 2 FSTs (Floating Storage Terminals) berthed side by side in water depth of 35 m.
-  - Performed coupled analysis as follows
-    -  FSTs with shore mooring for extreme weather conditions
-    - FSTs with shore mooring and LNG carriers with fenders and LNGC moorings to FSTs to ensure safe operations in up to 5 year weather conditions.
-    - Designed mooring system handling up to 180,000m³ LNG carriers with 99.5% availability
-  - Utilized AQWA, OrcaWave and OrcaFlex software for the analysis
+## Professional Experience
 
+### Naval Architect, Alan McClure & Associates
+**Dec 2023 – Present | Houston, TX**
 
-- **Diffraction and Mooring Analysis**
-  - For moored barges to investigate mooring failure of mooring lines in extreme weather conditions
-  - Performed diffraction analysis of barge in AQWA and OrcaWave 
-  - Performed global analysis of barge 
-  - Utilized AQWA and OrcaFlex software for the analysis
+- **WoodFibre LNG Terminal Design — British Columbia ($1.8B project):** Performed detailed marine global analysis for two Floating Storage Terminals berthed side-by-side in approximately 35 m water depth, including coupled FST/shore-mooring analysis for extreme weather, FST/LNGC/fender/mooring interaction checks for operating conditions, mooring support for LNG carriers up to 180,000 m³, and AQWA/OrcaWave/OrcaFlex workflows for diffraction, hydrodynamics, mooring, and coupled global analysis.
+- **Diffraction and mooring failure investigations:** Performed AQWA/OrcaWave diffraction analysis and OrcaFlex global analysis for moored barges to evaluate mooring line failure mechanisms in extreme weather.
+- **Tug floundering / passing-ship analysis:** Investigated tug boat floundering due to passing ship effects using time-domain OrcaFlex analysis to assess tug motions and operational risk.
+- **Digital transformation and analysis automation:** Developed Python/API-based digital twins for hull diffraction workflows in AQWA/OrcaWave and mooring analysis workflows in OrcaFlex using OrcFxAPI, automated model creation, execution, result extraction, and engineering plot/report generation.
 
-- **Floundering Analysis**
-  - Investigated floundering of tug boats due to passing ship
-  - Performed time-domain analysis analysis to assess tug boat motions due to passing ship
-  - Utilized OrcaFlex software for the analysis
+### VP of Engineering / Co-Founder, Frontier Deepwater Appraisal Solutions (FDAS)
+**Jun 2016 – Present | Houston, TX**
 
-- **Digital Transformation**
-  - developed digital twins 
-    - for hull diffraction analysis in AQWA and OrcaWave
-    - for mooring analysis in OrcaFlex using OrcaFlex API (OrcFxAPI) and Python programming and AI technologies
-  - Automated model creation, execution and results processing using Python programming for all software
+- Lead concurrent venture-backed engineering and technology development for deepwater field development concepts, riser/mooring systems, field economics, technical marketing, and operator engagement.
+- **6000 ft water-depth semisubmersible production vessel concept:** Led feasibility and concept evaluation for converting idle 6th-generation drillships into production assets; delivered riser support, mooring, and hurricane-condition analysis to support cost-effective development decisions.
+- **GoM field economics analytics platform:** Built SQL/Python analytics platform using BSEE data for 200+ Gulf of Mexico fields, reducing field evaluation time from weeks to days and supporting stranded-asset opportunity screening.
+- **SEWOL salvage ship critical analysis:** Delivered emergency hull FEA analysis within 72 hours for Korean government salvage support; automated ANSYS workflows using Python to accelerate model execution and reporting.
+- Developed technical visualizations and digital engineering collateral for operator meetings, proposal support, and strategic business development.
 
-### VP of Engineering, FDAS
+### Engineering Lead Consultant, AceEngineer (Independent Consulting Practice)
+**Jun 2012 – Present | Houston, TX & Remote**
 
-Jun 2016 to Date, Houston, TX
-
-- **6000 ft Water Depth Semisubmersible Production Vessel Design ($150M+ project)**
-  - Led feasibility study saving $30M through conversion of idle 6th Generation drillships vs. new builds
-  - Designed riser support structure handling 2,500 kips loads with 15% weight reduction
-  - Delivered coupled riser/mooring analysis for 100/1000-year hurricanes, achieving 20% stroke optimization
-  - Created marketing visualizations that secured 3 operator meetings and $2M in follow-on contracts
-
-- **Economic Analysis Platform for GoM Fields (200+ fields analyzed)**
-  - Built SQL/Python analytics platform processing BSEE data for 200+ GoM fields
-  - Reduced field evaluation time from 2 weeks to 2 days (90% improvement)
-  - Generated insights leading to identification of $500M in stranded asset opportunities
-
-- **SEWOL Salvage Ship Critical Analysis ($20M emergency project)**
-  - Delivered critical hull FEA analysis in 72 hours for Korean government salvage operation
-  - Automated ANSYS workflows reducing analysis time by 60% using Python extensions
-  - Analysis enabled safe lifting of 6,800-ton vessel from 44m depth
-
-### Engineering Lead Consultant, AceEngineer
-
-Jun 2012 to Date, Houston, TX and Remote
-
-- Circular BOP Design and Analysis
-  - Detailed FEA analysis for seals and connectors for circular BOPs
-  - Nonlinear and Elastic-plastic analysis in ANSYS FEA
-  - Metal and Elastomer materials considered
-  - Annulus and Drill pipe seal analysis for various conditions
-
-- Installation analysis for subsea structures
-  - Structures such as Manifolds, PLETs etc.
-  - Flexible and umbilicals
-  - Rigid/flexible jumpers
-
-- Detailed subsea pipeline engineering analysis for installation of 42 inch thin walled (D/t of 67) pipe offshore Venezuela
-  - Detailed finite element analysis in ANSYS to determine the bending moment capacity of pipeline which is outside the DNV code regime (D/t > 45)
-  - Pipelay analysis in OrcaFlex to determine installation windows
-  - Python and API programming utilized to obtain results and plots in an automated manner
-
-- **ExxonMobil Yellowtail Installation Analysis ($2B field development, Guyana)**
-  - Analyzed 6 umbilicals (3 dynamic, 3 static) in 6,000ft water depth
-  - Identified optimal weather windows saving 12 vessel days ($6M savings)
-  - Reduced installation risks through comprehensive dynamic analysis (100+ load cases)
-  - Zero installation incidents during execution following analysis recommendations
-
-- Talos Static umbilical installation analysis
-  - Static umbilicals for the Venice limerock field in 1050 m water depth
-  - 2 static umbilcals going from subsea manifold to subsea tree
-  - Static installation tables and dynamic analysis with wave and current limits
-
-- Chevron Ballymore structural installation analysis
-  - Install rigid jumpers and manifolds for the Ballymore field
-  - Dynamic and resonance analysis of the structures
-
-- Implemented automation analysis for a riser service company to build digital twins by utilizing database driven data for following assets:
-  - Drilling risers
-  - Top tensioned risers
-  - Lazy wave catenary risers
-  - Simple catenary risers
-  - Global riser analysis
-  - Fitness for service per API 579:2016
-  - Fatigue service life using S-N and crack growth approaches per BS 7910:2013.
-- Detailed Subsea drilling riser adapter FE analysis
-  - Detailed ANSYS FE analysis of the lower riser subsea adapter to ensure the resistance is greater than expected loading.
-  - The expected loading is based on field specific riser analysis report. Both well control and no well control scenarios to ensure the adapter is fit for purpose.
-  - Elastic-plastic advanced analysis considered per API-RP-17G
-  - Python programming is utilized to automate the results and outputs
-
-- Trendsetter Intervention System Design and Analysis:
-  - Intervention system design for water depths ranging from 1500 ft to 10,000 ft and pressures of 15000 psi and 17500 psi.
-  - Global riser analysis, riser connector and flange specifications.
-  - Design to ensure sufficient operating envelopes using a Multi Service Vessel (MSV) and available stroke
-  - Design of both upper and lower riser configurations
-- Fitness for Service for risers, pipelines and subsea structures
-  - Process wall thickness data using python.
-  - Utilized Python libraries of Pandas, Numpy, Matplotlib and D3JS technologies.
-  - Use machine learning algorithms to identify areas of large defects and perform detailed analysis on weakest pipe areas in an automated manner.
-  - Developed python program code for 2016 API 579-1 & ASME FFS-I for acceptability (using classification) and acceptable flaws (using classification) by facture mechanics methodology of BS 7910.
-  - Concept work to extend fitness for service to other structures (vessel storage and piping systems) to support stacked drilling rigs returning to service.
-
-- Corrosion simulation analysis of damaged subsea mooring line for production facility experience for Oil and Gas using COMSOL software and java programming:
-  - A damaged mooring line is modelled to determine the corrosion progression over the life of field
-  - Utilized fluid mechanics, mass transfer, diffusion and electrochemical models in COMSOL for simulation of the corrosion mechanisms for galvanized steel wire.
-  - Degradation of the blocking compound between wires also modelled as it decelerates the corrosion mechanisms
-  - Parameters of model tuned to match experimentally measured corrosion data
-  - Recommendations are provided for regular field inspections and post-hurricane inspections
-  - Utilized COMSOL, Matlab, Java API and DOS batch processing to automate and process multiple models and associated results.
+- Provide concurrent specialist offshore/subsea engineering consulting for major operators and engineering contractors, covering installation analysis, risers, pipelines, umbilicals, structural FEA, corrosion, and fitness-for-service.
+- **Circular BOP design and analysis:** Performed detailed nonlinear and elastic-plastic ANSYS FEA of seals, connectors, annulus seals, drill pipe seals, and metal/elastomer component behavior.
+- **Subsea structure installation analysis:** Performed installation analyses for manifolds, PLETs, flexible products, umbilicals, rigid jumpers, and subsea structures.
+- **42-inch thin-walled subsea pipeline installation — Venezuela:** Executed detailed FEA to determine bending moment capacity for D/t = 67 pipe outside standard DNV code regime; performed OrcaFlex pipelay analysis and automated results/plots via Python/API workflows.
+- **ExxonMobil Yellowtail installation analysis — Guyana:** Analyzed dynamic and static umbilical installation in approximately 6,000 ft water depth; evaluated 100+ load cases and installation windows to reduce execution risk.
+- **Talos Venice Limerock static umbilical installation:** Assessed static umbilicals from subsea manifold to subsea tree in approximately 1,050 m water depth, including static installation tables and dynamic wave/current limits.
+- **Chevron Ballymore installation analysis:** Performed dynamic and resonance analysis for rigid jumpers and manifolds to support installation planning.
+- **Riser digital twin platform:** Implemented database-driven automation for drilling risers, top-tensioned risers, lazy-wave catenary risers, simple catenary risers, global riser analysis, API 579 fitness-for-service, and BS 7910 fatigue/fracture mechanics workflows.
+- **Trendsetter intervention system:** Supported intervention system design for water depths from 1,500 ft to 10,000 ft and pressures of 15,000–17,500 psi, including global riser analysis, connector/flange specifications, vessel stroke checks, and upper/lower riser configurations.
+- **Fitness-for-service automation:** Built Python workflows using pandas, NumPy, Matplotlib, and D3JS for wall-thickness processing, defect identification, API 579-1/ASME FFS-1 assessments, and BS 7910 fracture mechanics.
+- **Mooring corrosion simulation:** Modeled damaged subsea mooring line corrosion in COMSOL using fluid mechanics, mass transfer, diffusion, and electrochemical models; automated model processing with COMSOL Java API, MATLAB, and batch workflows.
 
 ### Engineering SME for Data Science Team, Occidental Petroleum
+**Sep 2017 – Dec 2020 | Houston, TX & Remote**
 
-Sep 2017 to Dec 2020, Houston, TX and Remote
+- Served as domain engineering lead bridging production engineering, drilling, data science, and software teams for large-scale analytics deployment.
+- **Production optimization platform:** Deployed 50+ physics-based algorithms monitoring approximately 20,000 wells in real time with logging, exception handling, and production-support workflows.
+- **Real-time drilling analytics:** Implemented bit-position estimation, torque/drag monitoring, rig-state logic, and edge-computing workflows supporting 20+ concurrent drilling campaigns.
+- **Production surveillance:** Automated dynacard analysis, ESP surveillance, well-test validation, and time-shed analytics to improve exception-based operations and reduce manual review effort.
+- Designed SQL data models, stored procedures, Python class libraries, analytics pipelines, dashboards, and validation routines for production-grade engineering analytics.
 
-- **Production Optimization Platform (50+ algorithms, $15M+ annual savings)**
-  - Deployed 50+ physics-based algorithms monitoring 20,000 wells in real-time
-  - Achieved 99.8% uptime with comprehensive logging and failure detection
-  - Reduced non-productive time by 35% through predictive dysfunction detection
+### Engineering Lead, 2H Offshore Inc
+**Aug 2003 – Jun 2015 | Houston, TX**
 
-- **Real-Time Drilling Analytics (20+ concurrent campaigns, $8M saved)**
-  - Implemented bit position estimation achieving ±2ft accuracy at 10,000ft depth
-  - Reduced stick-slip incidents by 40% through real-time torque/drag monitoring
-  - Cut average drilling time by 18% through automated rig state optimization
-  - Deployed edge computing solution processing 1TB daily with <100ms latency
+- Progressed through analyst, lead, manager, and technical authority roles for riser design, subsea systems, installation analysis, integrity management, and API standards work.
+- **BP Macondo emergency response:** Engineering Manager for containment riser response; led 24/7 multidisciplinary engineering effort across multiple locations and delivered complete design in 8 weeks by repurposing existing assets.
+- **Chevron Bangka SCR/flexible riser FEED:** Led FEED design for production risers in shallow-water development, optimizing riser configuration and installation strategy while delivering ahead of schedule.
+- **Major riser and integrity portfolio:** Led or supported BP Thunder Horse, Atlantis, Horn Mountain; Chevron Jack/St. Malo; ENI Devils Tower; Reliance KG-D6; Shell/BP HPHT systems; and multiple Gulf of Mexico, West Africa, and Asia-Pacific developments.
+- **API standards contribution:** Committee member/contributor for API-RP-16Q and related riser/structural standards.
+- Managed client communication, technical reports, design reviews, team coordination, mentorship, and project delivery for 100+ assignments.
 
-- **Production Surveillance System (20,000 wells monitored)**
-  - Automated dynacard analysis identifying pump failures 48 hours earlier
-  - Reduced ESP failures by 25% through exception-based surveillance
-  - Improved well test validation accuracy from 70% to 95%
-  - Saved $3M annually through optimized time-shed analysis
+---
 
-### Engineering Lead,  2H Offshore Inc
+## Selected Project Portfolio
 
-Aug 2003 to Jun 2015, Houston, TX
+- **WoodFibre LNG Terminal:** Dual FST global analysis, LNG carrier berthing, fender/mooring interaction, operational and extreme conditions.
+- **BP Macondo containment riser:** Emergency engineering response, rapid design, existing asset repurposing, high-consequence delivery.
+- **ExxonMobil Yellowtail:** Dynamic/static umbilical installation, 6,000 ft water depth, installation windows and load-case automation.
+- **Chevron Ballymore / Talos Venice Limerock:** Rigid jumper, manifold, and static umbilical installation analysis.
+- **42-inch Venezuela pipeline:** Thin-walled pipeline bending capacity and pipelay analysis beyond standard DNV D/t regime.
+- **SEWOL salvage:** Rapid-response hull FEA and automated ANSYS reporting for salvage operations.
+- **Drilling/riser digital twins:** Automated OrcaFlex model generation, batch execution, results extraction, and API 579 / BS 7910 integrity workflows.
 
-- **Chevron Bangka SCR/Flexible Riser Design ($45M FEED project)**
-  - Led FEED design for 8 production risers in 300ft water depth, delivered 3 weeks early
-  - Optimized riser configuration reducing steel tonnage by 18% ($3M savings)
-  - Installation analysis identified 45-day weather window vs. contractor's 30-day estimate
+## Education & Credentials
 
-- **BP Macondo Emergency Response - Engineering Manager ($100M+ critical project)**
-  - Delivered complete containment riser design in 8 weeks (97% time reduction vs. typical 3-year cycle)
-  - Repurposed $50M of existing assets avoiding new procurement delays
-  - System successfully contained 15,000 bpd during 2010 Gulf oil spill response
-  - Managed 24/7 engineering team of 30+ specialists across 3 locations
-- **Major Project Portfolio (100+ projects delivered):**
-  - **Integrity Management:** BP Thunder Horse, Atlantis, Horn Mountain field assessments; Reliance KG-D6 subsea systems
-  - **Deepwater Risers:** Chevron Jack/St.Malo SCRs; ENI Devils Tower TTRs; BP 20K/Shell 17K HPHT designs
-  - **API Standards:** Committee member and author for API-RP-16Q (2016 release)
-  - **Global Clients:** BP, Shell, Chevron, ExxonMobil, ENI, Murphy, Reliance across GoM, West Africa, Asia-Pacific
+**Master of Science, Mechanical Engineering** — Texas A&M University, College Station, TX<br>
+**Bachelor of Technology, Mechanical Engineering** — Indian Institute of Technology (IIT), Madras, India
 
-## Awards & Recognition
+**Professional Engineer (P.E.)** — Texas<br>
+**API Standards Committee Experience:** API-RP-16Q, API-RP-17G, API-RP-17G2
 
-- Multiple accolades for customer service and customer satisfaction
-- 100% track record for on time and within budget project delivery
+## Selected Publications & Thought Leadership
 
-## Education
+- **World Oil (2024):** “Wellbay Innovation Supports Lower-Cost HP DW Discoveries”
+- **OTC (2017):** “Heavy Lift Dynamics — Sewol Ferry Offshore Salvage”
+- **IADC (2015):** Contributing Author, *Floating Drilling Equipment and Operations*, 12th Edition
+- **OMAE (2009):** “Benchmarking SHEAR7v4.5: Full-Scale Drilling Riser VIV Data”
+- **World Oil Industry Reference (April 2026):** “SF Offshore Technology—Shilling (Frontier Deepwater Appraisal Solutions LLC)”
 
-### Master of Science in Mechanical Engineering, Texas A&M University, College Station
+## Professional Affiliations
 
-### B. Technology in Mechanical Engineering, Indian Institute of Technology, Madras
+Society of Petroleum Engineers (SPE) | American Society of Mechanical Engineers (ASME) | Marine Technology Society (MTS) | API Standards Committees
 
-## Selected Publications (15+ Total)
+## Languages
 
-- **World Oil (2024):** "Wellbay Innovation Supports Lower-Cost HP DW Discoveries"
-- **OTC (2017):** "Heavy Lift Dynamics - Sewol Ferry Offshore Salvage"
-- **IADC (2015):** Contributing Author, "Floating Drilling Equipment and Operations" (12th Edition)
-- **OMAE (2009):** "Benchmarking SHEAR7v4.5: Full-Scale Drilling Riser VIV Data"
-- **World Oil Industry Reference (April 2026):** "SF Offshore Technology—Shilling (Frontier Deepwater Appraisal Solutions LLC)"
-- **Complete list available upon request**
+English — Excellent | Telugu — Excellent | Hindi — Good
 
 ## References
 
-- World Oil industry reference: https://read.nxtbook.com/gulf_energy_information/world_oil/april_2026/sf_offshore_technology_shilling_frontier_deepwater_appraisal_solutions_llc.html
+Available upon request.
