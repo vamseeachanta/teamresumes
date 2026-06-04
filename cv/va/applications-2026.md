@@ -53,6 +53,8 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 **Source.** Job URLs provided directly by VA in-session, 2026-06-03.
 
+**Canonical detail (per VA directive 2026-06-04):** full opportunity capture — including FT-vs-consulting-lead classification, Hanwha toolchain intelligence, and BD follow-through — lives at `aceengineer-strategy/pipeline/hanwha-ocean-mooring-engineer-applications-2026-06-03.md`. This log entry is the chronological record; update both on status change.
+
 **Status.** NOT submitted. Blocked on Hanwha Ocean portal sign-in (no working candidate account as of 2026-06-04). Resume from "Next steps" above.
 
 ---
