@@ -4,8 +4,58 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 | Date | Company | Role (as posted) | Stage / Source | Status |
 |------|---------|------------------|----------------|--------|
+| 2026-06-03 | Hanwha Ocean (Offshore) | Senior Mooring Engineer (Req 1546) | Direct posting — SuccessFactors portal | **NOT YET SUBMITTED** — blocked on portal sign-in |
+| 2026-06-03 | Hanwha Ocean (Offshore) | Lead Mooring Engineer (Req 1547) | Direct posting — SuccessFactors portal | **NOT YET SUBMITTED** — blocked on portal sign-in |
 | 2026-05-12 | Harbour Energy (Zama Project) | Senior Gas Export Pipeline Engineer (GV) | Recruiter (Andy Garnett / Rock Oilfield) | Applied — CV submitted |
 | 2026-05-06 | Candid | Head of Project Delivery (senior delivery leader, VP-level) | Direct posting (full JD captured below) | Applied |
+
+---
+
+## 2026-06-03 — Hanwha Ocean — Senior Mooring Engineer (Req 1546) + Lead Mooring Engineer (Req 1547) — IN PROGRESS, NOT SUBMITTED
+
+**Company snapshot.** Hanwha Ocean (formerly DSME, acquired by Hanwha Group 2023) is a major Korean shipbuilder/offshore EPC. These roles sit in the offshore/Energy Plant Unit careers site (`jobs-offshore.hanwhaocean.com`), Houston TX 77001 — FPSO-focused engineering office.
+
+**Postings.**
+
+- **Senior Mooring Engineer** — Req ID 1546 — <https://jobs-offshore.hanwhaocean.com/job/Houston-Senior-Mooring-Engineer-TX-77001/1395934600/>
+- **Lead Mooring Engineer** — Req ID 1547 — <https://jobs-offshore.hanwhaocean.com/job/Houston-Lead-Mooring-Engineer-TX-77001/1395988000/>
+
+**Scope (both roles, near-identical JDs).** Mooring system design and analysis for deepwater floating structures (FPSO, FLNG, Semi, TLP): review project requirements and prepare design/analysis inputs; frequency- and time-domain dynamic analysis for in-place, towing, and installation phases; load reports and fatigue assessments; installation procedures with rigging checks and equipment specs; evaluate technical proposals for mooring components and anchoring systems; code compliance; cross-team and client collaboration.
+
+**Stated requirements (both).**
+
+- BS in Ocean/Offshore/Civil/Mechanical Engineering (MS preferred)
+- Senior: 5–10 yrs offshore O&G; Lead: 10–20 yrs — both with min 3 yrs mooring system analysis for FPSOs/floating structures
+- Software: OrcaFlex, HydroStar, Ariane, SIMA, MOSES, DeepC, or equivalent
+- Python/Matlab automation skills
+- Standards: API RP 2SK, ISO 19901-7, DNVGL-RP-E301
+- Fluent English; additional languages valued
+
+**Fit notes (for VA's own use).**
+
+- Strong match on both: 23+ yrs offshore (Lead band fits best), current daily mooring/coupled global analysis at Alan McClure & Associates, OrcaFlex + AQWA + OrcaWave authority, Python automation portfolio, API committee credibility (16Q/17G/17G2). WoodFibre LNG FST shore-mooring work is directly on point.
+- Senior role's 5–10 yr band technically undershoots VA's 23 yrs (overqualification risk); Lead (10–20 yrs) is the natural primary target. Applied to both per VA instruction.
+
+**Resume to send.** `cv/va_resume.pdf` (built 2026-05-07 from `cv/va_resume.md`, commit 818196e) — verified current and in sync with markdown source.
+
+**Application progress (as of 2026-06-04).**
+
+1. Both JDs captured (above). CV verified fresh. ✅
+2. Portal flow mapped: "Apply now" → `/talentcommunity/apply/<jobid>/?locale=en_US` — silently redirects to homepage/job page until a candidate session exists. Sign-in happens on the SuccessFactors backend: `https://career8.successfactors.com/careers?company=hanwhaocean`. ✅
+3. **BLOCKER:** Chrome-autofilled credentials (`achantav@gmail.com` + saved password) were rejected — "Invalid email address or password." The saved password likely belongs to a *different* employer's portal on the shared `career8.successfactors.com` domain (accounts are per-company). Agent cannot create accounts or enter passwords (prohibited action class) — VA must sign in or use "Create an account" on that page personally.
+
+**Next steps to resume.**
+
+1. VA: sign in (or create account, suggested email `vamsee.achanta@aceengineer.com` to match CV) at `https://career8.successfactors.com/careers?company=hanwhaocean` — or via Sign In link on either job page.
+2. Agent: navigate to each posting's Apply URL, fill application form from `cv/va_resume.md` data.
+3. VA: pick `cv/va_resume.pdf` in the native file-upload dialog (Chrome-bridge `file_upload` rejects host paths — known limitation).
+4. Agent: review filled form with VA, submit both, update this entry to Applied.
+
+**Source.** Job URLs provided directly by VA in-session, 2026-06-03.
+
+**Canonical detail (per VA directive 2026-06-04):** full opportunity capture — including FT-vs-consulting-lead classification, Hanwha toolchain intelligence, and BD follow-through — lives at `aceengineer-strategy/pipeline/hanwha-ocean-mooring-engineer-applications-2026-06-03.md`. This log entry is the chronological record; update both on status change.
+
+**Status.** NOT submitted. Blocked on Hanwha Ocean portal sign-in (no working candidate account as of 2026-06-04). Resume from "Next steps" above.
 
 ---
 
