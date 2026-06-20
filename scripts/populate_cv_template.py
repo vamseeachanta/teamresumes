@@ -3,6 +3,7 @@ Script to populate Project Pheasant CV Template with Vamsee Achanta's resume dat
 """
 from docx import Document
 from datetime import datetime
+from pathlib import Path
 
 def populate_cv_template():
     """Populate the CV template with resume data"""
@@ -148,6 +149,9 @@ Hindi - Good (speaking, reading, writing)""",
     
     # Save the populated document
     output_path = 'cv/acma/02_populated/Vamsee_Achanta_CV_ACMA.docx'
+    # Ensure the output directory exists; on a fresh clone (or after `git clean`)
+    # this directory may not be present and doc.save() would raise FileNotFoundError.
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
     doc.save(output_path)
     print(f"CV populated successfully: {output_path}")
     return output_path

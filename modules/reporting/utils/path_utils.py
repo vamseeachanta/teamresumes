@@ -6,6 +6,7 @@ the project root, ensuring portable and consistent data access across all
 repositories.
 """
 
+import os
 from pathlib import Path
 from typing import Union
 

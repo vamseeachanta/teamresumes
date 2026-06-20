@@ -13,14 +13,26 @@ import shutil
 
 class UnifiedAgentCommand:
     def __init__(self):
-        self.base_path = Path("/mnt/github/github")
+        # Workspace root is configurable so this does not silently fan out
+        # writes into unrelated repos on a different machine. Honor
+        # AGENT_OS_WORKSPACE if set; otherwise fall back to the legacy path.
+        self.base_path = Path(os.environ.get("AGENT_OS_WORKSPACE", "/mnt/github/github"))
         self.commands_dir = self.base_path / ".agent-os" / "commands"
-        
+
     def sync(self):
         """Sync all agent commands to all repos."""
         print("🔄 Syncing agent commands to all repositories...\n")
-        
-        repos = [d.name for d in self.base_path.iterdir() 
+
+        # Fail loudly rather than silently no-op (or worse, operate on the
+        # wrong tree) when the configured workspace root is missing.
+        if not self.base_path.is_dir():
+            print(
+                f"❌ Workspace root not found: {self.base_path}\n"
+                "   Set AGENT_OS_WORKSPACE to your workspace directory."
+            )
+            return
+
+        repos = [d.name for d in self.base_path.iterdir()
                 if d.is_dir() and (d / '.git').exists()]
         
         success = 0
