@@ -48,8 +48,10 @@ def parse_tasks(tasks_file):
             }
             tasks.append(current_task)
         
-        # Match subtasks (  - [ ] or  - [x])
-        subtask_match = re.match(r'^  - \[([ x])\] (.+)$', line.strip())
+        # Match subtasks (indented "- [ ]" or "- [x]"). Match against the raw
+        # line because the leading indentation is significant; line.strip()
+        # would remove it and the pattern would never match.
+        subtask_match = re.match(r'^\s+- \[([ x])\] (.+)$', line)
         if subtask_match and current_task:
             status = subtask_match.group(1)
             description = subtask_match.group(2)

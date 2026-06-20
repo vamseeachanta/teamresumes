@@ -6,13 +6,21 @@ All repos MUST use these utilities for parallel operations
 
 import asyncio
 import concurrent.futures
+import os
 from functools import wraps
 from typing import Any, Callable, Iterable, List, Optional
 import multiprocessing as mp
 from pathlib import Path
 
-# MANDATORY: Default to parallel processing
-USE_PARALLEL = True
+# Default to parallel processing; allow opt-out via environment.
+# Set USE_PARALLEL=0 (or "false"/"no"/"off") in the environment to disable.
+USE_PARALLEL = os.getenv("USE_PARALLEL", "1").strip().lower() not in (
+    "0",
+    "false",
+    "no",
+    "off",
+    "",
+)
 MAX_WORKERS = min(mp.cpu_count(), 8)
 
 def mandatory_parallel(func: Callable) -> Callable:
@@ -25,7 +33,7 @@ def mandatory_parallel(func: Callable) -> Callable:
         if not USE_PARALLEL:
             raise RuntimeError(
                 "PARALLEL PROCESSING IS MANDATORY! "
-                "Set USE_PARALLEL=True in environment"
+                "Unset USE_PARALLEL or set it to a non-falsy value in the environment"
             )
         return func(*args, **kwargs)
     return wrapper
@@ -35,7 +43,12 @@ def parallel_map(func: Callable, items: Iterable,
                 max_workers: Optional[int] = None) -> List[Any]:
     """
     MANDATORY parallel map function
-    Uses multiprocessing for CPU-bound tasks
+    Uses multiprocessing for CPU-bound tasks.
+
+    NOTE: ``func`` and every item in ``items`` must be picklable because work is
+    dispatched to a ``ProcessPoolExecutor``. Lambdas and locally-defined
+    closures cannot be pickled and will raise ``PicklingError`` -- use a
+    module-level (top-level) function instead.
     """
     workers = max_workers or MAX_WORKERS
     with concurrent.futures.ProcessPoolExecutor(max_workers=workers) as executor:

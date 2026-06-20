@@ -4,10 +4,19 @@ Example Usage: Data Validation Reporter
 Demonstrates the data validation and reporting workflow.
 """
 
+import sys
 import pandas as pd
 import logging
 from pathlib import Path
-from validator_template import DataValidator
+
+# Make the repo's ``src/`` directory importable so this example runs from a
+# fresh clone regardless of the current working directory. The class lives at
+# ``src/validators/data_validator.py`` (there is no ``validator_template``).
+_SRC = Path(__file__).resolve().parent.parent / "src"
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+
+from validators.data_validator import DataValidator
 
 # Setup logging
 logging.basicConfig(

@@ -36,7 +36,6 @@ dependencies = [
     "kaleido",
     "matplotlib",
     "openpyxl",
-    "OrcFxAPI",
     "pandas",
     "plotly",
     "poetry",
@@ -69,6 +68,13 @@ test = [
 docs = [
     "sphinx>=6.0",
     "sphinx-rtd-theme>=1.0",
+]
+# Proprietary Orcina OrcaFlex Python API. Requires a licensed install and is
+# only needed for OrcaFlex-based workflows, so it is an optional extra rather
+# than a hard dependency (it would otherwise break `pip install -e .` for
+# anyone without an Orcina license).
+orcaflex = [
+    "OrcFxAPI",
 ]
 
 [project.urls]

@@ -242,15 +242,20 @@ class DataValidator:
             ]
         )
 
+        # Required summary keys; default to safe values so a partially-populated
+        # results dict (per the docstring contract) renders instead of raising
+        # a bare KeyError.
+        quality_score = validation_results.get('quality_score', 0)
+
         # 1. Quality Score Gauge
         fig.add_trace(
             go.Indicator(
                 mode="gauge+number+delta",
-                value=validation_results['quality_score'],
+                value=quality_score,
                 delta={'reference': 80},
                 gauge={
                     'axis': {'range': [0, 100]},
-                    'bar': {'color': self._get_quality_color(validation_results['quality_score'])},
+                    'bar': {'color': self._get_quality_color(quality_score)},
                     'steps': [
                         {'range': [0, 60], 'color': 'lightgray'},
                         {'range': [60, 80], 'color': 'gray'},
@@ -305,11 +310,11 @@ class DataValidator:
         summary_data = {
             'Metric': ['Total Rows', 'Total Columns', 'Quality Score', 'Issues Found', 'Status'],
             'Value': [
-                str(validation_results['total_rows']),
-                str(validation_results['total_columns']),
-                f"{validation_results['quality_score']:.1f}/100",
-                str(len(validation_results['issues'])),
-                '✓ PASS' if validation_results['valid'] else '✗ FAIL'
+                str(validation_results.get('total_rows', 0)),
+                str(validation_results.get('total_columns', 0)),
+                f"{quality_score:.1f}/100",
+                str(len(validation_results.get('issues', []))),
+                '✓ PASS' if validation_results.get('valid', False) else '✗ FAIL'
             ]
         }
 
