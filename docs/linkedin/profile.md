@@ -30,8 +30,10 @@ Every number on those sites is computed by unit-tested code and shown with its p
 P.E. | MS Mechanical Engineering, Texas A&M | B.Tech, IIT Madras | CFA Level I
 
 If you're working on deepwater engineering, engineering automation, or AI for energy — let's talk.
-Houston, TX · vamsee.achanta@aceengineer.com
+Houston, TX
 ```
+
+> Contact default applied: **LinkedIn-only** (no public email/phone in the About). To override, append `· vamsee.achanta@aceengineer.com` when you apply it.
 
 ## Featured (pin these — pictures matter here)
 
@@ -44,7 +46,7 @@ Houston, TX · vamsee.achanta@aceengineer.com
 ## Experience (highlights — fill dates/employers from full resume)
 
 - **Founder / Principal Engineer — AceEngineer** (Houston, TX). Offshore & subsea engineering consultancy; AI-augmented engineering tooling (digitalmodel, worldenergydata, deckhand). Add concrete outcomes + a link/figure per entry.
-- **[CONFIRM] VP of Engineering — FDAS (Frontier Deepwater)**. Your bio lists this as the current role, but FDAS is private/confidential client context — decide whether to name the employer publicly, name it generically ("a deepwater operator/EPC"), or omit. Do not auto-publish.
+- **VP of Engineering — deepwater field-development company** (default applied: **generic**, to avoid naming a confidential client). Override to the real entity name only if you're comfortable making the employment public. Do not auto-publish.
 - Prior roles: pull employer names + dates from `cv/va_resume.md` (not in the bio). Each: 2-3 outcome bullets with a standard/figure.
 
 ## Skills (top to surface)
@@ -58,8 +60,8 @@ Subsea Engineering · Riser Analysis (SCR/SLWR) · Mooring Systems · Pipeline E
 - [ ] Screenshots: worldenergydata landing, Julia NPV table, 3D well-path capture
 - [ ] One chart from digitalmodel (RAO benchmark or OCIMF explorer)
 
-## Open decisions
+## Decisions (defaults applied — override at apply-time)
 
-- [ ] **[CONFIRM]** Current-employer line (FDAS public / generic / omit)
-- [ ] Public contact level (email/phone on profile?)
-- [ ] Confirm prior-role employers & dates from full resume
+- [x] Current-employer line → **generic** ("VP of Engineering, a deepwater field-development company"). Override with real name if desired.
+- [x] Public contact → **LinkedIn-only** (no public email/phone). Override by adding email.
+- [ ] Confirm prior-role employers & dates from full `cv/va_resume.md`
