@@ -1,6 +1,9 @@
 resume.pdf
 resume.html
 
+# Built static Pages output (regenerated in CI from cv/)
+public/
+
 
 # Agent OS
 .agent-os/cache/

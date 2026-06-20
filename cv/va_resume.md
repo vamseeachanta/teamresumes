@@ -45,6 +45,7 @@ Combines hands-on technical authority in OrcaFlex, AQWA, OrcaWave, ANSYS, Abaqus
 - **Subsea and riser authority:** Delivered 100+ offshore riser and subsea projects across Gulf of Mexico, West Africa, Asia-Pacific, Guyana, and Venezuela for major operators including BP, Shell, Chevron, ExxonMobil, ENI, Murphy, Reliance, Talos, and others.
 - **Emergency response leadership:** Engineering Manager for BP Macondo containment riser response; delivered a complete containment riser design in 8 weeks versus a typical multi-year cycle by repurposing existing assets.
 - **Digital transformation:** Built Python/API-driven automation and digital twin workflows for OrcaFlex, AQWA, OrcaWave, ANSYS, COMSOL, BSEE field economics, drilling analytics, production surveillance, and fitness-for-service assessment.
+- **Open, demonstrable engineering & AI:** Publish deterministic, unit-tested engineering analyses as live public tools — a Gulf of Mexico field-economics & well-analytics site on public BSEE data ([worldenergydata, live](https://vamseeachanta.github.io/worldenergydata/)), an open offshore engineering library (digitalmodel: OrcaWave/AQWA benchmarks, 221 S-N fatigue curves across 17 standards, subsea/riser analysis), and a Raw-to-Knowledge playbook for AI-ready engineering data; AI/LLM-augmented workflows that compress analysis cycles while preserving standards traceability.
 - **Standards and technical credibility:** API committee participant/contributor for API-RP-16Q, API-RP-17G, and API-RP-17G2; author/co-author of technical publications for OTC, OMAE, IADC, and World Oil.
 
 ## Core Competencies
@@ -53,7 +54,7 @@ Combines hands-on technical authority in OrcaFlex, AQWA, OrcaWave, ANSYS, Abaqus
 
 **Analysis & Simulation:** Coupled dynamic analysis, diffraction/radiation analysis, mooring analysis, time-domain simulations, global riser analysis, pipelay and installation windows, detailed FEA, nonlinear elastic-plastic analysis, fracture mechanics, fatigue, corrosion simulation, hydrodynamics, operability assessment.
 
-**Software & Automation:** OrcaFlex / OrcFxAPI, AQWA, OrcaWave, ANSYS, Abaqus, COMSOL, Flexcom, Python, SQL, Git, Azure DevOps, pandas, NumPy, Matplotlib, Plotly/D3JS, API-driven model generation, batch execution, automated post-processing, engineering dashboards.
+**Software & Automation:** OrcaFlex / OrcFxAPI, AQWA, OrcaWave, ANSYS, Abaqus, COMSOL, Flexcom, Python, SQL, Git, Azure DevOps, pandas, NumPy, Matplotlib, Plotly/D3JS, API-driven model generation, batch execution, automated post-processing, engineering dashboards; AI/LLM-augmented engineering workflows and agentic automation, deterministic zero-server static web delivery (GitHub Pages).
 
 **Standards & Governance:** API-RP-16Q, API-RP-17G, API-RP-17G2, API 579-1 / ASME FFS-1, BS 7910, DNV offshore recommended practices, ASME VIII, engineering assurance, contractor deliverable review, design basis development, technical risk assessment.
 
@@ -94,6 +95,7 @@ Combines hands-on technical authority in OrcaFlex, AQWA, OrcaWave, ANSYS, Abaqus
 - **Trendsetter intervention system:** Supported intervention system design for water depths from 1,500 ft to 10,000 ft and pressures of 15,000–17,500 psi, including global riser analysis, connector/flange specifications, vessel stroke checks, and upper/lower riser configurations.
 - **Fitness-for-service automation:** Built Python workflows using pandas, NumPy, Matplotlib, and D3JS for wall-thickness processing, defect identification, API 579-1/ASME FFS-1 assessments, and BS 7910 fracture mechanics.
 - **Mooring corrosion simulation:** Modeled damaged subsea mooring line corrosion in COMSOL using fluid mechanics, mass transfer, diffusion, and electrochemical models; automated model processing with COMSOL Java API, MATLAB, and batch workflows.
+- **Open engineering & AI tooling:** Built and shipped public, deterministic engineering sites and libraries — [worldenergydata](https://vamseeachanta.github.io/worldenergydata/) (live GoM field economics & well analytics on BSEE data: Lower-Tertiary NPVs, 56-well benchmarking, 3D well paths), digitalmodel (open offshore engineering library), and a Raw-to-Knowledge playbook — every result unit-tested and provenance-traced, delivered as zero-server static HTML, with AI/LLM as narrative support over deterministic cores.
 
 ### Engineering SME for Data Science Team, Occidental Petroleum
 **Sep 2017 – Dec 2020 | Houston, TX & Remote**
@@ -125,6 +127,7 @@ Combines hands-on technical authority in OrcaFlex, AQWA, OrcaWave, ANSYS, Abaqus
 - **42-inch Venezuela pipeline:** Thin-walled pipeline bending capacity and pipelay analysis beyond standard DNV D/t regime.
 - **SEWOL salvage:** Rapid-response hull FEA and automated ANSYS reporting for salvage operations.
 - **Drilling/riser digital twins:** Automated OrcaFlex model generation, batch execution, results extraction, and API 579 / BS 7910 integrity workflows.
+- **worldenergydata (open):** Live, deterministic Gulf of Mexico field-economics & well-analytics site on public BSEE data — Lower-Tertiary NPVs, 56-well benchmarking, interactive 3D well paths; unit-tested numbers with full provenance.
 
 ## Education & Credentials
 
