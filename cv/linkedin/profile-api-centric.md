@@ -25,7 +25,7 @@ I'm building **Deckhand - the API for real-world work.**
 
 The idea is simple: every engineering workflow should be an API path. You make one call - `POST /api/run` - and you get back a **standards-traceable HTML report URL**. Same input, same output, every time. No black box: it runs on the open-source `digitalmodel` library (7,000+ standard-mapped functions across 42 engineering standards), so every result is deterministic, inspectable, and reproducible.
 
-Why this matters: most "AI for engineering" stops at a chat answer you can't audit or hand to a client. Deckhand ends at a deliverable - a report URL with the governing standard (DNV, API) cited inline, backed by golden test cases. Chat is just one client of the API; so are website buttons and scheduled jobs.
+Why this matters: most engineering chatbots stop at a chat answer you can't audit or hand to a client. Deckhand ends at a deliverable - a report URL with the governing standard (DNV, API) cited inline, backed by golden test cases. Chat is just one client of the API; so are website buttons and scheduled jobs.
 
 Offshore engineering is the live proof. Mooring, subsea-pipeline, riser, and installation screening are firing today as DNV/API-traceable API paths that return published reports. More domains - CAD/CAM, manufacturing, electrical, safety - are onboarding as new API paths.
 
