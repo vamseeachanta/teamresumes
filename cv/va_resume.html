@@ -6,15 +6,18 @@ a { color: #0f4c81; text-decoration: none; }
 h1 { font-size: 21pt; margin: 0 0 1px; color: #0b1f33; letter-spacing: 0.5px; }
 h2 { font-size: 11.5pt; margin: 10px 0 4px; color: #0f4c81; font-weight: 700; page-break-after: avoid; break-after: avoid; }
 h1 + h2 { margin: 0 0 8px; color: #0f4c81; font-size: 11.5pt; }
-h3 { font-size: 10.8pt; margin: 12px 0 2px; color: #0b1f33; border-bottom: 1px solid #d5dde5; padding-bottom: 2px; page-break-after: avoid; break-after: avoid; }
-p { margin: 3px 0 5px; }
-ul { margin: 4px 0 7px 16px; padding: 0; }
-li { margin: 2px 0; break-inside: avoid; }
-hr { border: 0; border-top: 1.5px solid #0f4c81; margin: 8px 0 10px; }
+h3 {
+  font-size: 10.8pt; margin: 12px 0 2px; color: #0b1f33;
+  border-bottom: 1px solid #d5dde5; padding-bottom: 2px;
+  page-break-after: avoid; break-after: avoid;
+}
+p { margin: 4px 0; }
+ul { margin: 3px 0 6px; padding-left: 16px; }
+li { margin: 0 0 2px; }
+hr { border: 0; border-top: 1.5px solid #0f4c81; margin: 8px 0; }
 strong { color: #0b1f33; }
 .section-break { break-before: page; page-break-before: always; margin-top: 0; }
 @media print { h2, h3 { break-after: avoid; page-break-after: avoid; } li { break-inside: avoid; } }
-
 table { border-collapse: collapse; width: 100%; font-size: 8.9pt; margin: 4px 0 6px; }
 th { text-align: left; color: #0f4c81; border-bottom: 1.5px solid #0f4c81; padding: 2px 6px 2px 0; }
 td { vertical-align: top; border-bottom: 1px solid #e3e9ef; padding: 3px 6px 3px 0; }
