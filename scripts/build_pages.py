@@ -182,15 +182,22 @@ def build():
             if f.is_file():
                 logos_dst.joinpath(f.name).write_bytes(f.read_bytes())
 
+    # Downloadable PDF (PII-scrubbed variant, built by scripts/render_resume_pdf.py)
+    pdf_src = CV / "va_resume_public.pdf"
+    has_pdf = pdf_src.exists()
+    if has_pdf:
+        (PUBLIC / "va_resume.pdf").write_bytes(pdf_src.read_bytes())
+
     # Resume page (scrubbed)
     resume_md = CV / PUBLIC_RESUME
     has_resume = resume_md.exists()
     if has_resume:
         body = md_to_html(strip_frontmatter(scrub(resume_md.read_text(encoding="utf-8"))))
+        pdf_link = ' <a href="va_resume.pdf">Download as PDF</a>.' if has_pdf else ""
         (PUBLIC / "resume.html").write_text(shell(
             "Vamsee Achanta — Resume",
             '<div class="note">Public resume: direct contact details removed by design. '
-            'Reach out via <a href="https://www.linkedin.com/in/vamseeachanta">LinkedIn</a>.</div>'
+            f'Reach out via <a href="https://www.linkedin.com/in/vamseeachanta">LinkedIn</a>.{pdf_link}</div>'
             f'<div class="content">{body}</div>',
         ), encoding="utf-8")
 
@@ -199,7 +206,8 @@ def build():
         f'<a class="card" href="{url}"><h3>{html.escape(name)} &rarr;</h3><p>{html.escape(desc)}</p></a>'
         for name, url, desc in DEMOS
     )
-    resume_link = '<p><a href="resume.html">Full resume &rarr;</a></p>' if has_resume else ""
+    pdf_suffix = ' &middot; <a href="va_resume.pdf">PDF</a>' if has_pdf else ""
+    resume_link = f'<p><a href="resume.html">Full resume &rarr;</a>{pdf_suffix}</p>' if has_resume else ""
     landing = shell("Vamsee Achanta, P.E. — Offshore & Subsea Engineering + AI", f"""
 <section class="hero">
   <div class="photo">photo<br>placeholder</div>
