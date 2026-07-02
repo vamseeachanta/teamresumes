@@ -173,6 +173,15 @@ def build():
     ASSETS.mkdir(exist_ok=True)
     (ASSETS / "style.css").write_text(STYLE, encoding="utf-8")
 
+    # Static image assets referenced by the resume (e.g. employer logos).
+    logos_src = CV / "assets" / "logos"
+    if logos_src.is_dir():
+        logos_dst = ASSETS / "logos"
+        logos_dst.mkdir(exist_ok=True)
+        for f in logos_src.iterdir():
+            if f.is_file():
+                logos_dst.joinpath(f.name).write_bytes(f.read_bytes())
+
     # Resume page (scrubbed)
     resume_md = CV / PUBLIC_RESUME
     has_resume = resume_md.exists()

@@ -48,15 +48,17 @@ Combines hands-on technical authority in OrcaFlex, AQWA, OrcaWave, ANSYS, Abaqus
 | Sep 2017 – Dec 2020 | Engineering SME, Data Science Team | Occidental Petroleum, Houston, TX & Remote | Physics-based production/drilling analytics across ~20,000 wells |
 | Aug 2003 – Jun 2015 | Engineering Lead | 2H Offshore Inc, Houston, TX | Riser design & integrity, 100+ projects, BP Macondo containment riser response, API standards |
 
-Roles from 2012 onward include concurrent engagements — the consulting practice and venture roles run in parallel with client positions. Project-level detail for each position follows on the next pages.
+<div style="display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin:4px 0 0"><img src="assets/logos/acma-logo.gif" alt="Alan C. McClure Associates" style="height:38px"><img src="assets/logos/fdas-logo.png" alt="Frontier Deepwater Appraisal Solutions" style="height:30px"><img src="assets/logos/aceengineer-logo.svg" alt="AceEngineer" style="height:22px"><img src="assets/logos/oxy-logo.svg" alt="Occidental Petroleum (Oxy)" style="height:26px"><img src="assets/logos/2h-logo.svg" alt="2H Offshore" style="height:28px"></div>
+
+Roles from 2012 onward run concurrently; project-level detail for each position follows on the next pages.
 
 ## Career Highlights
 
-- **Emergency response leadership:** Engineering Manager for BP Macondo containment riser response; delivered a complete containment riser design in 8 weeks versus a typical multi-year cycle by repurposing existing assets.
+- **Emergency response leadership:** Engineering Manager for BP Macondo containment riser response; delivered a complete containment riser design in 8 weeks by repurposing existing assets.
 - **Major LNG terminal analysis:** WoodFibre LNG Terminal design (British Columbia, $1.8B) — dual Floating Storage Terminals, shore mooring, LNG carrier berthing/fender interaction, extreme-weather assessment.
 - **Subsea and riser authority:** 100+ offshore riser and subsea projects across Gulf of Mexico, West Africa, Asia-Pacific, Guyana, and Venezuela for BP, Shell, Chevron, ExxonMobil, ENI, Murphy, Reliance, Talos, and others.
 - **Digital transformation:** Python/API-driven automation and digital twins for OrcaFlex, AQWA, OrcaWave, ANSYS, COMSOL, BSEE field economics, drilling analytics, production surveillance, and fitness-for-service.
-- **Open, demonstrable engineering & AI:** Live public engineering tools — [worldenergydata](https://vamseeachanta.github.io/worldenergydata/) (GoM field economics & well analytics on BSEE data), digitalmodel (open offshore engineering library), Raw-to-Knowledge playbook — deterministic, unit-tested, provenance-traced.
+- **Open, demonstrable engineering & AI:** Live public tools — [worldenergydata](https://vamseeachanta.github.io/worldenergydata/) (GoM field economics & well analytics on BSEE data) and digitalmodel (open offshore engineering library) — deterministic, unit-tested, provenance-traced.
 - **Standards and technical credibility:** API committee participant/contributor for API-RP-16Q, API-RP-17G, and API-RP-17G2; author/co-author for OTC, OMAE, IADC, and World Oil.
 
 ## Education & Credentials
