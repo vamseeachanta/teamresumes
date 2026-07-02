@@ -38,15 +38,36 @@ Marine/offshore engineering leader with 23+ years of experience in naval archite
 
 Combines hands-on technical authority in OrcaFlex, AQWA, OrcaWave, ANSYS, Abaqus, and COMSOL with Python/SQL automation and data-science experience. Known for converting complex engineering workflows into repeatable digital tools, digital twins, and production-grade analytics that reduce analysis cycle time, improve quality, and support faster project decisions.
 
+## Positions
+
+| Period | Role | Organization | Focus |
+|---|---|---|---|
+| Dec 2023 – Present | Naval Architect | Alan McClure & Associates, Houston, TX | Coupled marine global analysis, diffraction, moorings; WoodFibre LNG FST terminal design |
+| Jun 2016 – Present | VP of Engineering / Co-Founder | Frontier Deepwater Appraisal Solutions (FDAS), Houston, TX | Deepwater production concepts, riser/mooring systems, GoM field economics |
+| Jun 2012 – Present | Engineering Lead Consultant | AceEngineer (independent practice), Houston, TX & Remote | Subsea/riser/installation analysis, FEA, fitness-for-service, digital twins, open engineering & AI tooling |
+| Sep 2017 – Dec 2020 | Engineering SME, Data Science Team | Occidental Petroleum, Houston, TX & Remote | Physics-based production/drilling analytics across ~20,000 wells |
+| Aug 2003 – Jun 2015 | Engineering Lead | 2H Offshore Inc, Houston, TX | Riser design & integrity, 100+ projects, BP Macondo containment riser response, API standards |
+
+Roles from 2012 onward include concurrent engagements — the consulting practice and venture roles run in parallel with client positions. Project-level detail for each position follows on the next pages.
+
 ## Career Highlights
 
-- **Current marine systems analysis:** Naval Architect at Alan McClure & Associates performing coupled marine global analysis, diffraction analysis, mooring analysis, and time-domain assessment for floating assets, LNG terminals, barges, tugs, and marine operations.
-- **Major LNG terminal analysis:** Supported WoodFibre LNG Terminal design in British Columbia, including dual Floating Storage Terminals (FSTs), shore mooring systems, LNG carrier berthing/fender interactions, and operational/extreme weather assessment.
-- **Subsea and riser authority:** Delivered 100+ offshore riser and subsea projects across Gulf of Mexico, West Africa, Asia-Pacific, Guyana, and Venezuela for major operators including BP, Shell, Chevron, ExxonMobil, ENI, Murphy, Reliance, Talos, and others.
 - **Emergency response leadership:** Engineering Manager for BP Macondo containment riser response; delivered a complete containment riser design in 8 weeks versus a typical multi-year cycle by repurposing existing assets.
-- **Digital transformation:** Built Python/API-driven automation and digital twin workflows for OrcaFlex, AQWA, OrcaWave, ANSYS, COMSOL, BSEE field economics, drilling analytics, production surveillance, and fitness-for-service assessment.
-- **Open, demonstrable engineering & AI:** Publish deterministic, unit-tested engineering analyses as live public tools — a Gulf of Mexico field-economics & well-analytics site on public BSEE data ([worldenergydata, live](https://vamseeachanta.github.io/worldenergydata/)), an open offshore engineering library (digitalmodel: OrcaWave/AQWA benchmarks, 221 S-N fatigue curves across 17 standards, subsea/riser analysis), and a Raw-to-Knowledge playbook for AI-ready engineering data; AI/LLM-augmented workflows that compress analysis cycles while preserving standards traceability.
-- **Standards and technical credibility:** API committee participant/contributor for API-RP-16Q, API-RP-17G, and API-RP-17G2; author/co-author of technical publications for OTC, OMAE, IADC, and World Oil.
+- **Major LNG terminal analysis:** WoodFibre LNG Terminal design (British Columbia, $1.8B) — dual Floating Storage Terminals, shore mooring, LNG carrier berthing/fender interaction, extreme-weather assessment.
+- **Subsea and riser authority:** 100+ offshore riser and subsea projects across Gulf of Mexico, West Africa, Asia-Pacific, Guyana, and Venezuela for BP, Shell, Chevron, ExxonMobil, ENI, Murphy, Reliance, Talos, and others.
+- **Digital transformation:** Python/API-driven automation and digital twins for OrcaFlex, AQWA, OrcaWave, ANSYS, COMSOL, BSEE field economics, drilling analytics, production surveillance, and fitness-for-service.
+- **Open, demonstrable engineering & AI:** Live public engineering tools — [worldenergydata](https://vamseeachanta.github.io/worldenergydata/) (GoM field economics & well analytics on BSEE data), digitalmodel (open offshore engineering library), Raw-to-Knowledge playbook — deterministic, unit-tested, provenance-traced.
+- **Standards and technical credibility:** API committee participant/contributor for API-RP-16Q, API-RP-17G, and API-RP-17G2; author/co-author for OTC, OMAE, IADC, and World Oil.
+
+## Education & Credentials
+
+**Master of Science, Mechanical Engineering** — Texas A&M University, College Station, TX<br>
+**Bachelor of Technology, Mechanical Engineering** — Indian Institute of Technology (IIT), Madras, India
+
+**Professional Engineer (P.E.)** — Texas<br>
+**API Standards Committee Experience:** API-RP-16Q, API-RP-17G, API-RP-17G2
+
+<div style="page-break-before: always;"></div>
 
 ## Core Competencies
 
@@ -62,7 +83,7 @@ Combines hands-on technical authority in OrcaFlex, AQWA, OrcaWave, ANSYS, Abaqus
 
 ---
 
-## Professional Experience
+## Professional Experience & Project Detail
 
 ### Naval Architect, Alan McClure & Associates
 **Dec 2023 – Present | Houston, TX**
@@ -128,14 +149,6 @@ Combines hands-on technical authority in OrcaFlex, AQWA, OrcaWave, ANSYS, Abaqus
 - **SEWOL salvage:** Rapid-response hull FEA and automated ANSYS reporting for salvage operations.
 - **Drilling/riser digital twins:** Automated OrcaFlex model generation, batch execution, results extraction, and API 579 / BS 7910 integrity workflows.
 - **worldenergydata (open):** Live, deterministic Gulf of Mexico field-economics & well-analytics site on public BSEE data — Lower-Tertiary NPVs, 56-well benchmarking, interactive 3D well paths; unit-tested numbers with full provenance.
-
-## Education & Credentials
-
-**Master of Science, Mechanical Engineering** — Texas A&M University, College Station, TX<br>
-**Bachelor of Technology, Mechanical Engineering** — Indian Institute of Technology (IIT), Madras, India
-
-**Professional Engineer (P.E.)** — Texas<br>
-**API Standards Committee Experience:** API-RP-16Q, API-RP-17G, API-RP-17G2
 
 ## Selected Publications & Thought Leadership
 
