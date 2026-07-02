@@ -79,6 +79,14 @@ Full resume: https://vamseeachanta.github.io/teamresumes/
 2. **Deckhand demo gallery (live)** — https://vamseeachanta.github.io/deckhand-sandbox/
 3. **digitalmodel capabilities (live)** — https://vamseeachanta.github.io/digitalmodel/capabilities/
 
+> **Published deviation (2026-07-02):** LinkedIn's link resolver follows the
+> meta-refresh redirect on the deckhand-sandbox root, so the live Featured item 2
+> is stored as `https://vamseeachanta.github.io/deckhand-sandbox/review-94111d02a8/`
+> (URL not editable after creation; only title/description are). The intended
+> stable alias remains the root URL above. Fix that makes the alias stick: serve
+> real content (or a server-side redirect) at the sandbox root instead of a
+> meta-refresh page, then re-add the Featured link.
+
 ---
 
 ## Experience
