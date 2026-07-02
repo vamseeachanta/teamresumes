@@ -27,8 +27,8 @@ subject: 'cv_vamsee_achanta_job_search'
 # VAMSEE ACHANTA, P.E.
 ## Naval Architect | Subsea & Marine Systems Engineering Leader | Digital Transformation Executive
 
-**Email:** vamsee.achanta@aceengineer.com | **Phone:** 713-306-9029  
-**LinkedIn:** [linkedin.com/in/vamseeachanta](https://www.linkedin.com/in/vamseeachanta) | **GitHub:** [github.com/vamseeachanta](https://github.com/vamseeachanta) | **Location:** Houston, TX
+**Email:** vamsee.achanta@aceengineer.com | **Phone:** 713-306-9029 | Houston, TX  
+**LinkedIn:** [linkedin.com/in/vamseeachanta](https://www.linkedin.com/in/vamseeachanta) | **GitHub:** [github.com/vamseeachanta](https://github.com/vamseeachanta) | **Portfolio:** [career site](https://vamseeachanta.github.io/teamresumes/)
 
 ---
 
@@ -57,9 +57,8 @@ Roles from 2012 onward run concurrently; project-level detail for each position 
 - **Emergency response leadership:** Engineering Manager for BP Macondo containment riser response; delivered a complete containment riser design in 8 weeks by repurposing existing assets.
 - **Major LNG terminal analysis:** WoodFibre LNG Terminal design (British Columbia, $1.8B) — dual Floating Storage Terminals, shore mooring, LNG carrier berthing/fender interaction, extreme-weather assessment.
 - **Subsea and riser authority:** 100+ offshore riser and subsea projects across Gulf of Mexico, West Africa, Asia-Pacific, Guyana, and Venezuela for BP, Shell, Chevron, ExxonMobil, ENI, Murphy, Reliance, Talos, and others.
-- **Digital transformation:** Python/API-driven automation and digital twins for OrcaFlex, AQWA, OrcaWave, ANSYS, COMSOL, BSEE field economics, drilling analytics, production surveillance, and fitness-for-service.
-- **Open, demonstrable engineering & AI:** Live public tools — [worldenergydata](https://vamseeachanta.github.io/worldenergydata/) (GoM field economics & well analytics on BSEE data) and digitalmodel (open offshore engineering library) — deterministic, unit-tested, provenance-traced.
-- **Standards and technical credibility:** API committee participant/contributor for API-RP-16Q, API-RP-17G, and API-RP-17G2; author/co-author for OTC, OMAE, IADC, and World Oil.
+- **Engineering-workflows platform (Deckhand):** API-first platform with ~30 deterministic, standards-based screening workflows (fatigue, seakeeping, lifting, weather windows) and provenance-gated licensed OrcaFlex/AQWA runs — [live demo gallery](https://vamseeachanta.github.io/deckhand-sandbox/).
+- **Open, demonstrable engineering:** Live public tools — [worldenergydata](https://vamseeachanta.github.io/worldenergydata/) (GoM field economics on BSEE data) and digitalmodel (open offshore library) — deterministic, unit-tested, provenance-traced; OTC/OMAE/IADC/World Oil author.
 
 ## Education & Credentials
 
@@ -73,9 +72,11 @@ Roles from 2012 onward run concurrently; project-level detail for each position 
 
 ## Core Competencies
 
-**Marine & Subsea Engineering:** Naval architecture, floating systems, FST/FPSO/FPU concepts, LNG marine operations, risers (SCR, TTR, hybrid, lazy-wave, simple catenary), pipelines, umbilicals, jumpers, manifolds, moorings, CALM/SALM buoys, installation engineering, integrity management, decommissioning.
+**Marine & Subsea Engineering:** Naval architecture, floating systems, FST/FPSO/FPU concepts, floating offshore wind platform sizing, LNG marine operations, risers (SCR, TTR, hybrid, lazy-wave, simple catenary), pipelines, umbilicals, jumpers, manifolds, moorings, CALM/SALM buoys, installation engineering, integrity management, decommissioning.
 
-**Analysis & Simulation:** Coupled dynamic analysis, diffraction/radiation analysis, mooring analysis, time-domain simulations, global riser analysis, pipelay and installation windows, detailed FEA, nonlinear elastic-plastic analysis, fracture mechanics, fatigue, corrosion simulation, hydrodynamics, operability assessment.
+**Analysis & Simulation:** Coupled dynamic analysis, diffraction/radiation analysis, mooring analysis, time-domain simulations, global riser analysis, pipelay and installation windows, detailed FEA, nonlinear elastic-plastic analysis, fracture mechanics, fatigue, corrosion simulation, hydrodynamics, operability assessment (DNV-RP-H103 / DNVGL-ST-N001 weather windows and operation envelopes).
+
+**CFD:** OpenFOAM (RANS k-ω SST, laminar, free-surface VOF/olaFlow waves) on a license-free FreeCAD/gmsh → OpenFOAM → PyVista pipeline, validated against canonical benchmarks — Blasius flat plate, cylinder Re=100 vortex shedding, NACA0012 airfoil, dam-break free surface — with published live validation reports.
 
 **Software & Automation:** OrcaFlex / OrcFxAPI, AQWA, OrcaWave, ANSYS, Abaqus, COMSOL, Flexcom, Python, SQL, Git, Azure DevOps, pandas, NumPy, Matplotlib, Plotly/D3JS, API-driven model generation, batch execution, automated post-processing, engineering dashboards; AI/LLM-augmented engineering workflows and agentic automation, deterministic zero-server static web delivery (GitHub Pages).
 
@@ -118,7 +119,10 @@ Roles from 2012 onward run concurrently; project-level detail for each position 
 - **Trendsetter intervention system:** Supported intervention system design for water depths from 1,500 ft to 10,000 ft and pressures of 15,000–17,500 psi, including global riser analysis, connector/flange specifications, vessel stroke checks, and upper/lower riser configurations.
 - **Fitness-for-service automation:** Built Python workflows using pandas, NumPy, Matplotlib, and D3JS for wall-thickness processing, defect identification, API 579-1/ASME FFS-1 assessments, and BS 7910 fracture mechanics.
 - **Mooring corrosion simulation:** Modeled damaged subsea mooring line corrosion in COMSOL using fluid mechanics, mass transfer, diffusion, and electrochemical models; automated model processing with COMSOL Java API, MATLAB, and batch workflows.
-- **Open engineering & AI tooling:** Built and shipped public, deterministic engineering sites and libraries — [worldenergydata](https://vamseeachanta.github.io/worldenergydata/) (live GoM field economics & well analytics on BSEE data: Lower-Tertiary NPVs, 56-well benchmarking, 3D well paths), digitalmodel (open offshore engineering library), and a Raw-to-Knowledge playbook — every result unit-tested and provenance-traced, delivered as zero-server static HTML, with AI/LLM as narrative support over deterministic cores.
+- **Deckhand engineering-workflows API:** Designed and built an API-first platform (request in → deterministic analysis → report URL out) with a catalog of ~30 standards-based screening workflows — mooring/riser fatigue, spectral fatigue from RAOs, vessel seakeeping, mudmat bearing, lifting lugs, weather windows, liquefaction — versioned algorithm routing, provenance-gated licensed OrcaFlex/AQWA execution on an automated Windows lane, and chat-bot delivery; public [demo gallery](https://vamseeachanta.github.io/deckhand-sandbox/).
+- **Open engineering & AI tooling:** Built and shipped public, deterministic engineering sites and libraries — [worldenergydata](https://vamseeachanta.github.io/worldenergydata/) (live GoM field economics & well analytics on BSEE data: Lower-Tertiary NPVs, 56-well benchmarking, 3D well paths), [digitalmodel](https://github.com/vamseeachanta/digitalmodel) (open offshore engineering library: 221 S-N fatigue curves across 17 standards, OrcaWave/AQWA diffraction benchmarks, vessel/rig database of 2,268 rigs + 165 construction vessels with installation-suitability API, floating-wind platform sizing, rudder/manoeuvring and rod-pump dynacard explorers, validated OpenFOAM CFD suite), and a Raw-to-Knowledge playbook — every result unit-tested and provenance-traced, delivered as zero-server static HTML, with AI/LLM as narrative support over deterministic cores.
+- **AI-augmented engineering operations:** Operate a 25+ repository engineering ecosystem with agentic LLM workflows under CI-enforced invariants, including an LLM-assisted solver model-generation pipeline (project data → specification YAML + assumption ledger → licensed OrcaWave/AQWA/OrcaFlex input) where every published number is provenance-gated — LLM proposes, deterministic code disposes.
+- **Marine safety / HSE analytics:** Built BSEE incident-database analytics (1,987 GoM incidents across failure modes) powering incident-grounded failure-mode reports and seasonal-preparedness studies for offshore operations.
 
 ### Engineering SME for Data Science Team, Occidental Petroleum
 **Sep 2017 – Dec 2020 | Houston, TX & Remote**
@@ -150,7 +154,9 @@ Roles from 2012 onward run concurrently; project-level detail for each position 
 - **42-inch Venezuela pipeline:** Thin-walled pipeline bending capacity and pipelay analysis beyond standard DNV D/t regime.
 - **SEWOL salvage:** Rapid-response hull FEA and automated ANSYS reporting for salvage operations.
 - **Drilling/riser digital twins:** Automated OrcaFlex model generation, batch execution, results extraction, and API 579 / BS 7910 integrity workflows.
+- **Deckhand (live demos):** API-first deterministic engineering-workflows platform — [public demo gallery](https://vamseeachanta.github.io/deckhand-sandbox/) with grounded, provenance-traced analysis cards.
 - **worldenergydata (open):** Live, deterministic Gulf of Mexico field-economics & well-analytics site on public BSEE data — Lower-Tertiary NPVs, 56-well benchmarking, interactive 3D well paths; unit-tested numbers with full provenance.
+- **CFD validation suite (open):** OpenFOAM benchmarks validated against canonical solutions — Blasius flat plate, cylinder Re=100 vortex shedding, NACA0012, dam-break VOF — with live published reports in digitalmodel.
 
 ## Selected Publications & Thought Leadership
 

@@ -30,6 +30,8 @@ PUBLIC_RESUME = "va_resume.md"
 HEADLINE = "Offshore & Subsea Engineering Leader | Founder, AceEngineer | Building AI-Augmented Engineering Workflows"
 
 DEMOS = [
+    ("Deckhand demo gallery — live", "https://vamseeachanta.github.io/deckhand-sandbox/",
+     "API-first deterministic engineering-workflows platform: standards-based screening analyses (mooring fatigue, seakeeping, lifting, weather windows) delivered as grounded, provenance-traced report cards."),
     ("worldenergydata — live", "https://vamseeachanta.github.io/worldenergydata/",
      "Deterministic Gulf of Mexico field economics & well analytics on public BSEE data: Lower-Tertiary NPVs, 56-well benchmarking, interactive 3D well paths."),
     ("digitalmodel", "https://github.com/vamseeachanta/digitalmodel",
