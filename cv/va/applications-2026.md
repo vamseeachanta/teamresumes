@@ -4,10 +4,23 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 | Date | Company | Role (as posted) | Stage / Source | Status |
 |------|---------|------------------|----------------|--------|
+| 2026-09-13 | Mercor | Engineering Simulation Specialist; Mechanical Engineering Expert; Materials & Engineering Specialist | Direct portal; shared Domain Expert Interview completed | **SUBMITTED — all 3 verified** |
+| 2026-09-13 | Mercor | Engineering / Platform Professionals; Operations / Program Management Experts; Data analysis / quantitative readouts Evaluator; Software / AI / IT / data Evaluator; Data Scientist Talent Network | Direct portal; existing assessment reused | **SUBMITTED — all 5 verified**; talent network is for future projects |
+| 2026-09-12 | Mercor | Software Engineer, Python — Codebase Q&A | Direct portal | **SUBMITTED — verified**; $130 per approved task |
 | 2026-06-03 | Hanwha Ocean (Offshore) | Senior Mooring Engineer (Req 1546) | Direct posting — SuccessFactors portal | **NOT YET SUBMITTED** — blocked on portal sign-in |
 | 2026-06-03 | Hanwha Ocean (Offshore) | Lead Mooring Engineer (Req 1547) | Direct posting — SuccessFactors portal | **NOT YET SUBMITTED** — blocked on portal sign-in |
 | 2026-05-12 | Harbour Energy (Zama Project) | Senior Gas Export Pipeline Engineer (GV) | Recruiter (Andy Garnett / Rock Oilfield) | Applied — CV submitted |
 | 2026-05-06 | Candid | Head of Project Delivery (senior delivery leader, VP-level) | Direct posting (full JD captured below) | Applied |
+
+---
+
+## 2026-09-13 — Mercor — nine verified submissions
+
+The signed-in dashboard showed **Submitted applications (9)** on 13 September 2026, including the Python application submitted on 12 September. All nine displayed Submitted; no incomplete applications were shown.
+
+Full role links, advertised compensation, saved availability, evidence limits, external actions, and next checkpoint: [Mercor session handoff](../../docs/session-handoffs/2026-09-13-mercor-applications.html).
+
+The user personally completed the Domain Expert Interview. Availability was saved as immediately, 40 hours/week (the site strips the user's requested `+`), 5 AM–10 PM Central, all seven days. No interview scores or hiring decisions were reviewed. No offer or contract was accepted. Next: check Mercor for responses or further screening; review by 11 October 2026 if no earlier update. No reminder was scheduled.
 
 ---
 
