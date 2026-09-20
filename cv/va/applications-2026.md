@@ -14,6 +14,18 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 ---
 
+## 2026-09-20 — Mercor — Introduction to Agents course completed
+
+Mercor issued a Certificate of Recognition to **Vamsee Achanta** for completing **Introduction to Agents** on **20 September 2026**. The certificate recognizes rigor, calibration, and clarity in AI agent evaluation.
+
+- **Credential ID:** `MRC-2026-M49RPWWN`.
+- **Issuer verification link:** [Mercor credential verification](https://work.mercor.com/learn/verify/MRC-2026-M49RPWWN).
+- **Suggested professional-development entry:** “Introduction to Agents — Mercor, September 2026. Certificate of Recognition for course completion; AI agent evaluation.”
+- **Evidence:** Original PNG and SHA-256 provenance record are retained in the private personal-records repository under `va/certs/mercor-certificate-MRC-2026-M49RPWWN.{png,json}`, commit `348650a`. The image was visually inspected and the archived copy matched the downloaded source. The issuer verification page has not been independently checked.
+- **Scope:** This records course completion. Interview scores, hiring outcomes, and completion of any engineering project are not established by this credential.
+
+---
+
 ## 2026-09-13 — Mercor — nine verified submissions
 
 The signed-in dashboard showed **Submitted applications (9)** on 13 September 2026, including the Python application submitted on 12 September. All nine displayed Submitted; no incomplete applications were shown.
