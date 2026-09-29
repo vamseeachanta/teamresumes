@@ -117,7 +117,7 @@ Full resume: https://vamseeachanta.github.io/teamresumes/
   salvage support, with Python-automated ANSYS workflows.
 
 ### Engineering Lead Consultant — AceEngineer
-*Jun 2012 – Present · Houston, TX & Remote*
+*Jun 2012 – Nov 2023 · Houston, TX & Remote*
 
 - Specialist offshore/subsea consulting: installation analysis (ExxonMobil Yellowtail
   ~6,000 ft umbilicals, Chevron Ballymore jumpers/manifolds, Talos Venice Limerock,

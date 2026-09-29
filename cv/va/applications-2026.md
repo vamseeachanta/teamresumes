@@ -35,7 +35,7 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 **Decisions applied 2026-09-29 (local decision page).**
 
 - Alan McClure & Associates now **Dec 2023 – Jun 2026** (role ended); letter says "Most recently"; LinkedIn draft `cv/linkedin/profile-cv-aligned.md` updated to match. VA to mirror on LinkedIn.
-- AceEngineer dated **Jun 2015 – Nov 2023** on the resume (VA's choice). The LinkedIn draft still shows Jun 2012 – Present.
+- AceEngineer dated **Jun 2015 – Nov 2023** on the resume (VA's choice). On 2026-09-29 LinkedIn was updated, with network notifications off, to show Alan McClure ending Jun 2026 and AceEngineer as Jun 2012 – Nov 2023 (VA's choice); the LinkedIn draft `cv/linkedin/profile-cv-aligned.md` matches.
 - Added MS Project and "Houston, TX" (Contact block on both documents); "fender design" changed to "fender interaction"; "Emphasis on" changed to "Recent focus on"; Woodfibre spelling unified; Occidental bullets, FDAS/2H bold lead labels and a missing period fixed; empty paragraphs removed; publications made title-first with role.
 - Cover letter's gap paragraph uses VA's own wording.
 
