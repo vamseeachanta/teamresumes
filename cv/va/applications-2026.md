@@ -4,6 +4,7 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 | Date | Company | Role (as posted) | Stage / Source | Status |
 |------|---------|------------------|----------------|--------|
+| 2026-09-28 | HDR | Ports & Maritime Project Manager (Houston; also Metairie / Corpus Christi) | LinkedIn job 4467107208 | **DRAFTED — not submitted**; tailored resume + cover letter in `cv/va/custom/` |
 | 2026-09-13 | Mercor | Engineering Simulation Specialist; Mechanical Engineering Expert; Materials & Engineering Specialist | Direct portal; shared Domain Expert Interview completed | **SUBMITTED — all 3 verified** |
 | 2026-09-13 | Mercor | Engineering / Platform Professionals; Operations / Program Management Experts; Data analysis / quantitative readouts Evaluator; Software / AI / IT / data Evaluator; Data Scientist Talent Network | Direct portal; existing assessment reused | **SUBMITTED — all 5 verified**; talent network is for future projects |
 | 2026-09-12 | Mercor | Software Engineer, Python — Codebase Q&A | Direct portal | **SUBMITTED — verified**; $130 per approved task |
@@ -11,6 +12,27 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 | 2026-06-03 | Hanwha Ocean (Offshore) | Lead Mooring Engineer (Req 1547) | Direct posting — SuccessFactors portal | **NOT YET SUBMITTED** — blocked on portal sign-in |
 | 2026-05-12 | Harbour Energy (Zama Project) | Senior Gas Export Pipeline Engineer (GV) | Recruiter (Andy Garnett / Rock Oilfield) | Applied — CV submitted |
 | 2026-05-06 | Candid | Head of Project Delivery (senior delivery leader, VP-level) | Direct posting (full JD captured below) | Applied |
+
+---
+
+## 2026-09-28 — HDR — Ports & Maritime Project Manager — DRAFTED, NOT SUBMITTED
+
+**Posting.** <https://www.linkedin.com/jobs/view/4467107208/> — posted 2026-09-16; full-time, mid-senior; Greater Houston primary, Metairie LA and Corpus Christi TX also listed. Salary not listed.
+
+**Scope (per JD).** Direct multidisciplinary teams through the project lifecycle; manage small-to-medium (and routine large) projects in a concurrent portfolio; own client relations; run stakeholder work sessions; coordinate staffing/workload; track project financials; implement QA/QC.
+
+**Stated requirements.** BS Engineering; 7 yrs related experience incl. 2+ yrs project management; PE license; MS Office + MS Project; leadership; employee-ownership fit. **Preferred:** Master's, PMP, interest in digital delivery / AI workflows.
+
+**Fit notes (for VA's own use).**
+
+- Meets: PE (TX), MS (TAMU), 23 yrs, 10+ yrs team/engineering-management (2H Engineering Manager, Macondo, 100+ assignments; AceEngineer practice since 2012), AI/digital-delivery preferred item is a genuine strength.
+- Strongest hook: marine-terminal mooring/berthing work (WoodFibre LNG FSTs, LNGC/fender interaction, passing-ship tug analysis) — directly relevant to Houston Ship Channel / Corpus Christi terminal clients.
+- Gaps: HDR Ports & Maritime is port/waterfront **civil** infrastructure (wharves, bulkheads, dredging, USACE/port-authority clients); VA's background is offshore/marine analysis. No PMP. VA confirmed 2026-09-28: MS Project proficiency, project budget / earned-value ownership, and business-line and company (P&L) management — now on the resume and cover letter.
+- Cover letter names the civil-design gap explicitly (credibility over keyword-matching); delete that paragraph if VA prefers.
+
+**Files.** `cv/va/custom/VA_Resume_HDR_Ports_Maritime_PM.{md,pdf,docx}` and `cv/va/custom/VA_Cover_Letter_HDR_Ports_Maritime_PM.{md,pdf,docx}`. The markdown files are the source. The PDFs were rendered with Edge headless (resume 2 pages, letter 1 page). The Word files were generated from the markdown with docx-js and have not been visually checked in Word. Deckhand omitted per 2026-09-27 retirement. Alan McClure role kept as Present per VA.
+
+**Status.** Drafted 2026-09-28; PDF and Word files built. Not submitted; VA to apply via LinkedIn.
 
 ---
 
