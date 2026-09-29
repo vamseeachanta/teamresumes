@@ -4,7 +4,7 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 | Date | Company | Role (as posted) | Stage / Source | Status |
 |------|---------|------------------|----------------|--------|
-| 2026-09-28 | HDR | Ports & Maritime Project Manager (Houston; also Metairie / Corpus Christi) | LinkedIn job 4467107208 | **READY — not submitted**; final resume + cover letter (Word) in `cv/va/custom/` |
+| 2026-09-29 | HDR | Ports & Maritime Project Manager, req 196047 (Houston; also Metairie / Corpus Christi) | HDR Taleo portal (LinkedIn job 4467107208); referral Harini Arjun | **SUBMITTED — verified** (Taleo "Process completed") |
 | 2026-09-13 | Mercor | Engineering Simulation Specialist; Mechanical Engineering Expert; Materials & Engineering Specialist | Direct portal; shared Domain Expert Interview completed | **SUBMITTED — all 3 verified** |
 | 2026-09-13 | Mercor | Engineering / Platform Professionals; Operations / Program Management Experts; Data analysis / quantitative readouts Evaluator; Software / AI / IT / data Evaluator; Data Scientist Talent Network | Direct portal; existing assessment reused | **SUBMITTED — all 5 verified**; talent network is for future projects |
 | 2026-09-12 | Mercor | Software Engineer, Python — Codebase Q&A | Direct portal | **SUBMITTED — verified**; $130 per approved task |
@@ -15,7 +15,7 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 ---
 
-## 2026-09-28 — HDR — Ports & Maritime Project Manager — DRAFTED, NOT SUBMITTED
+## 2026-09-29 — HDR — Ports & Maritime Project Manager (req 196047) — SUBMITTED
 
 **Posting.** <https://www.linkedin.com/jobs/view/4467107208/> — posted 2026-09-16; full-time, mid-senior; Greater Houston primary, Metairie LA and Corpus Christi TX also listed. Salary not listed.
 
@@ -39,7 +39,14 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 - Added MS Project and "Houston, TX" (Contact block on both documents); "fender design" changed to "fender interaction"; "Emphasis on" changed to "Recent focus on"; Woodfibre spelling unified; Occidental bullets, FDAS/2H bold lead labels and a missing period fixed; empty paragraphs removed; publications made title-first with role.
 - Cover letter's gap paragraph uses VA's own wording.
 
-**Status.** Final Word files ready 2026-09-29. PDF export pending (after Word is closed). Not submitted; VA to update the letter date on the send day and apply via LinkedIn.
+**Submission (2026-09-29).** Applied via HDR Taleo (https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=196047), signed in as achantav@gmail.com; Claude in Chrome filled the form, VA answered every declaration and self-ID question and e-signed personally, and VA asked Claude to submit. Taleo confirmed "Process completed."
+
+- Attached and marked relevant: the final resume (flagged as the resume) and cover letter .docx; three 2022 HDR attachments kept on the profile but not marked relevant.
+- Email is now achantav@gmail.com (the Taleo user ID) on the resume, cover letter and application.
+- Personal information: legal last name corrected to "Achanta" (the 2022 profile had "Achanta P.E."); industry Maritime/Ports; highest degree Master; desired salary "Negotiable"; available Oct 13, 2026; relocate No; all three locations selected; referral Harini Arjun; texts Yes.
+- Declarations: 18+ Yes; authorized to work in the US Yes; sponsorship No; outside employment (FDAS/AceEngineer) No — VA will wind down or pause both if hired; non-compete No; all government and conflict questions No.
+
+**Status.** SUBMITTED 2026-09-29. Next: watch achantav@gmail.com and Taleo "My Submissions" for a response; mention the referral to Harini Arjun. Review by 2026-10-20 if there is no update.
 
 ---
 
