@@ -46,9 +46,11 @@ analysis, installation support, operations, and emergency response — including
 Engineering Manager for the BP Macondo containment riser response (complete design in
 8 weeks by repurposing existing assets).
 
+Most recent role:
+• Naval Architect, Alan C. McClure Associates (Dec 2023 – Jun 2026) — coupled marine
+global analysis, diffraction, moorings; Woodfibre LNG FST terminal design ($1.8B, British Columbia)
+
 Current and concurrent roles:
-• Naval Architect, Alan C. McClure Associates — coupled marine global analysis,
-diffraction, moorings; WoodFibre LNG FST terminal design ($1.8B, British Columbia)
 • VP of Engineering / Co-Founder, Frontier Deepwater (FDAS) — deepwater production
 concepts, riser/mooring systems, GoM field economics
 • Engineering Lead Consultant, AceEngineer — subsea/riser/installation analysis, FEA,
@@ -92,9 +94,9 @@ Full resume: https://vamseeachanta.github.io/teamresumes/
 ## Experience
 
 ### Naval Architect — Alan C. McClure Associates, Inc.
-*Dec 2023 – Present · Houston, TX*
+*Dec 2023 – Jun 2026 · Houston, TX*
 
-- WoodFibre LNG Terminal design ($1.8B, British Columbia): marine global analysis for
+- Woodfibre LNG Terminal design ($1.8B, British Columbia): marine global analysis for
   dual Floating Storage Terminals — coupled FST/shore-mooring analysis for extreme
   weather, FST/LNGC/fender/mooring interaction, mooring for LNG carriers to 180,000 m³,
   via AQWA/OrcaWave/OrcaFlex.

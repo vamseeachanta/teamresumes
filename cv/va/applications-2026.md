@@ -4,7 +4,7 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 | Date | Company | Role (as posted) | Stage / Source | Status |
 |------|---------|------------------|----------------|--------|
-| 2026-09-28 | HDR | Ports & Maritime Project Manager (Houston; also Metairie / Corpus Christi) | LinkedIn job 4467107208 | **DRAFTED — not submitted**; tailored resume + cover letter in `cv/va/custom/` |
+| 2026-09-28 | HDR | Ports & Maritime Project Manager (Houston; also Metairie / Corpus Christi) | LinkedIn job 4467107208 | **READY — not submitted**; final resume + cover letter (Word) in `cv/va/custom/` |
 | 2026-09-13 | Mercor | Engineering Simulation Specialist; Mechanical Engineering Expert; Materials & Engineering Specialist | Direct portal; shared Domain Expert Interview completed | **SUBMITTED — all 3 verified** |
 | 2026-09-13 | Mercor | Engineering / Platform Professionals; Operations / Program Management Experts; Data analysis / quantitative readouts Evaluator; Software / AI / IT / data Evaluator; Data Scientist Talent Network | Direct portal; existing assessment reused | **SUBMITTED — all 5 verified**; talent network is for future projects |
 | 2026-09-12 | Mercor | Software Engineer, Python — Codebase Q&A | Direct portal | **SUBMITTED — verified**; $130 per approved task |
@@ -30,9 +30,16 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 - Gaps: HDR Ports & Maritime is port/waterfront **civil** infrastructure (wharves, bulkheads, dredging, USACE/port-authority clients); VA's background is offshore/marine analysis. No PMP. VA confirmed 2026-09-28: MS Project proficiency, project budget / earned-value ownership, and business-line and company (P&L) management — now on the resume and cover letter.
 - Cover letter names the civil-design gap explicitly (credibility over keyword-matching); delete that paragraph if VA prefers.
 
-**Files.** `cv/va/custom/VA_Resume_HDR_Ports_Maritime_PM.{md,pdf,docx}` and `cv/va/custom/VA_Cover_Letter_HDR_Ports_Maritime_PM.{md,pdf,docx}`. The markdown files are the source. The PDFs were rendered with Edge headless (resume 2 pages, letter 1 page). The Word files were generated from the markdown with docx-js and have not been visually checked in Word. Deckhand omitted per 2026-09-27 retirement. Alan McClure role kept as Present per VA.
+**Files (final, 2026-09-29).** `cv/va/custom/Vamsee Achanta_Project Manager_HDR Resume.docx` and `cv/va/custom/Vamsee Achanta_Project Manager_HDR Cover Letter.docx`. VA reformatted the resume on a two-column Word template (Century Gothic, header, grey sidebar); the cover letter was built on the same template (about 170 words, half page) and then edited by VA. The 2026-09-28 markdown/PDF/Word drafts (`VA_*_HDR_Ports_Maritime_PM.*`) were superseded and deleted.
 
-**Status.** Drafted 2026-09-28; PDF and Word files built. Not submitted; VA to apply via LinkedIn.
+**Decisions applied 2026-09-29 (local decision page).**
+
+- Alan McClure & Associates now **Dec 2023 – Jun 2026** (role ended); letter says "Most recently"; LinkedIn draft `cv/linkedin/profile-cv-aligned.md` updated to match. VA to mirror on LinkedIn.
+- AceEngineer dated **Jun 2015 – Nov 2023** on the resume (VA's choice). The LinkedIn draft still shows Jun 2012 – Present.
+- Added MS Project and "Houston, TX" (Contact block on both documents); "fender design" changed to "fender interaction"; "Emphasis on" changed to "Recent focus on"; Woodfibre spelling unified; Occidental bullets, FDAS/2H bold lead labels and a missing period fixed; empty paragraphs removed; publications made title-first with role.
+- Cover letter's gap paragraph uses VA's own wording.
+
+**Status.** Final Word files ready 2026-09-29. PDF export pending (after Word is closed). Not submitted; VA to update the letter date on the send day and apply via LinkedIn.
 
 ---
 
