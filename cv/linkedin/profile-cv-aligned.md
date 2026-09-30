@@ -32,7 +32,7 @@ improved, so LinkedIn never needs re-editing when the work evolves.
 
 ## Headline (≤220 chars)
 
-> Naval Architect | Subsea & Marine Systems Engineering Leader | P.E. (Texas) | 23+ yrs risers, moorings, LNG marine, installation | Building Deckhand — deterministic engineering-workflows API | OrcaFlex · AQWA · Python
+> Naval Architect | Subsea & Marine Systems Engineering Leader | P.E. (Texas) | 23+ yrs risers, moorings, LNG marine, installation | Project management & AI-assisted engineering | OrcaFlex · AQWA · Python
 
 ---
 
@@ -123,10 +123,6 @@ Full resume: https://vamseeachanta.github.io/teamresumes/
   ~6,000 ft umbilicals, Chevron Ballymore jumpers/manifolds, Talos Venice Limerock,
   42-inch D/t=67 Venezuela pipeline), risers, structural FEA, corrosion,
   API 579 / BS 7910 fitness-for-service.
-- Deckhand — engineering-workflows API: request in → deterministic analysis →
-  report URL out; ~30 standards-based screening workflows, versioned algorithms,
-  provenance-gated licensed OrcaFlex/AQWA runs. Live:
-  https://vamseeachanta.github.io/deckhand-sandbox/
 - Open engineering: digitalmodel (221 S-N curves/17 standards, validated OpenFOAM CFD
   suite, vessel/rig database of 2,268 rigs + 165 construction vessels, floating-wind
   sizing) and worldenergydata (live GoM field economics) — every result unit-tested and
