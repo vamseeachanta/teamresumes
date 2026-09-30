@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HDR Application Decisions</title>
+<style>
+:root{--bg:#fbfaf8;--fg:#1d2430;--muted:#5b6574;--line:#d9dde3;--head:#f0ede8;--accent:#6b1414;--rec:#1f6f43;--warn:#9a5a00;--card:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15181d;--fg:#e6e8eb;--muted:#9aa3ae;--line:#2c323b;--head:#1f242b;--accent:#e08a8a;--rec:#6fcf97;--warn:#f0b35a;--card:#1b1f25}}
+:root[data-theme="dark"]{--bg:#15181d;--fg:#e6e8eb;--muted:#9aa3ae;--line:#2c323b;--head:#1f242b;--accent:#e08a8a;--rec:#6fcf97;--warn:#f0b35a;--card:#1b1f25}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 "Segoe UI",system-ui,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 16px 60px}
+h1{font-size:1.6rem;margin:0 0 4px;color:var(--accent)}
+h2{font-size:1.1rem;margin:28px 0 8px;color:var(--accent)}
+p.lead{color:var(--muted);margin:0 0 16px}
+.files{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px;font-size:.9rem}
+code{font-family:Consolas,monospace;font-size:.85em;overflow-wrap:anywhere}
+.wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--line);border-radius:8px}
+th,td{text-align:left;vertical-align:top;padding:10px;border-bottom:1px solid var(--line)}
+th{background:var(--head);font-size:.85rem;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+td.id{font-weight:700;white-space:nowrap}
+.rec{color:var(--rec);font-weight:600}
+.flag{color:var(--warn);font-weight:600}
+ol.opts{margin:0;padding-left:18px}
+select,textarea{width:100%;font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px}
+textarea{min-height:52px;margin-top:6px;resize:vertical}
+.tag{display:inline-block;font-size:.72rem;padding:1px 7px;border-radius:10px;border:1px solid var(--line);color:var(--muted);margin-left:4px}
+button{font:inherit;padding:8px 14px;border-radius:6px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent)}
+pre#out{white-space:pre-wrap;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:.85rem;min-height:40px}
+@media (max-width:760px){th:nth-child(3),td:nth-child(3){display:none}}
+</style>
+</head>
+<body>
+<main>
+<h1>HDR application: decision register</h1>
+<p class="lead">Ports &amp; Maritime Project Manager, Houston (LinkedIn job 4467107208). Review each decision, pick an option, add a note if needed, then press <strong>Copy decisions</strong> and paste the result back to Claude. Choices are kept in this browser only.</p>
+
+<div class="files">
+<strong>Files under review</strong> (folder <code>C:\ws\teamresumes\cv\va\custom\</code>):<br>
+Resume: <code>Vamsee Achanta_Project Manager_HDR Resume.docx</code> (your updated version, 29 Sep)<br>
+Cover letter: <code>Vamsee Achanta_Project Manager_HDR Cover Letter.docx</code> (built on the resume's template, about 170 words)
+</div>
+
+<h2>A. Resume content</h2>
+<div class="wrap"><table id="t-a"><thead><tr><th>ID</th><th>Decision</th><th>Current state</th><th>Options</th><th>Recommendation</th><th style="width:22%">Your decision</th></tr></thead><tbody></tbody></table></div>
+
+<h2>B. Resume formatting</h2>
+<div class="wrap"><table id="t-b"><thead><tr><th>ID</th><th>Decision</th><th>Current state</th><th>Options</th><th>Recommendation</th><th style="width:22%">Your decision</th></tr></thead><tbody></tbody></table></div>
+
+<h2>C. Cover letter</h2>
+<div class="wrap"><table id="t-c"><thead><tr><th>ID</th><th>Decision</th><th>Current state</th><th>Options</th><th>Recommendation</th><th style="width:22%">Your decision</th></tr></thead><tbody></tbody></table></div>
+
+<h2>D. Files and repository</h2>
+<div class="wrap"><table id="t-d"><thead><tr><th>ID</th><th>Decision</th><th>Current state</th><th>Options</th><th>Recommendation</th><th style="width:22%">Your decision</th></tr></thead><tbody></tbody></table></div>
+
+<h2>Decision to request</h2>
+<p>Pick an option for each row. D1 matters most: the resume's AceEngineer dates (Jun 2015 – Sep 2017) don't match the recent projects listed under it. Once you paste the result back, Claude applies the agreed fixes to both Word files and commits only if D4 says so.</p>
+<p><button id="copy">Copy decisions</button> <button class="ghost" id="accept">Accept all recommendations</button> <button class="ghost" id="reset">Clear</button></p>
+<pre id="out">Your selections will appear here.</pre>
+</main>
+<script>
+const D = [
+ {t:'a',id:'D1',title:'AceEngineer dates versus the projects listed under it',flag:true,
+  cur:'Resume shows <em>Jun 2015 – Sep 2017</em>, but ExxonMobil Yellowtail, Chevron Ballymore and Talos Venice Limerock are recent projects (2020s). Your earlier CV and LinkedIn show AceEngineer as <em>Jun 2012 – Present</em>.',
+  opts:['Restore Jun 2012 – Present (concurrent practice, matches LinkedIn)','Keep Jun 2015 – Sep 2017; move the recent projects to a separate, correctly dated entry','Keep as is'],rec:0,
+  why:'An interviewer can check project years. Keeping the resume, LinkedIn and the earlier CV consistent avoids that risk.'},
+ {t:'a',id:'D2',title:'Alan McClure & Associates end date',flag:true,
+  cur:'Updated resume says <em>Dec 2023 – Jun 2026</em>. Yesterday you asked to keep it as <em>Present</em>. The cover letter now says "Most recently, at Alan McClure…".',
+  opts:['Jun 2026 (role has ended)','Present (still there)'],rec:null,
+  why:'Use whichever is true. If Jun 2026, update LinkedIn to match; if Present, Claude changes the resume and the letter wording.'},
+ {t:'a',id:'D3',title:'Add MS Project to the skills section',
+  cur:'Not listed. HDR lists MS Project as a <strong>required</strong> skill; you confirmed you have it.',
+  opts:['Add to Engineering Software skills','Leave out'],rec:0,why:'It is a stated requirement, so screeners may look for the keyword.'},
+ {t:'a',id:'D4',title:'Add location to the Contact block',
+  cur:'Phone, LinkedIn and email only; no city.',opts:['Add "Houston, TX"','Leave out'],rec:0,why:'The role is Houston-based; showing that you are local helps.'},
+ {t:'a',id:'D5',title:'"Fender design" in the Profile',
+  cur:'Profile says "berthing, mooring, fender design, and passing-ship analysis". The Woodfibre work was fender and mooring <em>interaction analysis</em>.',
+  opts:['Change to "fender interaction"','Keep "fender design"'],rec:0,why:'Keeps the claim matched to the work you can describe in an interview.'},
+ {t:'a',id:'D6',title:'"Emphasis on marine terminal engineering" wording',
+  cur:'Profile line starts "Emphasis on marine terminal engineering…".',opts:['Change to "Recent focus on marine terminal engineering…"','Keep as is'],rec:0,why:'Reads as a complete sentence and signals that this is your current direction.'},
+ {t:'b',id:'F1',title:'Woodfibre spelling',cur:'"Woodfibre" in the Profile, "WoodFibre" in experience.',opts:['Use "Woodfibre" everywhere (project\'s own spelling)','Use "WoodFibre" everywhere'],rec:0,why:'Consistency; matches the owner\'s branding.'},
+ {t:'b',id:'F2',title:'Small text fixes',cur:'"Field economics" bullet has no final period; only "(Korea)" is bold in the SEWOL line; Occidental lines have no bullet markers.',opts:['Fix all three','Leave as is'],rec:0,why:'Small inconsistencies stand out on a two-page document.'},
+ {t:'b',id:'F3',title:'Stray empty paragraphs',cur:'Two empty bold heading lines above the AceEngineer role; an empty bullet at the very end.',opts:['Remove','Leave'],rec:0,why:'Tightens spacing and avoids a blank bullet if the file is printed.'},
+ {t:'b',id:'F4',title:'Publication style',cur:'First entry uses citation style ("Stewart, W., & George, P. (OTC 2017)…"); the other three are title-first.',opts:['Make all title-first with your role (Co-Author / Contributing Author)','Make all full citation style'],rec:0,why:'Title-first is shorter and matches three of the four entries.'},
+ {t:'c',id:'C1',title:'Letter template and layout',cur:'Same file template as the resume: header with name and title, grey sidebar with the Contact block, Century Gothic, dark-red headings. Letter in the right column, about 170 words (roughly half a page). Not yet visually checked in Word.',opts:['Approve as is','Approve after I check it in Word','Change layout (note what)'],rec:1,why:'Claude could not render it here because Word is open on this PC.'},
+ {t:'c',id:'C2',title:'Honest gap sentence',cur:'"My background is marine and offshore rather than port civil design, so I would rely on HDR\'s structural and coastal specialists…"',opts:['Keep (as decided 28 Sep)','Remove'],rec:0,why:'Shows judgment and heads off the obvious interview question.'},
+ {t:'c',id:'C3',title:'Date line',cur:'"September 29, 2026".',opts:['Update to the day you send it','Keep 29 Sep'],rec:0,why:'A stale date looks careless.'},
+ {t:'c',id:'C4',title:'Letter content',cur:'Four short paragraphs: introduction (P.E., 23 years, 10+ years leading teams); Woodfibre berthing, mooring and passing-ship work tied to the Houston Ship Channel and Corpus Christi; 2H 100+ assignments, Macondo, P&L at FDAS/AceEngineer, AI workflows; the gap sentence and close.',opts:['Approve','Revise (note what)'],rec:0,why:'Covers every requirement in the job posting in about half a page.'},
+ {t:'d',id:'R1',title:'Superseded drafts from 28 Sep',cur:'<code>VA_Resume_HDR_Ports_Maritime_PM.*</code> and <code>VA_Cover_Letter_HDR_Ports_Maritime_PM.*</code> (md/pdf/docx) are already in the repo.',opts:['Keep as history; mark superseded in the applications log','Delete from the repo'],rec:0,why:'Keeps a trail of what changed and why.'},
+ {t:'d',id:'R2',title:'Export PDFs of the final pair',cur:'Only Word files exist in the new format.',opts:['You export both to PDF from Word (File > Save As > PDF)','Claude exports once Word is free','Submit the Word files'],rec:0,why:'PDF keeps the template layout exact on the recruiter\'s screen; Word is already open on your side.'},
+ {t:'d',id:'R3',title:'Temporary file and hidden Word process',cur:'<code>_tmp_VA_Resume_HDR_Ports_Maritime_PM.html</code> is still locked by Word (PID 64180), which may now also hold your open documents.',opts:['You close Word when done; Claude then deletes the temp file','Leave it'],rec:0,why:'Avoids closing Word while your documents are open.'},
+ {t:'d',id:'R4',title:'Commit to teamresumes (public repo)',flag:true,cur:'New resume, letter and this page are not committed. The Word files carry your employer\'s sensitivity-label metadata and your TX P.E. number (a public record).',opts:['Commit and push the final pair and log update','Commit, but strip the sensitivity-label metadata first','Keep local only'],rec:null,why:'Your call: the repo publishes to GitHub Pages.'},
+];
+const KEY='hdr-decisions-2026-09-29';
+let saved={};try{saved=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+function store(){try{localStorage.setItem(KEY,JSON.stringify(saved))}catch(e){}}
+for(const d of D){
+  const tb=document.querySelector('#t-'+d.t+' tbody');
+  const tr=document.createElement('tr');
+  const recTxt=d.rec===null?'<span class="flag">Your call</span>':'<span class="rec">'+(d.rec+1)+'. '+d.opts[d.rec]+'</span>';
+  tr.innerHTML='<td class="id">'+d.id+(d.flag?'<span class="tag">key</span>':'')+'</td><td>'+d.title+'</td><td>'+d.cur+'</td><td><ol class="opts">'+d.opts.map(o=>'<li>'+o+'</li>').join('')+'</ol></td><td>'+recTxt+'<div style="color:var(--muted);font-size:.88rem;margin-top:4px">'+d.why+'</div></td><td><select data-id="'+d.id+'"><option value="">choose…</option>'+d.opts.map((o,i)=>'<option value="'+i+'">'+(i+1)+'. '+o+'</option>').join('')+'</select><textarea data-note="'+d.id+'" placeholder="Note (optional)"></textarea></td>';
+  tb.appendChild(tr);
+  const s=tr.querySelector('select'),n=tr.querySelector('textarea');
+  if(saved[d.id]){s.value=saved[d.id].c??'';n.value=saved[d.id].n??''}
+  s.onchange=()=>{saved[d.id]={...(saved[d.id]||{}),c:s.value};store();render()};
+  n.oninput=()=>{saved[d.id]={...(saved[d.id]||{}),n:n.value};store();render()};
+}
+function render(){
+  const lines=D.map(d=>{const v=saved[d.id]||{};const c=v.c!==undefined&&v.c!==''?(+v.c+1)+'. '+d.opts[+v.c]:'(no choice)';return d.id+' '+d.title+': '+c+(v.n?' | note: '+v.n:'')});
+  document.getElementById('out').textContent='HDR decisions\n'+lines.join('\n');
+}
+document.getElementById('copy').onclick=async()=>{render();const t=document.getElementById('out').textContent;try{await navigator.clipboard.writeText(t);document.getElementById('copy').textContent='Copied'}catch(e){document.getElementById('copy').textContent='Select the text below and copy'}setTimeout(()=>document.getElementById('copy').textContent='Copy decisions',2000)};
+document.getElementById('accept').onclick=()=>{for(const d of D){if(d.rec===null)continue;if(!saved[d.id]||saved[d.id].c===undefined||saved[d.id].c===''){saved[d.id]={...(saved[d.id]||{}),c:String(d.rec)};document.querySelector('select[data-id="'+d.id+'"]').value=String(d.rec)}}store();render()};
+document.getElementById('reset').onclick=()=>{saved={};store();document.querySelectorAll('select').forEach(s=>s.value='');document.querySelectorAll('textarea').forEach(t=>t.value='');render()};
+render();
+</script>
+</body>
+</html>
