@@ -1,0 +1,61 @@
+VAMSEE ACHANTA, P.E.
+Mechanical Engineer | CFD and Mechanical Analysis | Engineering Leadership
+Houston, TX | achantav@gmail.com | 713-306-9029
+linkedin.com/in/vamseeachanta
+
+PROFILE
+Texas-licensed Professional Engineer with 23 years of marine and offshore engineering experience and 10+ years leading multidisciplinary teams from scope development through delivery. Combines recent computational fluid dynamics (CFD) modelling and analysis with academic thesis work in fluid mechanics and heat transfer. Engineering experience spans finite-element analysis, design reviews, emergency engineering response and analysis automation. Seeking to apply this analytical foundation and practical engineering delivery experience to data-center mechanical infrastructure. This is a transition from offshore mechanical engineering; direct data-center design experience is not claimed.
+
+CORE CAPABILITIES
+CFD modelling and analysis; fluid mechanics and heat-transfer academic foundation; finite-element analysis; multidisciplinary engineering leadership; scope development; technical reports and design reviews; project budgets; repeatable engineering workflows; mentoring and client communication.
+Tools: OpenFOAM, COMSOL, ANSYS, Abaqus, Python, SQL, MS Project, OrcaFlex, AQWA and OrcaWave.
+
+SELECTED CFD AND FLUID-MECHANICS WORK
+- Recent OpenFOAM modelling and analysis spanning laminar, turbulent and free-surface flows, with geometry/meshing and post-processing workflows using FreeCAD, gmsh and PyVista.
+- Benchmark-focused CFD work involving flat-plate boundary layers, cylinder vortex shedding, airfoil flow and dam-break free-surface cases.
+- COMSOL multiphysics modelling of subsea mooring corrosion, combining fluid mechanics, mass transfer, diffusion and electrochemical models; automated processing through Java API, MATLAB and batch workflows.
+- Academic thesis work in fluid mechanics and heat transfer, providing a foundation for the transition to mechanical infrastructure and cooling applications.
+
+PROFESSIONAL EXPERIENCE
+
+Naval Architect — Alan McClure & Associates, Houston, TX
+Dec 2023 – Jun 2026
+- Led marine global analysis for two floating storage terminals, evaluating coupled vessel and shore-mooring behavior, extreme-weather conditions, and vessel/fender/mooring interaction.
+- Investigated mooring-line failure mechanisms and assessed passing-ship effects on tug motions and operating risk.
+- Built Python/API workflows that automated analysis setup, execution, extraction and reporting, improving repeatability and reviewability.
+
+VP of Engineering / Co-Founder — Frontier Deepwater Appraisal Solutions (FDAS), Houston, TX
+Jun 2016 – Present
+- Led feasibility evaluation of converting idle drillships to production service, including riser support, mooring and hurricane-condition analysis for investment decisions.
+- Built field-economics analytics using public BSEE data for more than 200 Gulf of Mexico fields, reducing evaluation time from weeks to days.
+- Supported operator engagement through engineering proposals, cost-benefit studies and business development.
+
+Engineering SME, Data Science Team — Occidental Petroleum, Houston, TX
+Sep 2017 – Dec 2020
+- Coordinated production engineering, drilling, data science and software teams to deliver more than 50 physics-based algorithms supporting approximately 20,000 wells and more than 20 concurrent drilling campaigns.
+- Owned requirements, validation and production support for engineering analytics deployed across the organization.
+
+Engineering Consultant / Principal — AceEngineer, Houston, TX
+Jun 2015 – Nov 2023
+- Organized and automated more than 100 umbilical-installation load cases to define operating windows and reduce execution risk.
+- Analyzed installation of rigid jumpers, manifolds and static umbilicals, including wave/current operating limits.
+- Performed finite-element analysis of thin-walled pipeline bending capacity beyond the applicable standard code range, alongside pipelay analysis.
+- Delivered emergency hull finite-element analysis for offshore salvage support.
+
+Engineer / Engineering Lead / Engineering Manager — 2H Offshore Inc., Houston, TX
+Aug 2003 – Jun 2015
+- Progressed from analyst to technical authority and engineering manager; managed client communication, technical reports, design reviews, team coordination and delivery across more than 100 assignments.
+- Led a geographically distributed, round-the-clock multidisciplinary emergency-response team that delivered a complete containment-riser design in eight weeks by repurposing existing assets.
+- Led production-riser front-end engineering design and delivered ahead of schedule.
+- Contributed to API RP-16Q and related riser standards as a committee member.
+
+EDUCATION AND CREDENTIALS
+M.S., Mechanical Engineering — Texas A&M University, College Station, TX
+B.Tech., Mechanical Engineering — Indian Institute of Technology, Madras, India
+Professional Engineer — Texas
+
+SELECTED PUBLICATIONS
+Heavy Lift Dynamics — Sewol Ferry Offshore Salvage (OTC 2017), Co-Author
+Floating Drilling Equipment and Operations, 12th Ed. (IADC 2015), Contributing Author
+Benchmarking SHEAR7v4.5: Full-Scale Drilling Riser VIV Data (OMAE 2009), Co-Author
+Wellbay Innovation Supports Lower-Cost HP DW Discoveries (World Oil 2024), Co-Author
