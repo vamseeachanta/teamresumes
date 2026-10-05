@@ -4,6 +4,9 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 | Date | Company | Role (as posted) | Stage / Source | Status |
 |------|---------|------------------|----------------|--------|
+| 2026-10-05 (confirmation) | Armada | Senior Mechanical Design Engineer – Liquid Cooling Systems, job 5386543008 | Greenhouse; user reports submission; portal receipt not independently checked | **SUBMITTED — user-confirmed** |
+| 2026-10-05 (confirmation) | OpenAI | Mechanical Commissioning Lead, job 0f58ac8e-6dd2-400d-9c34-29c62b7804b5 | Ashby; user reports submission; portal receipt not independently checked | **SUBMITTED — user-confirmed** |
+| 2026-10-05 (decision) | AWS | Sr. Mechanical Engineer - CFD, Global Engineering Strategy, job 10437257 | Preparation stopped at sign-in; user requested skip | **SKIPPED — do not resume unless requested** |
 | 2026-10-04 | Anthropic | Data Center Mechanical Engineer, job 5375376008 | Greenhouse; candidate completed and submitted | **SUBMITTED — user-confirmed** |
 | 2026-09-29 | HDR | Ports & Maritime Project Manager, req 196047 (Houston; also Metairie / Corpus Christi) | HDR Taleo portal (LinkedIn job 4467107208); referral Harini Arjun | **SUBMITTED — verified** (Taleo "Process completed") |
 | 2026-09-13 | Mercor | Engineering Simulation Specialist; Mechanical Engineering Expert; Materials & Engineering Specialist | Direct portal; shared Domain Expert Interview completed | **SUBMITTED — all 3 verified** |
