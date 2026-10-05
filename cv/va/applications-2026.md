@@ -4,7 +4,7 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 | Date | Company | Role (as posted) | Stage / Source | Status |
 |------|---------|------------------|----------------|--------|
-| 2026-10-04 | Anthropic | Data Center Mechanical Engineer, job 5375376008 | Greenhouse; custom CV and cover letter prepared | **PREPARED — NOT SUBMITTED** |
+| 2026-10-04 | Anthropic | Data Center Mechanical Engineer, job 5375376008 | Greenhouse; candidate completed and submitted | **SUBMITTED — user-confirmed** |
 | 2026-09-29 | HDR | Ports & Maritime Project Manager, req 196047 (Houston; also Metairie / Corpus Christi) | HDR Taleo portal (LinkedIn job 4467107208); referral Harini Arjun | **SUBMITTED — verified** (Taleo "Process completed") |
 | 2026-09-13 | Mercor | Engineering Simulation Specialist; Mechanical Engineering Expert; Materials & Engineering Specialist | Direct portal; shared Domain Expert Interview completed | **SUBMITTED — all 3 verified** |
 | 2026-09-13 | Mercor | Engineering / Platform Professionals; Operations / Program Management Experts; Data analysis / quantitative readouts Evaluator; Software / AI / IT / data Evaluator; Data Scientist Talent Network | Direct portal; existing assessment reused | **SUBMITTED — all 5 verified**; talent network is for future projects |
