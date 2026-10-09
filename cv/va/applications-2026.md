@@ -4,14 +4,36 @@ Chronological log of roles VA (Vamsee Achanta) has applied to in 2026. Most rece
 
 | Date | Company | Role (as posted) | Stage / Source | Status |
 |------|---------|------------------|----------------|--------|
+| 2026-10-08 | KBR / Trinzic (Mission Technology Solutions) | Engineering Department Manager, R2128074 (NASA JSC, Houston; Human Health & Performance contract) | Phenom/Workday portal, no sign-in; user clicked Submit | **SUBMITTED — portal-verified** ("Thank you for applying" success page) |
+| 2026-10-06 (verification) | Audubon | Project Manager, Senior, AES-5184; req 5001217836206 | ADP job portal displays Applied | **SUBMITTED — portal-verified** |
+| 2026-10-06 (confirmation) | Eaton | Project Engineering Manager, Hyperscale; job 73671 / Eightfold 687239293477 | User reports submission; receipt not independently checked | **SUBMITTED — user-confirmed** |
+| 2026-10-06 (confirmation) | Hanwha Ocean (Offshore) | Lead Mooring Engineer [HOU], req 1547; job 1395988000 | Account/application preparation completed; user reports final submission | **SUBMITTED — user-confirmed** |
+| 2026-10-05 (confirmation) | Armada | Senior Mechanical Design Engineer – Liquid Cooling Systems, job 5386543008 | Greenhouse; user reports submission; portal receipt not independently checked | **SUBMITTED — user-confirmed** |
+| 2026-10-05 (confirmation) | OpenAI | Mechanical Commissioning Lead, job 0f58ac8e-6dd2-400d-9c34-29c62b7804b5 | Ashby; user reports submission; portal receipt not independently checked | **SUBMITTED — user-confirmed** |
+| 2026-10-05 (decision) | AWS | Sr. Mechanical Engineer - CFD, Global Engineering Strategy, job 10437257 | Preparation stopped at sign-in; user requested skip | **SKIPPED — do not resume unless requested** |
+| 2026-10-04 | Anthropic | Data Center Mechanical Engineer, job 5375376008 | Greenhouse; candidate completed and submitted | **SUBMITTED — user-confirmed** |
 | 2026-09-29 | HDR | Ports & Maritime Project Manager, req 196047 (Houston; also Metairie / Corpus Christi) | HDR Taleo portal (LinkedIn job 4467107208); referral Harini Arjun | **SUBMITTED — verified** (Taleo "Process completed") |
 | 2026-09-13 | Mercor | Engineering Simulation Specialist; Mechanical Engineering Expert; Materials & Engineering Specialist | Direct portal; shared Domain Expert Interview completed | **SUBMITTED — all 3 verified** |
 | 2026-09-13 | Mercor | Engineering / Platform Professionals; Operations / Program Management Experts; Data analysis / quantitative readouts Evaluator; Software / AI / IT / data Evaluator; Data Scientist Talent Network | Direct portal; existing assessment reused | **SUBMITTED — all 5 verified**; talent network is for future projects |
 | 2026-09-12 | Mercor | Software Engineer, Python — Codebase Q&A | Direct portal | **SUBMITTED — verified**; $130 per approved task |
 | 2026-06-03 | Hanwha Ocean (Offshore) | Senior Mooring Engineer (Req 1546) | Direct posting — SuccessFactors portal | **NOT YET SUBMITTED** — blocked on portal sign-in |
-| 2026-06-03 | Hanwha Ocean (Offshore) | Lead Mooring Engineer (Req 1547) | Direct posting — SuccessFactors portal | **NOT YET SUBMITTED** — blocked on portal sign-in |
+| 2026-06-03 (initial preparation) | Hanwha Ocean (Offshore) | Lead Mooring Engineer (Req 1547) | Direct posting — SuccessFactors portal | **SUBMITTED — user-confirmed 2026-10-06**; see current entry above |
 | 2026-05-12 | Harbour Energy (Zama Project) | Senior Gas Export Pipeline Engineer (GV) | Recruiter (Andy Garnett / Rock Oilfield) | Applied — CV submitted |
 | 2026-05-06 | Candid | Head of Project Delivery (senior delivery leader, VP-level) | Direct posting (full JD captured below) | Applied |
+
+---
+
+## 2026-10-08 — KBR / Trinzic — Engineering Department Manager (R2128074) — SUBMITTED
+
+**Role.** On-site department manager at NASA Johnson Space Center (Human Health and Performance contract); leads 200+ staff across human factors, project and systems engineering, design/fabrication, hardware test and food production. KBR's Mission Technology Solutions business becomes Trinzic at the planned January 2027 spin-off.
+
+**Materials.** Neutral copy of the HDR Project Manager resume (same file as the 6 Oct Audubon/Eaton batch, SHA-256 5E30E88E…BAA5); no cover letter; no new resume content authored. One parser typo corrected in the portal ("Semsisubmersible").
+
+**Fit notes.** Matches 10+ years of leadership, project control, budgets and multidisciplinary delivery. Gaps: no NASA contract or flight-hardware experience (preferred), and no evidence of leading a 200+ person department. Outside business interests (FDAS, AceEngineer) were disclosed in the application questions.
+
+**Evidence.** Portal success page observed 2026-10-08; screenshot kept locally only (not in this public repo).
+
+**Next.** The portal invites creating a Workday candidate account to track status — optional, for VA to do personally. Await employer response; do not resubmit.
 
 ---
 
@@ -72,7 +94,9 @@ The user personally completed the Domain Expert Interview. Availability was save
 
 ---
 
-## 2026-06-03 — Hanwha Ocean — Senior Mooring Engineer (Req 1546) + Lead Mooring Engineer (Req 1547) — IN PROGRESS, NOT SUBMITTED
+## 2026-06-03 — Hanwha Ocean — Senior Mooring Engineer (Req 1546) + Lead Mooring Engineer (Req 1547) — historical preparation
+
+**Update recorded 2026-10-06.** Lead Mooring Engineer (1547) is submitted, user-confirmed after account creation and application preparation. Senior Mooring Engineer (1546) has no new submission evidence and remains not yet submitted. The June preparation details below are historical; do not restart the Lead application.
 
 **Company snapshot.** Hanwha Ocean (formerly DSME, acquired by Hanwha Group 2023) is a major Korean shipbuilder/offshore EPC. These roles sit in the offshore/Energy Plant Unit careers site (`jobs-offshore.hanwhaocean.com`), Houston TX 77001 — FPSO-focused engineering office.
 
@@ -116,7 +140,7 @@ The user personally completed the Domain Expert Interview. Availability was save
 
 **Canonical detail (per VA directive 2026-06-04):** full opportunity capture — including FT-vs-consulting-lead classification, Hanwha toolchain intelligence, and BD follow-through — lives at `aceengineer-strategy/pipeline/hanwha-ocean-mooring-engineer-applications-2026-06-03.md`. This log entry is the chronological record; update both on status change.
 
-**Status.** NOT submitted. Blocked on Hanwha Ocean portal sign-in (no working candidate account as of 2026-06-04). Resume from "Next steps" above.
+**Current status (2026-10-06).** Lead (1547): SUBMITTED, user-confirmed; await employer response. Senior (1546): no submission established; preserve the historical sign-in blocker and resume only upon a new request. The June next steps do not apply to the completed Lead application.
 
 ---
 
